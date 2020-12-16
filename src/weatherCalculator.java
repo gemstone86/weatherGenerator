@@ -19,8 +19,17 @@ public class weatherCalculator {
 		return die;
 	}
 
+	
+	public int daySeed(int year, int month, int day) {
+		return year*100*100+month*100+day;
+	}
+	
 	public weather getWeather(int year, int month, int day, NationData nation){
+		
+		int previous = nation.getTemperature(month-1);
 		int average = nation.getTemperature(month);
+		int next = nation.getTemperature(month+1);
+		
 		int averageWind = nation.getWind();
 		int temperature = temperatureNR(average,0);
 		int wind = windStrengthNR(averageWind);
@@ -83,10 +92,27 @@ public class weatherCalculator {
 	public int temperatureNR(int average, int shift){
 		return average+rng.nextInt(5) - rng.nextInt(5) + shift;
 	}
-	
-	public int temperature(int previous, int average, int shift){
 
-		int die = rng.nextInt(5) - rng.nextInt(5);
+	public double nonRandomtemperature(double previous, double average, double next, int day, long daySeed) {		
+		rng.setSeed(daySeed);
+		double variance = 2*rng.nextDouble() - 2*rng.nextDouble();
+		
+		if(day < 15) {
+			double previousStep = (average - previous) / 14;
+			return (14+day)*previousStep+average;
+		}
+		else {
+			double nextStep = (next - average) / 14;
+			return (day-14)*nextStep+average;
+		}
+	}
+	
+	public int temperature(int previous, int average, int next, int shift){
+
+		//add in the seed based on the date of the day, to force the generation
+		//of the same value every time.
+		
+			int die = rng.nextInt(5) - rng.nextInt(5);
 
 		if(previous < average){
 			die += 1;
@@ -104,7 +130,7 @@ public class weatherCalculator {
 		return tmp;
 	}
 	
-	public int rainfall(int temperature, int average, int wind, int rain){
+	public int rainfall(double temperature, double average, int wind, int rain){
 		int limit = 6;
 		int bonus = 0;
 		

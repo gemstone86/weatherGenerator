@@ -6,16 +6,16 @@ public class weather {
 	private int Month;
 	private int Day;
 	
-	private int temperature;
+	private double temperature;
 	private int windStrength;
 	private int rain;
 	private String other;
 	
-	public weather(int Year, int Month, int Day, int temperature, int windStrength, int rain, String other){
+	public weather(int Year, int Month, int Day, double temp, int windStrength, int rain, String other){
 		this.Year = Year;
 		this.Month = Month;
 		this.Day = Day;
-		this.temperature = temperature;
+		this.temperature = temp;
 		this.windStrength = windStrength;
 		this.other = other;
 		this.rain = rain;
@@ -31,7 +31,7 @@ public class weather {
 		return Day;
 	}
 	
-	public int getTemperature(){
+	public double getTemperature(){
 		return temperature;
 	}
 	public int getWindStrength(){

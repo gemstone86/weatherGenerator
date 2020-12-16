@@ -20,7 +20,8 @@ public class main {
 		NationData Nation = filehandler.getNation(nation);
 		
 		System.out.println("Step 3: setting up data");
-		int temp = Nation.getTemperature(startMonth), rain = calculator.obd6(), wind = calculator.obd6();
+		double temp = Nation.getTemperature(startMonth);
+		int rain = calculator.obd6(), wind = calculator.obd6();
 
 		if(print)System.out.println("Step 3b: Printing Data on screen");
 		if(print)System.out.print(filehandler.printHeader());
@@ -38,18 +39,24 @@ public class main {
 		for(int currentYear = 0; currentYear<untilYear;currentYear++){
 			calculator.setSeed(startYear);
 			for(int currentMonth = 1; currentMonth<13;currentMonth++){
+				
+				double previous = Nation.getTemperature(currentMonth-1); 
+				double average = Nation.getTemperature(currentMonth);
+				double next = Nation.getTemperature(currentMonth+1);
+				
+//				System.out.println("previous: "+previous + " average: " + average + " next: " + next);
+				
 				for(int currentDay = 1; currentDay<29;currentDay++){
-					int currentDateSum = currentYear*100*100+currentMonth*100+currentDay;
-					int average = Nation.getTemperature(currentMonth);
+					int currentDateSum = calculator.daySeed(currentYear, currentMonth, currentDay);
 					
 					String events = calculator.generateEvents(0,0,0, Nation.getEvents(),currentMonth);
 					
 //					wind = calculator.windMod(calculator.windStrength(wind, windBonus), events);
 //					temp = calculator.tempMod(calculator.temperature(temp, average, 0), events);
 //					rain = calculator.rainMod(rain = calculator.rainfall(temp, average, wind, rain),events);	
-					
+										
 					wind = calculator.windStrength(wind, windBonus);
-					temp = calculator.temperature(temp, average, 0);
+					temp = calculator.temperature(previous, average, next, currentDay, currentDateSum);
 					rain = calculator.rainfall(temp, average, wind, rain);	
 					
 					if(print && currentDateSum > fromDate)	
@@ -84,7 +91,7 @@ public class main {
 	
 	static int untilDay = 28;
 	static int untilMonth = 12;
-	static int untilYear = 2966;
+	static int untilYear = 2961;
 	
 	
 	int windBonus = 0;

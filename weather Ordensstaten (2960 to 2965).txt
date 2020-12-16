@@ -6,7 +6,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	1	3	2	-7 C		0		
 
-2960	1	4	2	-7 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	1	4	2	-7 C		0		
 
 2960	1	5	3	-8 C		7		
 
@@ -18,9 +18,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	1	9	3	-5 C		0		
 
-2960	1	10	3	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	1	10	3	-6 C		0		
 
-2960	1	11	2	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	1	11	2	-6 C		0		
 
 2960	1	12	6	-10 C		0		Åska 
 
@@ -34,7 +34,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	1	17	3	-12 C		0		
 
-2960	1	18	3	-15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	1	18	3	-15 C		0		
 
 2960	1	19	3	-18 C		0		
 
@@ -50,7 +50,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	1	25	1	-7 C		0		
 
-2960	1	26	5	-4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	1	26	5	-4 C		0		
 
 2960	1	27	2	-4 C		0		Molnklart 
 
@@ -68,7 +68,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	2	6	5	-6 C		0		
 
-2960	2	7	5	-9 C		0		Åska Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	2	7	5	-9 C		0		Åska 
 
 2960	2	8	5	-7 C		1		
 
@@ -82,15 +82,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	2	13	0	-6 C		0		Lätt Dimma 
 
-2960	2	14	2	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	2	14	2	-6 C		0		
 
-2960	2	15	5	-5 C		0		Molnklart Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	2	15	5	-5 C		0		Molnklart 
 
 2960	2	16	1	-3 C		0		
 
-2960	2	17	4	-3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	2	17	4	-3 C		0		
 
-2960	2	18	1	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	2	18	1	-6 C		0		
 
 2960	2	19	5	-4 C		0		
 
@@ -100,21 +100,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	2	22	5	-7 C		0		
 
-2960	2	23	4	-7 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	2	23	4	-7 C		1		
 
 2960	2	24	4	-8 C		0		
 
 2960	2	25	2	-5 C		0		
 
-2960	2	26	5	-4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	2	26	5	-4 C		0		
 
-2960	2	27	5	-1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	2	27	5	-1 C		0		
 
-2960	2	28	4	-2 C		2		
+2960	2	28	4	-2 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2960	3	1	5	1 C		0		
 
-2960	3	2	9	0 C		3		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	3	2	9	0 C		3		
 
 2960	3	3	5	0 C		0		
 
@@ -132,7 +132,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	3	10	3	-1 C		5		
 
-2960	3	11	5	2 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	3	11	5	2 C		0		
 
 2960	3	12	3	0 C		0		
 
@@ -156,13 +156,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	3	22	5	3 C		0		
 
-2960	3	23	5	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	3	23	5	1 C		0		
 
 2960	3	24	5	5 C		0		
 
 2960	3	25	4	5 C		0		
 
-2960	3	26	3	3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	3	26	3	3 C		0		
 
 2960	3	27	1	3 C		2		
 
@@ -202,11 +202,11 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	4	17	1	3 C		0		
 
-2960	4	18	4	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	4	18	4	1 C		0		
 
-2960	4	19	3	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	4	19	3	1 C		0		
 
-2960	4	20	2	5 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	4	20	2	5 C		1		
 
 2960	4	21	6	7 C		1		
 
@@ -214,7 +214,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	4	23	2	6 C		0		
 
-2960	4	24	4	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	4	24	4	11 C		0		
 
 2960	4	25	3	9 C		0		
 
@@ -224,7 +224,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	4	28	6	9 C		6		
 
-2960	5	1	4	11 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	5	1	4	11 C		2		
 
 2960	5	2	4	9 C		4		
 
@@ -256,15 +256,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	5	16	5	10 C		0		
 
-2960	5	17	1	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	5	17	1	9 C		0		
 
-2960	5	18	3	6 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	5	18	3	6 C		1		
 
 2960	5	19	3	5 C		0		
 
 2960	5	20	5	9 C		0		
 
-2960	5	21	2	11 C		0		
+2960	5	21	2	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2960	5	22	5	11 C		0		
 
@@ -276,13 +276,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	5	26	6	12 C		3		
 
-2960	5	27	5	9 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	5	27	5	9 C		1		
 
 2960	5	28	0	10 C		1		Åska Lätt Dimma 
 
 2960	6	1	2	10 C		1		
 
-2960	6	2	5	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	6	2	5	9 C		0		
 
 2960	6	3	4	12 C		0		
 
@@ -294,7 +294,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	6	7	3	13 C		1		
 
-2960	6	8	6	13 C		4		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	6	8	6	13 C		4		
 
 2960	6	9	2	17 C		11		
 
@@ -304,13 +304,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	6	12	3	18 C		3		
 
-2960	6	13	2	15 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	6	13	2	15 C		1		
 
 2960	6	14	6	17 C		1		
 
 2960	6	15	5	12 C		2		
 
-2960	6	16	3	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	6	16	3	14 C		0		
 
 2960	6	17	3	13 C		0		
 
@@ -318,21 +318,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	6	19	5	12 C		2		
 
-2960	6	20	4	11 C		0		
+2960	6	20	4	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2960	6	21	1	10 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	6	21	1	10 C		0		
 
 2960	6	22	1	9 C		0		
 
 2960	6	23	1	12 C		0		Hagel 
 
-2960	6	24	2	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	6	24	2	9 C		0		
 
 2960	6	25	4	13 C		1		Åska 
 
 2960	6	26	4	15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2960	6	27	1	17 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	6	27	1	17 C		0		
 
 2960	6	28	2	20 C		0		
 
@@ -342,21 +342,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	7	3	3	21 C		3		
 
-2960	7	4	3	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	7	4	3	20 C		0		
 
-2960	7	5	5	18 C		0		
+2960	7	5	5	18 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2960	7	6	4	18 C		1		
 
 2960	7	7	2	19 C		0		
 
-2960	7	8	3	20 C		0		
+2960	7	8	3	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2960	7	9	3	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	7	9	3	22 C		0		
 
 2960	7	10	2	22 C		0		
 
-2960	7	11	5	17 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	7	11	5	17 C		1		
 
 2960	7	12	4	18 C		2		Åska 
 
@@ -376,7 +376,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	7	20	2	21 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2960	7	21	4	21 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	7	21	4	21 C		0		
 
 2960	7	22	3	20 C		0		
 
@@ -384,19 +384,19 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	7	24	1	20 C		0		
 
-2960	7	25	4	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	7	25	4	22 C		0		
 
 2960	7	26	3	25 C		0		
 
 2960	7	27	3	25 C		0		
 
-2960	7	28	4	23 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	7	28	4	23 C		0		
 
 2960	8	1	5	20 C		0		
 
 2960	8	2	5	19 C		0		
 
-2960	8	3	5	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	8	3	5	22 C		0		
 
 2960	8	4	1	18 C		0		
 
@@ -412,15 +412,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	8	10	3	22 C		0		
 
-2960	8	11	4	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	8	11	4	20 C		0		
 
 2960	8	12	4	19 C		0		
 
-2960	8	13	1	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	8	13	1	19 C		0		
 
-2960	8	14	4	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	8	14	4	22 C		0		
 
-2960	8	15	1	23 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	8	15	1	23 C		0		
 
 2960	8	16	2	20 C		0		
 
@@ -430,7 +430,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	8	19	1	17 C		0		
 
-2960	8	20	4	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	8	20	4	19 C		0		
 
 2960	8	21	7	19 C		4		
 
@@ -438,13 +438,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	8	23	1	18 C		2		
 
-2960	8	24	1	20 C		0		
+2960	8	24	1	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2960	8	25	3	23 C		0		
 
-2960	8	26	2	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	8	26	2	20 C		0		
 
-2960	8	27	6	21 C		0		Molnklart Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	8	27	6	21 C		0		Molnklart 
 
 2960	8	28	0	19 C		0		Tjock Dimma 
 
@@ -454,7 +454,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	9	3	0	13 C		0		Lätt Dimma 
 
-2960	9	4	2	10 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	9	4	2	10 C		0		
 
 2960	9	5	4	11 C		1		
 
@@ -474,27 +474,27 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	9	13	5	13 C		0		
 
-2960	9	14	1	10 C		1		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	9	14	1	10 C		1		Lätt Dimma 
 
-2960	9	15	3	11 C		2		
+2960	9	15	3	11 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2960	9	16	4	12 C		3		
 
-2960	9	17	4	14 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	9	17	4	14 C		2		
 
 2960	9	18	2	15 C		0		
 
 2960	9	19	3	19 C		0		
 
-2960	9	20	2	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	9	20	2	19 C		0		
 
 2960	9	21	6	19 C		1		
 
 2960	9	22	5	17 C		0		
 
-2960	9	23	7	14 C		0		
+2960	9	23	7	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2960	9	24	3	16 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	9	24	3	16 C		0		
 
 2960	9	25	5	18 C		0		
 
@@ -508,15 +508,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	10	2	2	11 C		0		
 
-2960	10	3	3	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	10	3	3	14 C		0		
 
 2960	10	4	2	15 C		0		
 
-2960	10	5	6	15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	10	5	6	15 C		0		
 
 2960	10	6	3	14 C		0		
 
-2960	10	7	2	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	10	7	2	14 C		0		
 
 2960	10	8	6	14 C		6		
 
@@ -524,13 +524,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	10	10	5	15 C		3		
 
-2960	10	11	0	11 C		0		Tjock Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	10	11	0	11 C		0		Tjock Dimma 
 
 2960	10	12	4	7 C		0		
 
 2960	10	13	2	6 C		0		
 
-2960	10	14	2	4 C		0		
+2960	10	14	2	4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2960	10	15	4	7 C		0		
 
@@ -538,9 +538,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	10	17	1	11 C		0		
 
-2960	10	18	1	13 C		0		
+2960	10	18	1	13 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2960	10	19	4	12 C		0		
+2960	10	19	4	12 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2960	10	20	4	10 C		0		
 
@@ -562,33 +562,33 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	11	1	4	2 C		4		
 
-2960	11	2	4	3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	11	2	4	3 C		0		
 
 2960	11	3	2	4 C		0		
 
 2960	11	4	1	4 C		0		
 
-2960	11	5	0	1 C		0		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	11	5	0	1 C		0		Lätt Dimma 
 
 2960	11	6	4	-1 C		0		
 
 2960	11	7	4	-1 C		0		
 
-2960	11	8	5	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	11	8	5	1 C		0		
 
 2960	11	9	5	3 C		0		
 
 2960	11	10	2	0 C		1		
 
-2960	11	11	4	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	11	11	4	1 C		0		
 
-2960	11	12	3	0 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	11	12	3	0 C		0		
 
 2960	11	13	2	1 C		0		
 
 2960	11	14	4	2 C		0		
 
-2960	11	15	5	7 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	11	15	5	7 C		0		
 
 2960	11	16	6	5 C		0		
 
@@ -604,7 +604,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	11	22	5	2 C		2		
 
-2960	11	23	0	1 C		0		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	11	23	0	1 C		0		Lätt Dimma 
 
 2960	11	24	4	3 C		1		
 
@@ -618,7 +618,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	12	1	4	2 C		0		
 
-2960	12	2	2	2 C		3		Åska Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	12	2	2	2 C		3		Åska 
 
 2960	12	3	4	2 C		0		
 
@@ -630,7 +630,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	12	7	4	-3 C		2		
 
-2960	12	8	7	-6 C		2		
+2960	12	8	7	-6 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2960	12	9	3	-2 C		2		
 
@@ -644,9 +644,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	12	14	3	-2 C		0		Åska 
 
-2960	12	15	3	0 C		0		
+2960	12	15	3	0 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2960	12	16	5	2 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	12	16	5	2 C		0		
 
 2960	12	17	2	1 C		0		
 
@@ -658,7 +658,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	12	21	4	-5 C		2		
 
-2960	12	22	6	-8 C		7		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	12	22	6	-8 C		7		
 
 2960	12	23	5	-7 C		2		
 
@@ -670,7 +670,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2960	12	27	5	-7 C		0		
 
-2960	12	28	2	-5 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2960	12	28	2	-5 C		0		
 
 2961	1	1	3	-7 C		0		
 
@@ -678,7 +678,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	1	3	2	-7 C		0		
 
-2961	1	4	2	-7 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	1	4	2	-7 C		0		
 
 2961	1	5	3	-8 C		7		
 
@@ -690,9 +690,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	1	9	3	-5 C		0		
 
-2961	1	10	3	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	1	10	3	-6 C		0		
 
-2961	1	11	2	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	1	11	2	-6 C		0		
 
 2961	1	12	6	-10 C		0		Åska 
 
@@ -706,7 +706,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	1	17	3	-12 C		0		
 
-2961	1	18	3	-15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	1	18	3	-15 C		0		
 
 2961	1	19	3	-18 C		0		
 
@@ -722,7 +722,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	1	25	1	-7 C		0		
 
-2961	1	26	5	-4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	1	26	5	-4 C		0		
 
 2961	1	27	2	-4 C		0		Molnklart 
 
@@ -740,7 +740,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	2	6	5	-6 C		0		
 
-2961	2	7	5	-9 C		0		Åska Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	2	7	5	-9 C		0		Åska 
 
 2961	2	8	5	-7 C		1		
 
@@ -754,15 +754,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	2	13	0	-6 C		0		Lätt Dimma 
 
-2961	2	14	2	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	2	14	2	-6 C		0		
 
-2961	2	15	5	-5 C		0		Molnklart Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	2	15	5	-5 C		0		Molnklart 
 
 2961	2	16	1	-3 C		0		
 
-2961	2	17	4	-3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	2	17	4	-3 C		0		
 
-2961	2	18	1	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	2	18	1	-6 C		0		
 
 2961	2	19	5	-4 C		0		
 
@@ -772,21 +772,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	2	22	5	-7 C		0		
 
-2961	2	23	4	-7 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	2	23	4	-7 C		1		
 
 2961	2	24	4	-8 C		0		
 
 2961	2	25	2	-5 C		0		
 
-2961	2	26	5	-4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	2	26	5	-4 C		0		
 
-2961	2	27	5	-1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	2	27	5	-1 C		0		
 
-2961	2	28	4	-2 C		2		
+2961	2	28	4	-2 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2961	3	1	5	1 C		0		
 
-2961	3	2	9	0 C		3		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	3	2	9	0 C		3		
 
 2961	3	3	5	0 C		0		
 
@@ -804,7 +804,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	3	10	3	-1 C		5		
 
-2961	3	11	5	2 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	3	11	5	2 C		0		
 
 2961	3	12	3	0 C		0		
 
@@ -828,13 +828,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	3	22	5	3 C		0		
 
-2961	3	23	5	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	3	23	5	1 C		0		
 
 2961	3	24	5	5 C		0		
 
 2961	3	25	4	5 C		0		
 
-2961	3	26	3	3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	3	26	3	3 C		0		
 
 2961	3	27	1	3 C		2		
 
@@ -874,11 +874,11 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	4	17	1	3 C		0		
 
-2961	4	18	4	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	4	18	4	1 C		0		
 
-2961	4	19	3	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	4	19	3	1 C		0		
 
-2961	4	20	2	5 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	4	20	2	5 C		1		
 
 2961	4	21	6	7 C		1		
 
@@ -886,7 +886,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	4	23	2	6 C		0		
 
-2961	4	24	4	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	4	24	4	11 C		0		
 
 2961	4	25	3	9 C		0		
 
@@ -896,7 +896,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	4	28	6	9 C		6		
 
-2961	5	1	4	11 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	5	1	4	11 C		2		
 
 2961	5	2	4	9 C		4		
 
@@ -928,15 +928,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	5	16	5	10 C		0		
 
-2961	5	17	1	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	5	17	1	9 C		0		
 
-2961	5	18	3	6 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	5	18	3	6 C		1		
 
 2961	5	19	3	5 C		0		
 
 2961	5	20	5	9 C		0		
 
-2961	5	21	2	11 C		0		
+2961	5	21	2	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2961	5	22	5	11 C		0		
 
@@ -948,13 +948,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	5	26	6	12 C		3		
 
-2961	5	27	5	9 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	5	27	5	9 C		1		
 
 2961	5	28	0	10 C		1		Åska Lätt Dimma 
 
 2961	6	1	2	10 C		1		
 
-2961	6	2	5	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	6	2	5	9 C		0		
 
 2961	6	3	4	12 C		0		
 
@@ -966,7 +966,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	6	7	3	13 C		1		
 
-2961	6	8	6	13 C		4		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	6	8	6	13 C		4		
 
 2961	6	9	2	17 C		11		
 
@@ -976,13 +976,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	6	12	3	18 C		3		
 
-2961	6	13	2	15 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	6	13	2	15 C		1		
 
 2961	6	14	6	17 C		1		
 
 2961	6	15	5	12 C		2		
 
-2961	6	16	3	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	6	16	3	14 C		0		
 
 2961	6	17	3	13 C		0		
 
@@ -990,21 +990,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	6	19	5	12 C		2		
 
-2961	6	20	4	11 C		0		
+2961	6	20	4	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2961	6	21	1	10 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	6	21	1	10 C		0		
 
 2961	6	22	1	9 C		0		
 
 2961	6	23	1	12 C		0		Hagel 
 
-2961	6	24	2	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	6	24	2	9 C		0		
 
 2961	6	25	4	13 C		1		Åska 
 
 2961	6	26	4	15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2961	6	27	1	17 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	6	27	1	17 C		0		
 
 2961	6	28	2	20 C		0		
 
@@ -1014,21 +1014,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	7	3	3	21 C		3		
 
-2961	7	4	3	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	7	4	3	20 C		0		
 
-2961	7	5	5	18 C		0		
+2961	7	5	5	18 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2961	7	6	4	18 C		1		
 
 2961	7	7	2	19 C		0		
 
-2961	7	8	3	20 C		0		
+2961	7	8	3	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2961	7	9	3	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	7	9	3	22 C		0		
 
 2961	7	10	2	22 C		0		
 
-2961	7	11	5	17 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	7	11	5	17 C		1		
 
 2961	7	12	4	18 C		2		Åska 
 
@@ -1048,7 +1048,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	7	20	2	21 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2961	7	21	4	21 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	7	21	4	21 C		0		
 
 2961	7	22	3	20 C		0		
 
@@ -1056,19 +1056,19 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	7	24	1	20 C		0		
 
-2961	7	25	4	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	7	25	4	22 C		0		
 
 2961	7	26	3	25 C		0		
 
 2961	7	27	3	25 C		0		
 
-2961	7	28	4	23 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	7	28	4	23 C		0		
 
 2961	8	1	5	20 C		0		
 
 2961	8	2	5	19 C		0		
 
-2961	8	3	5	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	8	3	5	22 C		0		
 
 2961	8	4	1	18 C		0		
 
@@ -1084,15 +1084,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	8	10	3	22 C		0		
 
-2961	8	11	4	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	8	11	4	20 C		0		
 
 2961	8	12	4	19 C		0		
 
-2961	8	13	1	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	8	13	1	19 C		0		
 
-2961	8	14	4	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	8	14	4	22 C		0		
 
-2961	8	15	1	23 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	8	15	1	23 C		0		
 
 2961	8	16	2	20 C		0		
 
@@ -1102,7 +1102,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	8	19	1	17 C		0		
 
-2961	8	20	4	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	8	20	4	19 C		0		
 
 2961	8	21	7	19 C		4		
 
@@ -1110,13 +1110,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	8	23	1	18 C		2		
 
-2961	8	24	1	20 C		0		
+2961	8	24	1	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2961	8	25	3	23 C		0		
 
-2961	8	26	2	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	8	26	2	20 C		0		
 
-2961	8	27	6	21 C		0		Molnklart Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	8	27	6	21 C		0		Molnklart 
 
 2961	8	28	0	19 C		0		Tjock Dimma 
 
@@ -1126,7 +1126,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	9	3	0	13 C		0		Lätt Dimma 
 
-2961	9	4	2	10 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	9	4	2	10 C		0		
 
 2961	9	5	4	11 C		1		
 
@@ -1146,27 +1146,27 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	9	13	5	13 C		0		
 
-2961	9	14	1	10 C		1		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	9	14	1	10 C		1		Lätt Dimma 
 
-2961	9	15	3	11 C		2		
+2961	9	15	3	11 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2961	9	16	4	12 C		3		
 
-2961	9	17	4	14 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	9	17	4	14 C		2		
 
 2961	9	18	2	15 C		0		
 
 2961	9	19	3	19 C		0		
 
-2961	9	20	2	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	9	20	2	19 C		0		
 
 2961	9	21	6	19 C		1		
 
 2961	9	22	5	17 C		0		
 
-2961	9	23	7	14 C		0		
+2961	9	23	7	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2961	9	24	3	16 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	9	24	3	16 C		0		
 
 2961	9	25	5	18 C		0		
 
@@ -1180,15 +1180,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	10	2	2	11 C		0		
 
-2961	10	3	3	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	10	3	3	14 C		0		
 
 2961	10	4	2	15 C		0		
 
-2961	10	5	6	15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	10	5	6	15 C		0		
 
 2961	10	6	3	14 C		0		
 
-2961	10	7	2	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	10	7	2	14 C		0		
 
 2961	10	8	6	14 C		6		
 
@@ -1196,13 +1196,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	10	10	5	15 C		3		
 
-2961	10	11	0	11 C		0		Tjock Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	10	11	0	11 C		0		Tjock Dimma 
 
 2961	10	12	4	7 C		0		
 
 2961	10	13	2	6 C		0		
 
-2961	10	14	2	4 C		0		
+2961	10	14	2	4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2961	10	15	4	7 C		0		
 
@@ -1210,9 +1210,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	10	17	1	11 C		0		
 
-2961	10	18	1	13 C		0		
+2961	10	18	1	13 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2961	10	19	4	12 C		0		
+2961	10	19	4	12 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2961	10	20	4	10 C		0		
 
@@ -1234,33 +1234,33 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	11	1	4	2 C		4		
 
-2961	11	2	4	3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	11	2	4	3 C		0		
 
 2961	11	3	2	4 C		0		
 
 2961	11	4	1	4 C		0		
 
-2961	11	5	0	1 C		0		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	11	5	0	1 C		0		Lätt Dimma 
 
 2961	11	6	4	-1 C		0		
 
 2961	11	7	4	-1 C		0		
 
-2961	11	8	5	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	11	8	5	1 C		0		
 
 2961	11	9	5	3 C		0		
 
 2961	11	10	2	0 C		1		
 
-2961	11	11	4	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	11	11	4	1 C		0		
 
-2961	11	12	3	0 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	11	12	3	0 C		0		
 
 2961	11	13	2	1 C		0		
 
 2961	11	14	4	2 C		0		
 
-2961	11	15	5	7 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	11	15	5	7 C		0		
 
 2961	11	16	6	5 C		0		
 
@@ -1276,7 +1276,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	11	22	5	2 C		2		
 
-2961	11	23	0	1 C		0		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	11	23	0	1 C		0		Lätt Dimma 
 
 2961	11	24	4	3 C		1		
 
@@ -1290,7 +1290,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	12	1	4	2 C		0		
 
-2961	12	2	2	2 C		3		Åska Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	12	2	2	2 C		3		Åska 
 
 2961	12	3	4	2 C		0		
 
@@ -1302,7 +1302,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	12	7	4	-3 C		2		
 
-2961	12	8	7	-6 C		2		
+2961	12	8	7	-6 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2961	12	9	3	-2 C		2		
 
@@ -1316,9 +1316,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	12	14	3	-2 C		0		Åska 
 
-2961	12	15	3	0 C		0		
+2961	12	15	3	0 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2961	12	16	5	2 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	12	16	5	2 C		0		
 
 2961	12	17	2	1 C		0		
 
@@ -1330,7 +1330,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	12	21	4	-5 C		2		
 
-2961	12	22	6	-8 C		7		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	12	22	6	-8 C		7		
 
 2961	12	23	5	-7 C		2		
 
@@ -1342,7 +1342,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2961	12	27	5	-7 C		0		
 
-2961	12	28	2	-5 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2961	12	28	2	-5 C		0		
 
 2962	1	1	3	-7 C		0		
 
@@ -1350,7 +1350,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	1	3	2	-7 C		0		
 
-2962	1	4	2	-7 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	1	4	2	-7 C		0		
 
 2962	1	5	3	-8 C		7		
 
@@ -1362,9 +1362,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	1	9	3	-5 C		0		
 
-2962	1	10	3	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	1	10	3	-6 C		0		
 
-2962	1	11	2	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	1	11	2	-6 C		0		
 
 2962	1	12	6	-10 C		0		Åska 
 
@@ -1378,7 +1378,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	1	17	3	-12 C		0		
 
-2962	1	18	3	-15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	1	18	3	-15 C		0		
 
 2962	1	19	3	-18 C		0		
 
@@ -1394,7 +1394,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	1	25	1	-7 C		0		
 
-2962	1	26	5	-4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	1	26	5	-4 C		0		
 
 2962	1	27	2	-4 C		0		Molnklart 
 
@@ -1412,7 +1412,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	2	6	5	-6 C		0		
 
-2962	2	7	5	-9 C		0		Åska Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	2	7	5	-9 C		0		Åska 
 
 2962	2	8	5	-7 C		1		
 
@@ -1426,15 +1426,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	2	13	0	-6 C		0		Lätt Dimma 
 
-2962	2	14	2	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	2	14	2	-6 C		0		
 
-2962	2	15	5	-5 C		0		Molnklart Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	2	15	5	-5 C		0		Molnklart 
 
 2962	2	16	1	-3 C		0		
 
-2962	2	17	4	-3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	2	17	4	-3 C		0		
 
-2962	2	18	1	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	2	18	1	-6 C		0		
 
 2962	2	19	5	-4 C		0		
 
@@ -1444,21 +1444,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	2	22	5	-7 C		0		
 
-2962	2	23	4	-7 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	2	23	4	-7 C		1		
 
 2962	2	24	4	-8 C		0		
 
 2962	2	25	2	-5 C		0		
 
-2962	2	26	5	-4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	2	26	5	-4 C		0		
 
-2962	2	27	5	-1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	2	27	5	-1 C		0		
 
-2962	2	28	4	-2 C		2		
+2962	2	28	4	-2 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2962	3	1	5	1 C		0		
 
-2962	3	2	9	0 C		3		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	3	2	9	0 C		3		
 
 2962	3	3	5	0 C		0		
 
@@ -1476,7 +1476,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	3	10	3	-1 C		5		
 
-2962	3	11	5	2 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	3	11	5	2 C		0		
 
 2962	3	12	3	0 C		0		
 
@@ -1500,13 +1500,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	3	22	5	3 C		0		
 
-2962	3	23	5	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	3	23	5	1 C		0		
 
 2962	3	24	5	5 C		0		
 
 2962	3	25	4	5 C		0		
 
-2962	3	26	3	3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	3	26	3	3 C		0		
 
 2962	3	27	1	3 C		2		
 
@@ -1546,11 +1546,11 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	4	17	1	3 C		0		
 
-2962	4	18	4	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	4	18	4	1 C		0		
 
-2962	4	19	3	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	4	19	3	1 C		0		
 
-2962	4	20	2	5 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	4	20	2	5 C		1		
 
 2962	4	21	6	7 C		1		
 
@@ -1558,7 +1558,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	4	23	2	6 C		0		
 
-2962	4	24	4	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	4	24	4	11 C		0		
 
 2962	4	25	3	9 C		0		
 
@@ -1568,7 +1568,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	4	28	6	9 C		6		
 
-2962	5	1	4	11 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	5	1	4	11 C		2		
 
 2962	5	2	4	9 C		4		
 
@@ -1600,15 +1600,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	5	16	5	10 C		0		
 
-2962	5	17	1	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	5	17	1	9 C		0		
 
-2962	5	18	3	6 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	5	18	3	6 C		1		
 
 2962	5	19	3	5 C		0		
 
 2962	5	20	5	9 C		0		
 
-2962	5	21	2	11 C		0		
+2962	5	21	2	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2962	5	22	5	11 C		0		
 
@@ -1620,13 +1620,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	5	26	6	12 C		3		
 
-2962	5	27	5	9 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	5	27	5	9 C		1		
 
 2962	5	28	0	10 C		1		Åska Lätt Dimma 
 
 2962	6	1	2	10 C		1		
 
-2962	6	2	5	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	6	2	5	9 C		0		
 
 2962	6	3	4	12 C		0		
 
@@ -1638,7 +1638,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	6	7	3	13 C		1		
 
-2962	6	8	6	13 C		4		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	6	8	6	13 C		4		
 
 2962	6	9	2	17 C		11		
 
@@ -1648,13 +1648,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	6	12	3	18 C		3		
 
-2962	6	13	2	15 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	6	13	2	15 C		1		
 
 2962	6	14	6	17 C		1		
 
 2962	6	15	5	12 C		2		
 
-2962	6	16	3	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	6	16	3	14 C		0		
 
 2962	6	17	3	13 C		0		
 
@@ -1662,21 +1662,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	6	19	5	12 C		2		
 
-2962	6	20	4	11 C		0		
+2962	6	20	4	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2962	6	21	1	10 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	6	21	1	10 C		0		
 
 2962	6	22	1	9 C		0		
 
 2962	6	23	1	12 C		0		Hagel 
 
-2962	6	24	2	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	6	24	2	9 C		0		
 
 2962	6	25	4	13 C		1		Åska 
 
 2962	6	26	4	15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2962	6	27	1	17 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	6	27	1	17 C		0		
 
 2962	6	28	2	20 C		0		
 
@@ -1686,21 +1686,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	7	3	3	21 C		3		
 
-2962	7	4	3	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	7	4	3	20 C		0		
 
-2962	7	5	5	18 C		0		
+2962	7	5	5	18 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2962	7	6	4	18 C		1		
 
 2962	7	7	2	19 C		0		
 
-2962	7	8	3	20 C		0		
+2962	7	8	3	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2962	7	9	3	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	7	9	3	22 C		0		
 
 2962	7	10	2	22 C		0		
 
-2962	7	11	5	17 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	7	11	5	17 C		1		
 
 2962	7	12	4	18 C		2		Åska 
 
@@ -1720,7 +1720,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	7	20	2	21 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2962	7	21	4	21 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	7	21	4	21 C		0		
 
 2962	7	22	3	20 C		0		
 
@@ -1728,19 +1728,19 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	7	24	1	20 C		0		
 
-2962	7	25	4	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	7	25	4	22 C		0		
 
 2962	7	26	3	25 C		0		
 
 2962	7	27	3	25 C		0		
 
-2962	7	28	4	23 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	7	28	4	23 C		0		
 
 2962	8	1	5	20 C		0		
 
 2962	8	2	5	19 C		0		
 
-2962	8	3	5	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	8	3	5	22 C		0		
 
 2962	8	4	1	18 C		0		
 
@@ -1756,15 +1756,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	8	10	3	22 C		0		
 
-2962	8	11	4	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	8	11	4	20 C		0		
 
 2962	8	12	4	19 C		0		
 
-2962	8	13	1	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	8	13	1	19 C		0		
 
-2962	8	14	4	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	8	14	4	22 C		0		
 
-2962	8	15	1	23 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	8	15	1	23 C		0		
 
 2962	8	16	2	20 C		0		
 
@@ -1774,7 +1774,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	8	19	1	17 C		0		
 
-2962	8	20	4	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	8	20	4	19 C		0		
 
 2962	8	21	7	19 C		4		
 
@@ -1782,13 +1782,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	8	23	1	18 C		2		
 
-2962	8	24	1	20 C		0		
+2962	8	24	1	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2962	8	25	3	23 C		0		
 
-2962	8	26	2	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	8	26	2	20 C		0		
 
-2962	8	27	6	21 C		0		Molnklart Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	8	27	6	21 C		0		Molnklart 
 
 2962	8	28	0	19 C		0		Tjock Dimma 
 
@@ -1798,7 +1798,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	9	3	0	13 C		0		Lätt Dimma 
 
-2962	9	4	2	10 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	9	4	2	10 C		0		
 
 2962	9	5	4	11 C		1		
 
@@ -1818,27 +1818,27 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	9	13	5	13 C		0		
 
-2962	9	14	1	10 C		1		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	9	14	1	10 C		1		Lätt Dimma 
 
-2962	9	15	3	11 C		2		
+2962	9	15	3	11 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2962	9	16	4	12 C		3		
 
-2962	9	17	4	14 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	9	17	4	14 C		2		
 
 2962	9	18	2	15 C		0		
 
 2962	9	19	3	19 C		0		
 
-2962	9	20	2	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	9	20	2	19 C		0		
 
 2962	9	21	6	19 C		1		
 
 2962	9	22	5	17 C		0		
 
-2962	9	23	7	14 C		0		
+2962	9	23	7	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2962	9	24	3	16 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	9	24	3	16 C		0		
 
 2962	9	25	5	18 C		0		
 
@@ -1852,15 +1852,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	10	2	2	11 C		0		
 
-2962	10	3	3	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	10	3	3	14 C		0		
 
 2962	10	4	2	15 C		0		
 
-2962	10	5	6	15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	10	5	6	15 C		0		
 
 2962	10	6	3	14 C		0		
 
-2962	10	7	2	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	10	7	2	14 C		0		
 
 2962	10	8	6	14 C		6		
 
@@ -1868,13 +1868,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	10	10	5	15 C		3		
 
-2962	10	11	0	11 C		0		Tjock Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	10	11	0	11 C		0		Tjock Dimma 
 
 2962	10	12	4	7 C		0		
 
 2962	10	13	2	6 C		0		
 
-2962	10	14	2	4 C		0		
+2962	10	14	2	4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2962	10	15	4	7 C		0		
 
@@ -1882,9 +1882,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	10	17	1	11 C		0		
 
-2962	10	18	1	13 C		0		
+2962	10	18	1	13 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2962	10	19	4	12 C		0		
+2962	10	19	4	12 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2962	10	20	4	10 C		0		
 
@@ -1906,33 +1906,33 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	11	1	4	2 C		4		
 
-2962	11	2	4	3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	11	2	4	3 C		0		
 
 2962	11	3	2	4 C		0		
 
 2962	11	4	1	4 C		0		
 
-2962	11	5	0	1 C		0		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	11	5	0	1 C		0		Lätt Dimma 
 
 2962	11	6	4	-1 C		0		
 
 2962	11	7	4	-1 C		0		
 
-2962	11	8	5	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	11	8	5	1 C		0		
 
 2962	11	9	5	3 C		0		
 
 2962	11	10	2	0 C		1		
 
-2962	11	11	4	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	11	11	4	1 C		0		
 
-2962	11	12	3	0 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	11	12	3	0 C		0		
 
 2962	11	13	2	1 C		0		
 
 2962	11	14	4	2 C		0		
 
-2962	11	15	5	7 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	11	15	5	7 C		0		
 
 2962	11	16	6	5 C		0		
 
@@ -1948,7 +1948,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	11	22	5	2 C		2		
 
-2962	11	23	0	1 C		0		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	11	23	0	1 C		0		Lätt Dimma 
 
 2962	11	24	4	3 C		1		
 
@@ -1962,7 +1962,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	12	1	4	2 C		0		
 
-2962	12	2	2	2 C		3		Åska Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	12	2	2	2 C		3		Åska 
 
 2962	12	3	4	2 C		0		
 
@@ -1974,7 +1974,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	12	7	4	-3 C		2		
 
-2962	12	8	7	-6 C		2		
+2962	12	8	7	-6 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2962	12	9	3	-2 C		2		
 
@@ -1988,9 +1988,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	12	14	3	-2 C		0		Åska 
 
-2962	12	15	3	0 C		0		
+2962	12	15	3	0 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2962	12	16	5	2 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	12	16	5	2 C		0		
 
 2962	12	17	2	1 C		0		
 
@@ -2002,7 +2002,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	12	21	4	-5 C		2		
 
-2962	12	22	6	-8 C		7		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	12	22	6	-8 C		7		
 
 2962	12	23	5	-7 C		2		
 
@@ -2014,7 +2014,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2962	12	27	5	-7 C		0		
 
-2962	12	28	2	-5 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2962	12	28	2	-5 C		0		
 
 2963	1	1	3	-7 C		0		
 
@@ -2022,7 +2022,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	1	3	2	-7 C		0		
 
-2963	1	4	2	-7 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	1	4	2	-7 C		0		
 
 2963	1	5	3	-8 C		7		
 
@@ -2034,9 +2034,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	1	9	3	-5 C		0		
 
-2963	1	10	3	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	1	10	3	-6 C		0		
 
-2963	1	11	2	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	1	11	2	-6 C		0		
 
 2963	1	12	6	-10 C		0		Åska 
 
@@ -2050,7 +2050,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	1	17	3	-12 C		0		
 
-2963	1	18	3	-15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	1	18	3	-15 C		0		
 
 2963	1	19	3	-18 C		0		
 
@@ -2066,7 +2066,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	1	25	1	-7 C		0		
 
-2963	1	26	5	-4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	1	26	5	-4 C		0		
 
 2963	1	27	2	-4 C		0		Molnklart 
 
@@ -2084,7 +2084,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	2	6	5	-6 C		0		
 
-2963	2	7	5	-9 C		0		Åska Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	2	7	5	-9 C		0		Åska 
 
 2963	2	8	5	-7 C		1		
 
@@ -2098,15 +2098,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	2	13	0	-6 C		0		Lätt Dimma 
 
-2963	2	14	2	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	2	14	2	-6 C		0		
 
-2963	2	15	5	-5 C		0		Molnklart Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	2	15	5	-5 C		0		Molnklart 
 
 2963	2	16	1	-3 C		0		
 
-2963	2	17	4	-3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	2	17	4	-3 C		0		
 
-2963	2	18	1	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	2	18	1	-6 C		0		
 
 2963	2	19	5	-4 C		0		
 
@@ -2116,21 +2116,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	2	22	5	-7 C		0		
 
-2963	2	23	4	-7 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	2	23	4	-7 C		1		
 
 2963	2	24	4	-8 C		0		
 
 2963	2	25	2	-5 C		0		
 
-2963	2	26	5	-4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	2	26	5	-4 C		0		
 
-2963	2	27	5	-1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	2	27	5	-1 C		0		
 
-2963	2	28	4	-2 C		2		
+2963	2	28	4	-2 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2963	3	1	5	1 C		0		
 
-2963	3	2	9	0 C		3		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	3	2	9	0 C		3		
 
 2963	3	3	5	0 C		0		
 
@@ -2148,7 +2148,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	3	10	3	-1 C		5		
 
-2963	3	11	5	2 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	3	11	5	2 C		0		
 
 2963	3	12	3	0 C		0		
 
@@ -2172,13 +2172,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	3	22	5	3 C		0		
 
-2963	3	23	5	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	3	23	5	1 C		0		
 
 2963	3	24	5	5 C		0		
 
 2963	3	25	4	5 C		0		
 
-2963	3	26	3	3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	3	26	3	3 C		0		
 
 2963	3	27	1	3 C		2		
 
@@ -2218,11 +2218,11 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	4	17	1	3 C		0		
 
-2963	4	18	4	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	4	18	4	1 C		0		
 
-2963	4	19	3	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	4	19	3	1 C		0		
 
-2963	4	20	2	5 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	4	20	2	5 C		1		
 
 2963	4	21	6	7 C		1		
 
@@ -2230,7 +2230,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	4	23	2	6 C		0		
 
-2963	4	24	4	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	4	24	4	11 C		0		
 
 2963	4	25	3	9 C		0		
 
@@ -2240,7 +2240,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	4	28	6	9 C		6		
 
-2963	5	1	4	11 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	5	1	4	11 C		2		
 
 2963	5	2	4	9 C		4		
 
@@ -2272,15 +2272,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	5	16	5	10 C		0		
 
-2963	5	17	1	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	5	17	1	9 C		0		
 
-2963	5	18	3	6 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	5	18	3	6 C		1		
 
 2963	5	19	3	5 C		0		
 
 2963	5	20	5	9 C		0		
 
-2963	5	21	2	11 C		0		
+2963	5	21	2	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2963	5	22	5	11 C		0		
 
@@ -2292,13 +2292,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	5	26	6	12 C		3		
 
-2963	5	27	5	9 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	5	27	5	9 C		1		
 
 2963	5	28	0	10 C		1		Åska Lätt Dimma 
 
 2963	6	1	2	10 C		1		
 
-2963	6	2	5	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	6	2	5	9 C		0		
 
 2963	6	3	4	12 C		0		
 
@@ -2310,7 +2310,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	6	7	3	13 C		1		
 
-2963	6	8	6	13 C		4		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	6	8	6	13 C		4		
 
 2963	6	9	2	17 C		11		
 
@@ -2320,13 +2320,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	6	12	3	18 C		3		
 
-2963	6	13	2	15 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	6	13	2	15 C		1		
 
 2963	6	14	6	17 C		1		
 
 2963	6	15	5	12 C		2		
 
-2963	6	16	3	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	6	16	3	14 C		0		
 
 2963	6	17	3	13 C		0		
 
@@ -2334,21 +2334,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	6	19	5	12 C		2		
 
-2963	6	20	4	11 C		0		
+2963	6	20	4	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2963	6	21	1	10 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	6	21	1	10 C		0		
 
 2963	6	22	1	9 C		0		
 
 2963	6	23	1	12 C		0		Hagel 
 
-2963	6	24	2	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	6	24	2	9 C		0		
 
 2963	6	25	4	13 C		1		Åska 
 
 2963	6	26	4	15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2963	6	27	1	17 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	6	27	1	17 C		0		
 
 2963	6	28	2	20 C		0		
 
@@ -2358,21 +2358,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	7	3	3	21 C		3		
 
-2963	7	4	3	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	7	4	3	20 C		0		
 
-2963	7	5	5	18 C		0		
+2963	7	5	5	18 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2963	7	6	4	18 C		1		
 
 2963	7	7	2	19 C		0		
 
-2963	7	8	3	20 C		0		
+2963	7	8	3	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2963	7	9	3	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	7	9	3	22 C		0		
 
 2963	7	10	2	22 C		0		
 
-2963	7	11	5	17 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	7	11	5	17 C		1		
 
 2963	7	12	4	18 C		2		Åska 
 
@@ -2392,7 +2392,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	7	20	2	21 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2963	7	21	4	21 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	7	21	4	21 C		0		
 
 2963	7	22	3	20 C		0		
 
@@ -2400,19 +2400,19 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	7	24	1	20 C		0		
 
-2963	7	25	4	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	7	25	4	22 C		0		
 
 2963	7	26	3	25 C		0		
 
 2963	7	27	3	25 C		0		
 
-2963	7	28	4	23 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	7	28	4	23 C		0		
 
 2963	8	1	5	20 C		0		
 
 2963	8	2	5	19 C		0		
 
-2963	8	3	5	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	8	3	5	22 C		0		
 
 2963	8	4	1	18 C		0		
 
@@ -2428,15 +2428,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	8	10	3	22 C		0		
 
-2963	8	11	4	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	8	11	4	20 C		0		
 
 2963	8	12	4	19 C		0		
 
-2963	8	13	1	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	8	13	1	19 C		0		
 
-2963	8	14	4	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	8	14	4	22 C		0		
 
-2963	8	15	1	23 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	8	15	1	23 C		0		
 
 2963	8	16	2	20 C		0		
 
@@ -2446,7 +2446,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	8	19	1	17 C		0		
 
-2963	8	20	4	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	8	20	4	19 C		0		
 
 2963	8	21	7	19 C		4		
 
@@ -2454,13 +2454,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	8	23	1	18 C		2		
 
-2963	8	24	1	20 C		0		
+2963	8	24	1	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2963	8	25	3	23 C		0		
 
-2963	8	26	2	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	8	26	2	20 C		0		
 
-2963	8	27	6	21 C		0		Molnklart Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	8	27	6	21 C		0		Molnklart 
 
 2963	8	28	0	19 C		0		Tjock Dimma 
 
@@ -2470,7 +2470,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	9	3	0	13 C		0		Lätt Dimma 
 
-2963	9	4	2	10 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	9	4	2	10 C		0		
 
 2963	9	5	4	11 C		1		
 
@@ -2490,27 +2490,27 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	9	13	5	13 C		0		
 
-2963	9	14	1	10 C		1		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	9	14	1	10 C		1		Lätt Dimma 
 
-2963	9	15	3	11 C		2		
+2963	9	15	3	11 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2963	9	16	4	12 C		3		
 
-2963	9	17	4	14 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	9	17	4	14 C		2		
 
 2963	9	18	2	15 C		0		
 
 2963	9	19	3	19 C		0		
 
-2963	9	20	2	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	9	20	2	19 C		0		
 
 2963	9	21	6	19 C		1		
 
 2963	9	22	5	17 C		0		
 
-2963	9	23	7	14 C		0		
+2963	9	23	7	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2963	9	24	3	16 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	9	24	3	16 C		0		
 
 2963	9	25	5	18 C		0		
 
@@ -2524,15 +2524,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	10	2	2	11 C		0		
 
-2963	10	3	3	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	10	3	3	14 C		0		
 
 2963	10	4	2	15 C		0		
 
-2963	10	5	6	15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	10	5	6	15 C		0		
 
 2963	10	6	3	14 C		0		
 
-2963	10	7	2	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	10	7	2	14 C		0		
 
 2963	10	8	6	14 C		6		
 
@@ -2540,13 +2540,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	10	10	5	15 C		3		
 
-2963	10	11	0	11 C		0		Tjock Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	10	11	0	11 C		0		Tjock Dimma 
 
 2963	10	12	4	7 C		0		
 
 2963	10	13	2	6 C		0		
 
-2963	10	14	2	4 C		0		
+2963	10	14	2	4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2963	10	15	4	7 C		0		
 
@@ -2554,9 +2554,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	10	17	1	11 C		0		
 
-2963	10	18	1	13 C		0		
+2963	10	18	1	13 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2963	10	19	4	12 C		0		
+2963	10	19	4	12 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2963	10	20	4	10 C		0		
 
@@ -2578,33 +2578,33 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	11	1	4	2 C		4		
 
-2963	11	2	4	3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	11	2	4	3 C		0		
 
 2963	11	3	2	4 C		0		
 
 2963	11	4	1	4 C		0		
 
-2963	11	5	0	1 C		0		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	11	5	0	1 C		0		Lätt Dimma 
 
 2963	11	6	4	-1 C		0		
 
 2963	11	7	4	-1 C		0		
 
-2963	11	8	5	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	11	8	5	1 C		0		
 
 2963	11	9	5	3 C		0		
 
 2963	11	10	2	0 C		1		
 
-2963	11	11	4	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	11	11	4	1 C		0		
 
-2963	11	12	3	0 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	11	12	3	0 C		0		
 
 2963	11	13	2	1 C		0		
 
 2963	11	14	4	2 C		0		
 
-2963	11	15	5	7 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	11	15	5	7 C		0		
 
 2963	11	16	6	5 C		0		
 
@@ -2620,7 +2620,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	11	22	5	2 C		2		
 
-2963	11	23	0	1 C		0		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	11	23	0	1 C		0		Lätt Dimma 
 
 2963	11	24	4	3 C		1		
 
@@ -2634,7 +2634,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	12	1	4	2 C		0		
 
-2963	12	2	2	2 C		3		Åska Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	12	2	2	2 C		3		Åska 
 
 2963	12	3	4	2 C		0		
 
@@ -2646,7 +2646,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	12	7	4	-3 C		2		
 
-2963	12	8	7	-6 C		2		
+2963	12	8	7	-6 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2963	12	9	3	-2 C		2		
 
@@ -2660,9 +2660,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	12	14	3	-2 C		0		Åska 
 
-2963	12	15	3	0 C		0		
+2963	12	15	3	0 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2963	12	16	5	2 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	12	16	5	2 C		0		
 
 2963	12	17	2	1 C		0		
 
@@ -2674,7 +2674,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	12	21	4	-5 C		2		
 
-2963	12	22	6	-8 C		7		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	12	22	6	-8 C		7		
 
 2963	12	23	5	-7 C		2		
 
@@ -2686,7 +2686,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2963	12	27	5	-7 C		0		
 
-2963	12	28	2	-5 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2963	12	28	2	-5 C		0		
 
 2964	1	1	3	-7 C		0		
 
@@ -2694,7 +2694,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	1	3	2	-7 C		0		
 
-2964	1	4	2	-7 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	1	4	2	-7 C		0		
 
 2964	1	5	3	-8 C		7		
 
@@ -2706,9 +2706,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	1	9	3	-5 C		0		
 
-2964	1	10	3	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	1	10	3	-6 C		0		
 
-2964	1	11	2	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	1	11	2	-6 C		0		
 
 2964	1	12	6	-10 C		0		Åska 
 
@@ -2722,7 +2722,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	1	17	3	-12 C		0		
 
-2964	1	18	3	-15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	1	18	3	-15 C		0		
 
 2964	1	19	3	-18 C		0		
 
@@ -2738,7 +2738,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	1	25	1	-7 C		0		
 
-2964	1	26	5	-4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	1	26	5	-4 C		0		
 
 2964	1	27	2	-4 C		0		Molnklart 
 
@@ -2756,7 +2756,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	2	6	5	-6 C		0		
 
-2964	2	7	5	-9 C		0		Åska Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	2	7	5	-9 C		0		Åska 
 
 2964	2	8	5	-7 C		1		
 
@@ -2770,15 +2770,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	2	13	0	-6 C		0		Lätt Dimma 
 
-2964	2	14	2	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	2	14	2	-6 C		0		
 
-2964	2	15	5	-5 C		0		Molnklart Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	2	15	5	-5 C		0		Molnklart 
 
 2964	2	16	1	-3 C		0		
 
-2964	2	17	4	-3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	2	17	4	-3 C		0		
 
-2964	2	18	1	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	2	18	1	-6 C		0		
 
 2964	2	19	5	-4 C		0		
 
@@ -2788,21 +2788,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	2	22	5	-7 C		0		
 
-2964	2	23	4	-7 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	2	23	4	-7 C		1		
 
 2964	2	24	4	-8 C		0		
 
 2964	2	25	2	-5 C		0		
 
-2964	2	26	5	-4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	2	26	5	-4 C		0		
 
-2964	2	27	5	-1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	2	27	5	-1 C		0		
 
-2964	2	28	4	-2 C		2		
+2964	2	28	4	-2 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2964	3	1	5	1 C		0		
 
-2964	3	2	9	0 C		3		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	3	2	9	0 C		3		
 
 2964	3	3	5	0 C		0		
 
@@ -2820,7 +2820,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	3	10	3	-1 C		5		
 
-2964	3	11	5	2 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	3	11	5	2 C		0		
 
 2964	3	12	3	0 C		0		
 
@@ -2844,13 +2844,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	3	22	5	3 C		0		
 
-2964	3	23	5	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	3	23	5	1 C		0		
 
 2964	3	24	5	5 C		0		
 
 2964	3	25	4	5 C		0		
 
-2964	3	26	3	3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	3	26	3	3 C		0		
 
 2964	3	27	1	3 C		2		
 
@@ -2890,11 +2890,11 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	4	17	1	3 C		0		
 
-2964	4	18	4	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	4	18	4	1 C		0		
 
-2964	4	19	3	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	4	19	3	1 C		0		
 
-2964	4	20	2	5 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	4	20	2	5 C		1		
 
 2964	4	21	6	7 C		1		
 
@@ -2902,7 +2902,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	4	23	2	6 C		0		
 
-2964	4	24	4	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	4	24	4	11 C		0		
 
 2964	4	25	3	9 C		0		
 
@@ -2912,7 +2912,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	4	28	6	9 C		6		
 
-2964	5	1	4	11 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	5	1	4	11 C		2		
 
 2964	5	2	4	9 C		4		
 
@@ -2944,15 +2944,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	5	16	5	10 C		0		
 
-2964	5	17	1	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	5	17	1	9 C		0		
 
-2964	5	18	3	6 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	5	18	3	6 C		1		
 
 2964	5	19	3	5 C		0		
 
 2964	5	20	5	9 C		0		
 
-2964	5	21	2	11 C		0		
+2964	5	21	2	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2964	5	22	5	11 C		0		
 
@@ -2964,13 +2964,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	5	26	6	12 C		3		
 
-2964	5	27	5	9 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	5	27	5	9 C		1		
 
 2964	5	28	0	10 C		1		Åska Lätt Dimma 
 
 2964	6	1	2	10 C		1		
 
-2964	6	2	5	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	6	2	5	9 C		0		
 
 2964	6	3	4	12 C		0		
 
@@ -2982,7 +2982,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	6	7	3	13 C		1		
 
-2964	6	8	6	13 C		4		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	6	8	6	13 C		4		
 
 2964	6	9	2	17 C		11		
 
@@ -2992,13 +2992,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	6	12	3	18 C		3		
 
-2964	6	13	2	15 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	6	13	2	15 C		1		
 
 2964	6	14	6	17 C		1		
 
 2964	6	15	5	12 C		2		
 
-2964	6	16	3	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	6	16	3	14 C		0		
 
 2964	6	17	3	13 C		0		
 
@@ -3006,21 +3006,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	6	19	5	12 C		2		
 
-2964	6	20	4	11 C		0		
+2964	6	20	4	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2964	6	21	1	10 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	6	21	1	10 C		0		
 
 2964	6	22	1	9 C		0		
 
 2964	6	23	1	12 C		0		Hagel 
 
-2964	6	24	2	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	6	24	2	9 C		0		
 
 2964	6	25	4	13 C		1		Åska 
 
 2964	6	26	4	15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2964	6	27	1	17 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	6	27	1	17 C		0		
 
 2964	6	28	2	20 C		0		
 
@@ -3030,21 +3030,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	7	3	3	21 C		3		
 
-2964	7	4	3	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	7	4	3	20 C		0		
 
-2964	7	5	5	18 C		0		
+2964	7	5	5	18 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2964	7	6	4	18 C		1		
 
 2964	7	7	2	19 C		0		
 
-2964	7	8	3	20 C		0		
+2964	7	8	3	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2964	7	9	3	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	7	9	3	22 C		0		
 
 2964	7	10	2	22 C		0		
 
-2964	7	11	5	17 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	7	11	5	17 C		1		
 
 2964	7	12	4	18 C		2		Åska 
 
@@ -3064,7 +3064,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	7	20	2	21 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2964	7	21	4	21 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	7	21	4	21 C		0		
 
 2964	7	22	3	20 C		0		
 
@@ -3072,19 +3072,19 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	7	24	1	20 C		0		
 
-2964	7	25	4	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	7	25	4	22 C		0		
 
 2964	7	26	3	25 C		0		
 
 2964	7	27	3	25 C		0		
 
-2964	7	28	4	23 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	7	28	4	23 C		0		
 
 2964	8	1	5	20 C		0		
 
 2964	8	2	5	19 C		0		
 
-2964	8	3	5	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	8	3	5	22 C		0		
 
 2964	8	4	1	18 C		0		
 
@@ -3100,15 +3100,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	8	10	3	22 C		0		
 
-2964	8	11	4	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	8	11	4	20 C		0		
 
 2964	8	12	4	19 C		0		
 
-2964	8	13	1	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	8	13	1	19 C		0		
 
-2964	8	14	4	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	8	14	4	22 C		0		
 
-2964	8	15	1	23 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	8	15	1	23 C		0		
 
 2964	8	16	2	20 C		0		
 
@@ -3118,7 +3118,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	8	19	1	17 C		0		
 
-2964	8	20	4	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	8	20	4	19 C		0		
 
 2964	8	21	7	19 C		4		
 
@@ -3126,13 +3126,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	8	23	1	18 C		2		
 
-2964	8	24	1	20 C		0		
+2964	8	24	1	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2964	8	25	3	23 C		0		
 
-2964	8	26	2	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	8	26	2	20 C		0		
 
-2964	8	27	6	21 C		0		Molnklart Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	8	27	6	21 C		0		Molnklart 
 
 2964	8	28	0	19 C		0		Tjock Dimma 
 
@@ -3142,7 +3142,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	9	3	0	13 C		0		Lätt Dimma 
 
-2964	9	4	2	10 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	9	4	2	10 C		0		
 
 2964	9	5	4	11 C		1		
 
@@ -3162,27 +3162,27 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	9	13	5	13 C		0		
 
-2964	9	14	1	10 C		1		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	9	14	1	10 C		1		Lätt Dimma 
 
-2964	9	15	3	11 C		2		
+2964	9	15	3	11 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2964	9	16	4	12 C		3		
 
-2964	9	17	4	14 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	9	17	4	14 C		2		
 
 2964	9	18	2	15 C		0		
 
 2964	9	19	3	19 C		0		
 
-2964	9	20	2	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	9	20	2	19 C		0		
 
 2964	9	21	6	19 C		1		
 
 2964	9	22	5	17 C		0		
 
-2964	9	23	7	14 C		0		
+2964	9	23	7	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2964	9	24	3	16 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	9	24	3	16 C		0		
 
 2964	9	25	5	18 C		0		
 
@@ -3196,15 +3196,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	10	2	2	11 C		0		
 
-2964	10	3	3	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	10	3	3	14 C		0		
 
 2964	10	4	2	15 C		0		
 
-2964	10	5	6	15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	10	5	6	15 C		0		
 
 2964	10	6	3	14 C		0		
 
-2964	10	7	2	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	10	7	2	14 C		0		
 
 2964	10	8	6	14 C		6		
 
@@ -3212,13 +3212,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	10	10	5	15 C		3		
 
-2964	10	11	0	11 C		0		Tjock Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	10	11	0	11 C		0		Tjock Dimma 
 
 2964	10	12	4	7 C		0		
 
 2964	10	13	2	6 C		0		
 
-2964	10	14	2	4 C		0		
+2964	10	14	2	4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2964	10	15	4	7 C		0		
 
@@ -3226,9 +3226,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	10	17	1	11 C		0		
 
-2964	10	18	1	13 C		0		
+2964	10	18	1	13 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2964	10	19	4	12 C		0		
+2964	10	19	4	12 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2964	10	20	4	10 C		0		
 
@@ -3250,33 +3250,33 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	11	1	4	2 C		4		
 
-2964	11	2	4	3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	11	2	4	3 C		0		
 
 2964	11	3	2	4 C		0		
 
 2964	11	4	1	4 C		0		
 
-2964	11	5	0	1 C		0		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	11	5	0	1 C		0		Lätt Dimma 
 
 2964	11	6	4	-1 C		0		
 
 2964	11	7	4	-1 C		0		
 
-2964	11	8	5	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	11	8	5	1 C		0		
 
 2964	11	9	5	3 C		0		
 
 2964	11	10	2	0 C		1		
 
-2964	11	11	4	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	11	11	4	1 C		0		
 
-2964	11	12	3	0 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	11	12	3	0 C		0		
 
 2964	11	13	2	1 C		0		
 
 2964	11	14	4	2 C		0		
 
-2964	11	15	5	7 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	11	15	5	7 C		0		
 
 2964	11	16	6	5 C		0		
 
@@ -3292,7 +3292,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	11	22	5	2 C		2		
 
-2964	11	23	0	1 C		0		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	11	23	0	1 C		0		Lätt Dimma 
 
 2964	11	24	4	3 C		1		
 
@@ -3306,7 +3306,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	12	1	4	2 C		0		
 
-2964	12	2	2	2 C		3		Åska Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	12	2	2	2 C		3		Åska 
 
 2964	12	3	4	2 C		0		
 
@@ -3318,7 +3318,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	12	7	4	-3 C		2		
 
-2964	12	8	7	-6 C		2		
+2964	12	8	7	-6 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2964	12	9	3	-2 C		2		
 
@@ -3332,9 +3332,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	12	14	3	-2 C		0		Åska 
 
-2964	12	15	3	0 C		0		
+2964	12	15	3	0 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2964	12	16	5	2 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	12	16	5	2 C		0		
 
 2964	12	17	2	1 C		0		
 
@@ -3346,7 +3346,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	12	21	4	-5 C		2		
 
-2964	12	22	6	-8 C		7		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	12	22	6	-8 C		7		
 
 2964	12	23	5	-7 C		2		
 
@@ -3358,7 +3358,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2964	12	27	5	-7 C		0		
 
-2964	12	28	2	-5 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2964	12	28	2	-5 C		0		
 
 2965	1	1	3	-7 C		0		
 
@@ -3366,7 +3366,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	1	3	2	-7 C		0		
 
-2965	1	4	2	-7 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	1	4	2	-7 C		0		
 
 2965	1	5	3	-8 C		7		
 
@@ -3378,9 +3378,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	1	9	3	-5 C		0		
 
-2965	1	10	3	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	1	10	3	-6 C		0		
 
-2965	1	11	2	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	1	11	2	-6 C		0		
 
 2965	1	12	6	-10 C		0		Åska 
 
@@ -3394,7 +3394,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	1	17	3	-12 C		0		
 
-2965	1	18	3	-15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	1	18	3	-15 C		0		
 
 2965	1	19	3	-18 C		0		
 
@@ -3410,7 +3410,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	1	25	1	-7 C		0		
 
-2965	1	26	5	-4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	1	26	5	-4 C		0		
 
 2965	1	27	2	-4 C		0		Molnklart 
 
@@ -3428,7 +3428,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	2	6	5	-6 C		0		
 
-2965	2	7	5	-9 C		0		Åska Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	2	7	5	-9 C		0		Åska 
 
 2965	2	8	5	-7 C		1		
 
@@ -3442,15 +3442,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	2	13	0	-6 C		0		Lätt Dimma 
 
-2965	2	14	2	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	2	14	2	-6 C		0		
 
-2965	2	15	5	-5 C		0		Molnklart Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	2	15	5	-5 C		0		Molnklart 
 
 2965	2	16	1	-3 C		0		
 
-2965	2	17	4	-3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	2	17	4	-3 C		0		
 
-2965	2	18	1	-6 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	2	18	1	-6 C		0		
 
 2965	2	19	5	-4 C		0		
 
@@ -3460,21 +3460,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	2	22	5	-7 C		0		
 
-2965	2	23	4	-7 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	2	23	4	-7 C		1		
 
 2965	2	24	4	-8 C		0		
 
 2965	2	25	2	-5 C		0		
 
-2965	2	26	5	-4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	2	26	5	-4 C		0		
 
-2965	2	27	5	-1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	2	27	5	-1 C		0		
 
-2965	2	28	4	-2 C		2		
+2965	2	28	4	-2 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2965	3	1	5	1 C		0		
 
-2965	3	2	9	0 C		3		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	3	2	9	0 C		3		
 
 2965	3	3	5	0 C		0		
 
@@ -3492,7 +3492,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	3	10	3	-1 C		5		
 
-2965	3	11	5	2 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	3	11	5	2 C		0		
 
 2965	3	12	3	0 C		0		
 
@@ -3516,13 +3516,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	3	22	5	3 C		0		
 
-2965	3	23	5	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	3	23	5	1 C		0		
 
 2965	3	24	5	5 C		0		
 
 2965	3	25	4	5 C		0		
 
-2965	3	26	3	3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	3	26	3	3 C		0		
 
 2965	3	27	1	3 C		2		
 
@@ -3562,11 +3562,11 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	4	17	1	3 C		0		
 
-2965	4	18	4	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	4	18	4	1 C		0		
 
-2965	4	19	3	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	4	19	3	1 C		0		
 
-2965	4	20	2	5 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	4	20	2	5 C		1		
 
 2965	4	21	6	7 C		1		
 
@@ -3574,7 +3574,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	4	23	2	6 C		0		
 
-2965	4	24	4	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	4	24	4	11 C		0		
 
 2965	4	25	3	9 C		0		
 
@@ -3584,7 +3584,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	4	28	6	9 C		6		
 
-2965	5	1	4	11 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	5	1	4	11 C		2		
 
 2965	5	2	4	9 C		4		
 
@@ -3616,15 +3616,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	5	16	5	10 C		0		
 
-2965	5	17	1	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	5	17	1	9 C		0		
 
-2965	5	18	3	6 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	5	18	3	6 C		1		
 
 2965	5	19	3	5 C		0		
 
 2965	5	20	5	9 C		0		
 
-2965	5	21	2	11 C		0		
+2965	5	21	2	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2965	5	22	5	11 C		0		
 
@@ -3636,13 +3636,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	5	26	6	12 C		3		
 
-2965	5	27	5	9 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	5	27	5	9 C		1		
 
 2965	5	28	0	10 C		1		Åska Lätt Dimma 
 
 2965	6	1	2	10 C		1		
 
-2965	6	2	5	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	6	2	5	9 C		0		
 
 2965	6	3	4	12 C		0		
 
@@ -3654,7 +3654,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	6	7	3	13 C		1		
 
-2965	6	8	6	13 C		4		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	6	8	6	13 C		4		
 
 2965	6	9	2	17 C		11		
 
@@ -3664,13 +3664,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	6	12	3	18 C		3		
 
-2965	6	13	2	15 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	6	13	2	15 C		1		
 
 2965	6	14	6	17 C		1		
 
 2965	6	15	5	12 C		2		
 
-2965	6	16	3	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	6	16	3	14 C		0		
 
 2965	6	17	3	13 C		0		
 
@@ -3678,21 +3678,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	6	19	5	12 C		2		
 
-2965	6	20	4	11 C		0		
+2965	6	20	4	11 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2965	6	21	1	10 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	6	21	1	10 C		0		
 
 2965	6	22	1	9 C		0		
 
 2965	6	23	1	12 C		0		Hagel 
 
-2965	6	24	2	9 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	6	24	2	9 C		0		
 
 2965	6	25	4	13 C		1		Åska 
 
 2965	6	26	4	15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2965	6	27	1	17 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	6	27	1	17 C		0		
 
 2965	6	28	2	20 C		0		
 
@@ -3702,21 +3702,21 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	7	3	3	21 C		3		
 
-2965	7	4	3	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	7	4	3	20 C		0		
 
-2965	7	5	5	18 C		0		
+2965	7	5	5	18 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2965	7	6	4	18 C		1		
 
 2965	7	7	2	19 C		0		
 
-2965	7	8	3	20 C		0		
+2965	7	8	3	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2965	7	9	3	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	7	9	3	22 C		0		
 
 2965	7	10	2	22 C		0		
 
-2965	7	11	5	17 C		1		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	7	11	5	17 C		1		
 
 2965	7	12	4	18 C		2		Åska 
 
@@ -3736,7 +3736,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	7	20	2	21 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2965	7	21	4	21 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	7	21	4	21 C		0		
 
 2965	7	22	3	20 C		0		
 
@@ -3744,19 +3744,19 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	7	24	1	20 C		0		
 
-2965	7	25	4	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	7	25	4	22 C		0		
 
 2965	7	26	3	25 C		0		
 
 2965	7	27	3	25 C		0		
 
-2965	7	28	4	23 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	7	28	4	23 C		0		
 
 2965	8	1	5	20 C		0		
 
 2965	8	2	5	19 C		0		
 
-2965	8	3	5	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	8	3	5	22 C		0		
 
 2965	8	4	1	18 C		0		
 
@@ -3772,15 +3772,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	8	10	3	22 C		0		
 
-2965	8	11	4	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	8	11	4	20 C		0		
 
 2965	8	12	4	19 C		0		
 
-2965	8	13	1	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	8	13	1	19 C		0		
 
-2965	8	14	4	22 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	8	14	4	22 C		0		
 
-2965	8	15	1	23 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	8	15	1	23 C		0		
 
 2965	8	16	2	20 C		0		
 
@@ -3790,7 +3790,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	8	19	1	17 C		0		
 
-2965	8	20	4	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	8	20	4	19 C		0		
 
 2965	8	21	7	19 C		4		
 
@@ -3798,13 +3798,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	8	23	1	18 C		2		
 
-2965	8	24	1	20 C		0		
+2965	8	24	1	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2965	8	25	3	23 C		0		
 
-2965	8	26	2	20 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	8	26	2	20 C		0		
 
-2965	8	27	6	21 C		0		Molnklart Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	8	27	6	21 C		0		Molnklart 
 
 2965	8	28	0	19 C		0		Tjock Dimma 
 
@@ -3814,7 +3814,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	9	3	0	13 C		0		Lätt Dimma 
 
-2965	9	4	2	10 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	9	4	2	10 C		0		
 
 2965	9	5	4	11 C		1		
 
@@ -3834,27 +3834,27 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	9	13	5	13 C		0		
 
-2965	9	14	1	10 C		1		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	9	14	1	10 C		1		Lätt Dimma 
 
-2965	9	15	3	11 C		2		
+2965	9	15	3	11 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2965	9	16	4	12 C		3		
 
-2965	9	17	4	14 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	9	17	4	14 C		2		
 
 2965	9	18	2	15 C		0		
 
 2965	9	19	3	19 C		0		
 
-2965	9	20	2	19 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	9	20	2	19 C		0		
 
 2965	9	21	6	19 C		1		
 
 2965	9	22	5	17 C		0		
 
-2965	9	23	7	14 C		0		
+2965	9	23	7	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2965	9	24	3	16 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	9	24	3	16 C		0		
 
 2965	9	25	5	18 C		0		
 
@@ -3868,15 +3868,15 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	10	2	2	11 C		0		
 
-2965	10	3	3	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	10	3	3	14 C		0		
 
 2965	10	4	2	15 C		0		
 
-2965	10	5	6	15 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	10	5	6	15 C		0		
 
 2965	10	6	3	14 C		0		
 
-2965	10	7	2	14 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	10	7	2	14 C		0		
 
 2965	10	8	6	14 C		6		
 
@@ -3884,13 +3884,13 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	10	10	5	15 C		3		
 
-2965	10	11	0	11 C		0		Tjock Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	10	11	0	11 C		0		Tjock Dimma 
 
 2965	10	12	4	7 C		0		
 
 2965	10	13	2	6 C		0		
 
-2965	10	14	2	4 C		0		
+2965	10	14	2	4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2965	10	15	4	7 C		0		
 
@@ -3898,9 +3898,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	10	17	1	11 C		0		
 
-2965	10	18	1	13 C		0		
+2965	10	18	1	13 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2965	10	19	4	12 C		0		
+2965	10	19	4	12 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2965	10	20	4	10 C		0		
 
@@ -3922,33 +3922,33 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	11	1	4	2 C		4		
 
-2965	11	2	4	3 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	11	2	4	3 C		0		
 
 2965	11	3	2	4 C		0		
 
 2965	11	4	1	4 C		0		
 
-2965	11	5	0	1 C		0		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	11	5	0	1 C		0		Lätt Dimma 
 
 2965	11	6	4	-1 C		0		
 
 2965	11	7	4	-1 C		0		
 
-2965	11	8	5	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	11	8	5	1 C		0		
 
 2965	11	9	5	3 C		0		
 
 2965	11	10	2	0 C		1		
 
-2965	11	11	4	1 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	11	11	4	1 C		0		
 
-2965	11	12	3	0 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	11	12	3	0 C		0		
 
 2965	11	13	2	1 C		0		
 
 2965	11	14	4	2 C		0		
 
-2965	11	15	5	7 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	11	15	5	7 C		0		
 
 2965	11	16	6	5 C		0		
 
@@ -3964,7 +3964,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	11	22	5	2 C		2		
 
-2965	11	23	0	1 C		0		Lätt Dimma Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	11	23	0	1 C		0		Lätt Dimma 
 
 2965	11	24	4	3 C		1		
 
@@ -3978,7 +3978,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	12	1	4	2 C		0		
 
-2965	12	2	2	2 C		3		Åska Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	12	2	2	2 C		3		Åska 
 
 2965	12	3	4	2 C		0		
 
@@ -3990,7 +3990,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	12	7	4	-3 C		2		
 
-2965	12	8	7	-6 C		2		
+2965	12	8	7	-6 C		2		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
 2965	12	9	3	-2 C		2		
 
@@ -4004,9 +4004,9 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	12	14	3	-2 C		0		Åska 
 
-2965	12	15	3	0 C		0		
+2965	12	15	3	0 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
 
-2965	12	16	5	2 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	12	16	5	2 C		0		
 
 2965	12	17	2	1 C		0		
 
@@ -4018,7 +4018,7 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	12	21	4	-5 C		2		
 
-2965	12	22	6	-8 C		7		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	12	22	6	-8 C		7		
 
 2965	12	23	5	-7 C		2		
 
@@ -4030,5 +4030,5 @@ Year	Month	Day	Wind	Temperature	Rainfall	Other
 
 2965	12	27	5	-7 C		0		
 
-2965	12	28	2	-5 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+2965	12	28	2	-5 C		0		
 

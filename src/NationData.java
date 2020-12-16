@@ -25,6 +25,12 @@ public class NationData {
 		return nationName;
 	}
 	public int getTemperature(int month){
+		if(month == 0) {
+			return temperature[11];
+		}
+		if(month == 13) {
+			return temperature[1];
+		}
 		return temperature[month-1];
 	}
 	

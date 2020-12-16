@@ -289,6 +289,8 @@ public class GuiApp {
 		
 		System.out.println(nationData.getName());
 		
+		
+		
 		weather test = newCalc.getWeather(year, month, day, nationData);
 		
 		System.out.println(nationData.getTemperature(month) + "  " + test.getTemperature());

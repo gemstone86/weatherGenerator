@@ -3,6 +3,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.LinkedList;
 
 public class fileHandler {
@@ -139,8 +140,9 @@ public class fileHandler {
 		return "Year\tMonth\tDay\tWind\tTemperature\tRainfall\tOther\n";
 	}
 
-	public String printData(int Year, int Month, int Day, int Wind, int Temperature, int Rainfall, String Other){
-		return Year +"\t"+Month+"\t"+Day+"\t"+Wind+"\t"+Temperature+" C"+"\t\t"+Rainfall+"\t\t"+Other+"\n";
+	public String printData(int Year, int Month, int Day, int Wind, double temp, int Rainfall, String Other){
+		DecimalFormat df = new DecimalFormat("##.#");
+		return Year +"\t"+Month+"\t"+Day+"\t"+Wind+"\t"+df.format(temp)+" C"+"\t\t"+Rainfall+"\t\t"+Other+"\n";
 	}
 
 	public String[] getTemperaturesAsString(String Name) {
