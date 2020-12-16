@@ -1,0 +1,18 @@
+Magistorm	1	365
+Åska		1	28
+Lätt Dimma	1	56	wind-2	temp-2
+Tjock		1	84	wind-6	temp-2
+Köldknäpp	1	
+
+		if((month>9 || month<3) && chance(1,200)){
+			event += "Köldknäpp";
+			bonusTemp = -5;
+		}
+		if((month>3 || month<9) && chance(1,200)){
+			event +="Värmevåg";
+			bonusTemp = 5;
+		}
+		if(chance(1,150)){
+			event +="Molnklart ";
+			bonusRain = -100;
+		}

@@ -1,0 +1,64 @@
+Year	Month	Day	Wind	Temperature	Rainfall	Other
+
+364	1	1	5	-7 C		0		
+
+364	1	2	1	-6 C		0		
+
+364	1	3	2	-8 C		0		
+
+364	1	4	4	-7 C		0		
+
+364	1	5	1	-9 C		0		
+
+364	1	6	2	-8 C		0		
+
+364	1	7	3	-9 C		2		
+
+364	1	8	4	-6 C		1		
+
+364	1	9	6	-9 C		13		
+
+364	1	10	2	-11 C		7		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+
+364	1	11	1	-9 C		3		
+
+364	1	12	5	-4 C		5		Värmevåg
+
+364	1	13	1	-3 C		1		
+
+364	1	14	3	-4 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+
+364	1	15	2	-7 C		0		Molnklart 
+
+364	1	16	3	-7 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+
+364	1	17	4	-5 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+
+364	1	18	3	-8 C		0		
+
+364	1	19	1	-7 C		0		
+
+364	1	20	4	-11 C		3		
+
+364	1	21	3	-10 C		2		
+
+364	1	22	7	-11 C		6		
+
+364	1	23	3	-10 C		3		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+
+364	1	24	4	-12 C		3		
+
+364	1	25	5	-11 C		2		
+
+364	1	26	3	-11 C		2		
+
+364	1	27	7	-9 C		5		
+
+364	1	28	3	-4 C		0		Åska 
+
+364	2	1	3	-5 C		0		
+
+364	2	2	5	-2 C		0		Starka vindar (+1 vindstyrka, lättmagisk pneutropi) 
+
+364	2	3	1	-2 C		0		
+

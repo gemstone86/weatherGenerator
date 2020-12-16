@@ -1,0 +1,9 @@
+Ordensstaten
+-7	-4	1	7	9	16	20	21	15	9	4	-5	
+0	
+0	
+2	
+Dragon
+1	1000	
+Starka vindar (+1 vindstyrka, lättmagisk pneutropi)
+1	28	
