@@ -107,7 +107,13 @@ public class fileHandler {
 		}
 	}
 
-	public void openWeatherFile(String name, int from, int to){
+	/**
+	 * create weatherfile. Path is extended by nation and from year to year
+	 * @param name
+	 * @param from
+	 * @param to
+	 */
+	public void createWeatherFile(String name, int from, int to){
 		try {
 			File file = new File(path + " " +name + " ("+from+" to "+(to-1)+").txt");
 

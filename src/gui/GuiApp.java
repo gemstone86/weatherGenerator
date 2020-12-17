@@ -10,7 +10,6 @@ import weather.NationData;
 import javax.swing.JComboBox;
 import javax.swing.JButton;
 import javax.swing.JLabel;
-import javax.swing.JList;
 import java.awt.BorderLayout;
 import java.awt.TextField;
 import java.awt.event.ActionListener;
@@ -44,7 +43,7 @@ public class GuiApp {
 
 	NationData nationData;
 	fileHandler filehandler;
-	JComboBox dropDownNations;
+	JComboBox<String[]> dropDownNations;
 	String[] listOfNations;
 	
 	public GuiApp(fileHandler filehandler, final LinkedList<weather> listOfWeather, int startYear, int startMonth, int startDay, String nation)
@@ -67,19 +66,19 @@ public class GuiApp {
 
 		//Options for the JComboBox 
 		listOfNations = filehandler.getListOfNations();
-		String[] dates = {"1","2","3","4","5","6","7",
-				"8","9","10","11","12","13","14",
-				"15","16","17","18","19","20","21",
-				"22","23","24","25","26","27","28"};
-		String[] months = {"1","2","3","4","5","6","7",
-				"8","9","10","11","12"};
+//		String[] dates = {"1","2","3","4","5","6","7",
+//				"8","9","10","11","12","13","14",
+//				"15","16","17","18","19","20","21",
+//				"22","23","24","25","26","27","28"};
+//		String[] months = {"1","2","3","4","5","6","7",
+//				"8","9","10","11","12"};
 
 
 		final JPanel secondPanel = new JPanel();
 		//        final JPanel second = new JPanel();
 		JLabel dayLabel = new JLabel("Day");
-		JLabel monthLabel = new JLabel("Month");
-		JComboBox date = new JComboBox(dates);
+//		JLabel monthLabel = new JLabel("Month");
+//		JComboBox date = new JComboBox(dates);
 //		JComboBox month = new JComboBox(months);
 
 		//Options for the JList
@@ -125,6 +124,7 @@ public class GuiApp {
 		JButton dayDown = new JButton("-");
 		JButton monthUp = new JButton("+");
 		JButton monthDown = new JButton("-");
+		JButton printToFile = new JButton("Print to file");
 		
 //		year = 2964;
 		year = startYear;
@@ -136,6 +136,7 @@ public class GuiApp {
 		final TextField displayDay = new TextField(String.valueOf(day));
 
 		final TextField weatherData = new TextField("                                                 ");
+		final TextField saveToFilePath = new TextField("");
 		
 		dropDownNations.addActionListener(new ActionListener()
 		{
@@ -205,6 +206,22 @@ public class GuiApp {
 			@Override
 			public void actionPerformed(ActionEvent event)
 			{
+				updateMonth(-1);
+				updateDisplays(displayYear, displayMonth, displayDay);
+				updateWeather(listOfWeather, weatherData);
+			}
+		});
+		/**
+		 * add the printToFile button.
+		 * When clicked, it prints to file.
+		 */
+		printToFile.addActionListener(new ActionListener()
+		{
+			@Override
+			public void actionPerformed(ActionEvent event)
+			{
+				String filePath = "";
+				
 				updateMonth(-1);
 				updateDisplays(displayYear, displayMonth, displayDay);
 				updateWeather(listOfWeather, weatherData);

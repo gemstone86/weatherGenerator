@@ -18,7 +18,7 @@ public class main {
 		fileHandler filehandler = new fileHandler(Path);
 		
 		System.out.println("Step 2: Opening Weather File");
-		filehandler.openWeatherFile(nation, startYear, untilYear);
+		filehandler.createWeatherFile(nation, startYear, untilYear);
 		
 		NationData Nation = filehandler.getNation(nation);
 		
@@ -91,7 +91,7 @@ public class main {
 	
 	int windBonus = 0;
 
-	String Path = "weather";
+	String Path = "GeneratedData\\weather";
 
 	public static void main(String[] args){
 
