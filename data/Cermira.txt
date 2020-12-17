@@ -1,0 +1,9 @@
+Cermira
+-16	-12	-7	-2	4	11	16	18	14	8	21	-4	
+0	
+0	
+1	
+Dragon
+1	1000
+Skugglandsvarelser
+1	250

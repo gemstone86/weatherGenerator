@@ -20,7 +20,7 @@ public class main {
 		System.out.println("Step 2: Opening Weather File");
 		filehandler.createWeatherFile(nation, startYear, untilYear);
 		
-		NationData Nation = filehandler.getNation(nation);
+		nationData Nation = filehandler.getNation(nation);
 		
 		System.out.println("Step 3: setting up data");
 		double temp = Nation.getTemperature(startMonth);

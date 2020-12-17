@@ -2,7 +2,7 @@ package weather;
 
 import java.util.LinkedList;
 
-public class NationData {
+public class nationData {
 
 	private String nationName;
 	private int[] temperature = new int[12];
@@ -14,7 +14,7 @@ public class NationData {
 	
 	private LinkedList<event> listOfEvents = new LinkedList<event>();
 	
-	public NationData(String nationName, int[] temperature, int shift, int wind, LinkedList<event> events){
+	public nationData(String nationName, int[] temperature, int shift, int wind, LinkedList<event> events){
 		this.nationName = nationName;
 		this.temperature = temperature;
 		this.shift = shift;

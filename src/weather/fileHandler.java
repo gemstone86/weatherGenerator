@@ -13,14 +13,14 @@ public class fileHandler {
 
 	BufferedFileReaderClass reader;
 	BufferedWriter bufferedWriter;
-	LinkedList<NationData> listOfNations = new LinkedList<NationData>();
+	LinkedList<nationData> listOfNations = new LinkedList<nationData>();
 	
 	public fileHandler(String Path){
 		this.path = Path;
 		initializeDataFiles();
 	}
 	
-	public NationData readFile(String Path){
+	public nationData readFile(String Path){
 		File readFile = new File(Path);
 		int[] weather = new int[12];
 
@@ -53,7 +53,7 @@ public class fileHandler {
 				events.add(new event(specialEvent, occurs, days));
 			}
 
-			return new NationData(nationName, weather, shift, wind, events);	
+			return new nationData(nationName, weather, shift, wind, events);	
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			System.out.println("Couldn't read Nation file");
@@ -187,7 +187,7 @@ public class fileHandler {
 	 * @param nation
 	 * @return
 	 */
-	public NationData getNation(String nation) {
+	public nationData getNation(String nation) {
 		for(int i = 0; i<listOfNations.size();i++){
 			if(listOfNations.get(i).getName().equals(nation)){
 				return listOfNations.get(i);

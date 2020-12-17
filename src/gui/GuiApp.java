@@ -5,7 +5,7 @@ package gui;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-import weather.NationData;
+import weather.nationData;
 
 import javax.swing.JComboBox;
 import javax.swing.JButton;
@@ -41,7 +41,7 @@ public class GuiApp {
 	//        new GuiApp();
 	//    }
 
-	NationData nationData;
+	nationData nationData;
 	fileHandler filehandler;
 	JComboBox<String[]> dropDownNations;
 	String[] listOfNations;
@@ -59,52 +59,29 @@ public class GuiApp {
 		//make sure the program exits when the frame closes
 		guiFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		guiFrame.setTitle("Eon Vädergenerator");
-		guiFrame.setSize(475,350);
+		guiFrame.setSize(550,350);
 
 		//This will center the JFrame in the middle of the screen
 		guiFrame.setLocationRelativeTo(null);
 
 		//Options for the JComboBox 
 		listOfNations = filehandler.getListOfNations();
-//		String[] dates = {"1","2","3","4","5","6","7",
-//				"8","9","10","11","12","13","14",
-//				"15","16","17","18","19","20","21",
-//				"22","23","24","25","26","27","28"};
-//		String[] months = {"1","2","3","4","5","6","7",
-//				"8","9","10","11","12"};
-
 
 		final JPanel secondPanel = new JPanel();
-		//        final JPanel second = new JPanel();
 		JLabel dayLabel = new JLabel("Day");
-//		JLabel monthLabel = new JLabel("Month");
-//		JComboBox date = new JComboBox(dates);
-//		JComboBox month = new JComboBox(months);
+		JLabel monthLabel = new JLabel("Month");
+		JLabel yearLabel = new JLabel("Year");
 
-		//Options for the JList
-		//Options for the JList
-//		String[] vegOptions = {"Asparagus", "Beans", "Broccoli", "Cabbage"
-//				, "Carrot", "Celery", "Cucumber", "Leek", "Mushroom"
-//				, "Pepper", "Radish", "Shallot", "Spinach", "Swede"
-//				, "Turnip"};
-
-		//The first JPanel contains a JLabel and JCombobox
 		final JPanel firstPanel = new JPanel();
 		JLabel area = new JLabel("Område:");
 		dropDownNations = new JComboBox(listOfNations);
 		
 		firstPanel.add(area);
 		firstPanel.add(dropDownNations);
-		//		firstPanel.add(dayLabel);
-		//		firstPanel.add(date);
-
 
 		/*lägger till själva etiketten*/
 		secondPanel.add(dayLabel);
 		/*lägger till listan med alternativ*/
-//		secondPanel.add(date);
-//		secondPanel.add(monthLabel);
-//		secondPanel.add(month);
 
 		//Create the second JPanel. Add a JLabel and JList and
 		//make use the JPanel is not visible.
@@ -115,9 +92,8 @@ public class GuiApp {
 //		vegs.setLayoutOrientation(JList.HORIZONTAL_WRAP);
 
 		secondPagePanel.add(listLbl);
-//		secondPagePanel.add(vegs);
 
-		JButton vegFruitBut = new JButton( "Generate Weather");
+		JButton nameOfPanel = new JButton( "Generate Weather");
 		JButton yearUp = new JButton("+");
 		JButton yearDown = new JButton("-");
 		JButton dayUp = new JButton("+");
@@ -232,7 +208,7 @@ public class GuiApp {
 		//event that happens when the user clicks the button.
 		//As there is not a lot that needs to happen we can 
 		//define an anonymous inner class to make the code simpler.
-		vegFruitBut.addActionListener(new ActionListener()
+		nameOfPanel.addActionListener(new ActionListener()
 		{
 			@Override
 			public void actionPerformed(ActionEvent event)
@@ -257,6 +233,11 @@ public class GuiApp {
 		secondPanel.add(dayPanel);
 		
 		JPanel monthPanel = new JPanel();
+		
+		//
+		//ADD HERE
+		//
+		monthPanel.add(monthLabel);
 		monthPanel.add(monthDown);
 		monthPanel.add(displayMonth);
 		monthPanel.add(monthUp);
@@ -264,32 +245,31 @@ public class GuiApp {
 		secondPanel.add(monthPanel);
 		
 		JPanel yearPanel = new JPanel();
+		monthPanel.add(yearLabel);
 		yearPanel.add(yearDown);
 		yearPanel.add(displayYear);
 		yearPanel.add(yearUp);
 
-		secondPanel.add(yearPanel);
+		secondPanel.add(yearPanel, BorderLayout.NORTH);
+		secondPanel.add(weatherData, BorderLayout.SOUTH);
 //		secondPanel.add(weatherData);
 		
 		JPanel centerPanel = new JPanel();
 
 		JPanel southPanel = new JPanel();
+		JPanel southSubPanel = new JPanel();
 		
 		centerPanel.add(secondPanel, BorderLayout.CENTER);
 		centerPanel.add(secondPagePanel, BorderLayout.CENTER);
 
 		
-		//The JFrame uses the BorderLayout layout manager.
-		//Put the two JPanels and JButton in different areas.
 		guiFrame.add(firstPanel, BorderLayout.NORTH);
-		//		guiFrame.add(secondPanel, BorderLayout.CENTER);
-		//		guiFrame.add(secondPagePanel, BorderLayout.CENTER);
 		guiFrame.add(centerPanel, BorderLayout.CENTER);
-//		guiFrame.add(vegFruitBut,BorderLayout.SOUTH);
-//		guiFrame.add(data,BorderLayout.SOUTH);
 		
-		
-		southPanel.add(weatherData);
+		southSubPanel.add(weatherData);
+		southSubPanel.add(printToFile);
+
+		southPanel.add(southSubPanel);
 		guiFrame.add(southPanel,BorderLayout.SOUTH);
 		
 		secondPanel.setVisible(true);
