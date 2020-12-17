@@ -1,5 +1,6 @@
-import java.util.LinkedList;
+package weather;
 
+import java.util.LinkedList;
 
 public class NationData {
 

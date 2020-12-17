@@ -1,7 +1,12 @@
+package gui;
+
 //Imports are listed in full to show what's being used
 //could just import javax.swing.* and java.awt.* etc..
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+
+import weather.NationData;
+
 import javax.swing.JComboBox;
 import javax.swing.JButton;
 import javax.swing.JLabel;
@@ -9,9 +14,13 @@ import javax.swing.JList;
 import java.awt.BorderLayout;
 import java.awt.TextField;
 import java.awt.event.ActionListener;
+import java.text.DecimalFormat;
 import java.util.LinkedList;
 import java.util.Random;
 import java.awt.event.ActionEvent;
+
+
+import weather.*;
 
 public class GuiApp {
 
@@ -75,10 +84,10 @@ public class GuiApp {
 
 		//Options for the JList
 		//Options for the JList
-		String[] vegOptions = {"Asparagus", "Beans", "Broccoli", "Cabbage"
-				, "Carrot", "Celery", "Cucumber", "Leek", "Mushroom"
-				, "Pepper", "Radish", "Shallot", "Spinach", "Swede"
-				, "Turnip"};
+//		String[] vegOptions = {"Asparagus", "Beans", "Broccoli", "Cabbage"
+//				, "Carrot", "Celery", "Cucumber", "Leek", "Mushroom"
+//				, "Pepper", "Radish", "Shallot", "Spinach", "Swede"
+//				, "Turnip"};
 
 		//The first JPanel contains a JLabel and JCombobox
 		final JPanel firstPanel = new JPanel();
@@ -103,11 +112,11 @@ public class GuiApp {
 		final JPanel secondPagePanel = new JPanel();
 		secondPagePanel.setVisible(false);
 		JLabel listLbl = new JLabel("Vegetables:");
-		JList vegs = new JList(vegOptions);
-		vegs.setLayoutOrientation(JList.HORIZONTAL_WRAP);
+//		JList vegs = new JList(vegOptions);
+//		vegs.setLayoutOrientation(JList.HORIZONTAL_WRAP);
 
 		secondPagePanel.add(listLbl);
-		secondPagePanel.add(vegs);
+//		secondPagePanel.add(vegs);
 
 		JButton vegFruitBut = new JButton( "Generate Weather");
 		JButton yearUp = new JButton("+");
@@ -275,7 +284,7 @@ public class GuiApp {
 	weatherCalculator newCalc = new weatherCalculator(new Random());
 	
 	/**
-	 * updates the weather to the current weather of the day
+	 * updates the weather to the current weather of the day and updates the display
 	 * @param weather
 	 * @param data
 	 */
@@ -288,14 +297,14 @@ public class GuiApp {
 		nationData = filehandler.getNation(nation);
 		
 		System.out.println(nationData.getName());
-		
-		
-		
+				
 		weather test = newCalc.getWeather(year, month, day, nationData);
 		
-		System.out.println(nationData.getTemperature(month) + "  " + test.getTemperature());
+		//System.out.println(nationData.getTemperature(month) + "  " + test.getTemperature());
 		
-		String text = "Temp: " + test.getTemperature() + "   Vind: "+test.getWindStrength() + "   Regn: " +test.getRain() + "   Övrigt: " + test.getOther(); 
+		DecimalFormat df = new DecimalFormat("##.#");
+		
+		String text = "Temp: " + df.format(test.getTemperature())+"C" + "   Vind: "+test.getWindStrength() + "   Regn: " +test.getRain() + "   Övrigt: " + test.getOther(); 
 		
 //		System.out.println("gets the weather for year " + year);
 		

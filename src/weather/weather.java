@@ -1,4 +1,7 @@
 
+package weather;
+
+import java.text.DecimalFormat;
 
 public class weather {
 
@@ -45,6 +48,8 @@ public class weather {
 	}
 	
 	public String getMessage(){
+//		DecimalFormat df = new DecimalFormat("##.#");
+//		return Year +"\t"+Month+"\t"+Day+"\t"+windStrength+"\t"+df.format(temperature)+" C"+"\t\t"+rain+"\t\t"+other+"\n";
 		return Year +"\t"+Month+"\t"+Day+"\t"+windStrength+"\t"+temperature+" C"+"\t\t"+rain+"\t\t"+other+"\n";
 	}
 	

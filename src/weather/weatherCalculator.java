@@ -1,6 +1,7 @@
+package weather;
+
 import java.util.LinkedList;
 import java.util.Random;
-
 
 public class weatherCalculator {
 	Random rng;
@@ -25,13 +26,15 @@ public class weatherCalculator {
 	}
 	
 	public weather getWeather(int year, int month, int day, NationData nation){
-		
 		int previous = nation.getTemperature(month-1);
 		int average = nation.getTemperature(month);
 		int next = nation.getTemperature(month+1);
-		
 		int averageWind = nation.getWind();
-		int temperature = temperatureNR(average,0);
+		
+		double temperature = nonRandomtemperature(previous, average, next, day, daySeed(year, month, day));
+		
+		System.out.println(temperature);
+		
 		int wind = windStrengthNR(averageWind);
 		String events = generateEvents(0,0,0, nation.getEvents(),month);
 		
@@ -99,36 +102,36 @@ public class weatherCalculator {
 		
 		if(day < 15) {
 			double previousStep = (average - previous) / 14;
-			return (14+day)*previousStep+average;
+			return (14+day)*previousStep+average + variance;
 		}
 		else {
 			double nextStep = (next - average) / 14;
-			return (day-14)*nextStep+average;
+			return (day-14)*nextStep+average + variance;
 		}
 	}
 	
-	public int temperature(int previous, int average, int next, int shift){
-
-		//add in the seed based on the date of the day, to force the generation
-		//of the same value every time.
-		
-			int die = rng.nextInt(5) - rng.nextInt(5);
-
-		if(previous < average){
-			die += 1;
-		}
-		else if(previous > average){
-			die -= 1;
-		}
-
-		return die + shift + previous + bonusTemp();
-	}
+//	public int temperature(int previous, int average, int next, int shift){
+//
+//		//add in the seed based on the date of the day, to force the generation
+//		//of the same value every time.
+//		
+//			int die = rng.nextInt(5) - rng.nextInt(5);
+//
+//		if(previous < average){
+//			die += 1;
+//		}
+//		else if(previous > average){
+//			die -= 1;
+//		}
+//
+//		return die + shift + previous + bonusTemp();
+//	}
 	
-	private int bonusTemp(){
-		int tmp = bonusTemp;
-		bonusTemp = 0;
-		return tmp;
-	}
+//	private int bonusTemp(){
+//		int tmp = bonusTemp;
+//		bonusTemp = 0;
+//		return tmp;
+//	}
 	
 	public int rainfall(double temperature, double average, int wind, int rain){
 		int limit = 6;

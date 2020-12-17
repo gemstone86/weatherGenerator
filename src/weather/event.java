@@ -1,4 +1,6 @@
 
+package weather;
+
 public class event {
 
 	String name;

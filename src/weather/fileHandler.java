@@ -1,3 +1,5 @@
+package weather;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
@@ -140,11 +142,27 @@ public class fileHandler {
 		return "Year\tMonth\tDay\tWind\tTemperature\tRainfall\tOther\n";
 	}
 
+	/**
+	 * print, to console, the information
+	 * @param Year
+	 * @param Month
+	 * @param Day
+	 * @param Wind
+	 * @param temp
+	 * @param Rainfall
+	 * @param Other
+	 * @return
+	 */
 	public String printData(int Year, int Month, int Day, int Wind, double temp, int Rainfall, String Other){
 		DecimalFormat df = new DecimalFormat("##.#");
 		return Year +"\t"+Month+"\t"+Day+"\t"+Wind+"\t"+df.format(temp)+" C"+"\t\t"+Rainfall+"\t\t"+Other+"\n";
 	}
 
+	/**
+	 * return the temperature list as a String
+	 * @param Name
+	 * @return
+	 */
 	public String[] getTemperaturesAsString(String Name) {
 		String[] temp = new String[12];
 		for(int i = 0; i<listOfNations.size();i++){
@@ -158,11 +176,13 @@ public class fileHandler {
 		return null;
 	}
 
+	/**
+	 * Read through the list of Nations and return the correct nation.
+	 * @param nation
+	 * @return
+	 */
 	public NationData getNation(String nation) {
-		// TODO Auto-generated method stub
 		for(int i = 0; i<listOfNations.size();i++){
-			//			System.out.println("is " +nation +" == " + listOfNations.get(i).getName());
-
 			if(listOfNations.get(i).getName().equals(nation)){
 				return listOfNations.get(i);
 			}

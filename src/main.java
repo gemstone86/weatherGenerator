@@ -1,10 +1,13 @@
 import java.util.LinkedList;
 import java.util.Random;
+import gui.*;
+import weather.*;
+
+
 
 public class main {
 
 	LinkedList<String> listOfFiles = new LinkedList<String>();
-
 
 	public void run(String Path, String file, int startMonth){
 		rng = new Random(3118725);
@@ -44,19 +47,13 @@ public class main {
 				double average = Nation.getTemperature(currentMonth);
 				double next = Nation.getTemperature(currentMonth+1);
 				
-//				System.out.println("previous: "+previous + " average: " + average + " next: " + next);
-				
 				for(int currentDay = 1; currentDay<29;currentDay++){
 					int currentDateSum = calculator.daySeed(currentYear, currentMonth, currentDay);
 					
 					String events = calculator.generateEvents(0,0,0, Nation.getEvents(),currentMonth);
-					
-//					wind = calculator.windMod(calculator.windStrength(wind, windBonus), events);
-//					temp = calculator.tempMod(calculator.temperature(temp, average, 0), events);
-//					rain = calculator.rainMod(rain = calculator.rainfall(temp, average, wind, rain),events);	
 										
 					wind = calculator.windStrength(wind, windBonus);
-					temp = calculator.temperature(previous, average, next, currentDay, currentDateSum);
+					temp = calculator.nonRandomtemperature(previous, average, next, currentDay, currentDateSum);
 					rain = calculator.rainfall(temp, average, wind, rain);	
 					
 					if(print && currentDateSum > fromDate)	
@@ -66,8 +63,6 @@ public class main {
 					if(currentYear>startYear-1){
 						filehandler.addToFile(filehandler.printData(currentYear, currentMonth, currentDay, wind, temp, rain, events), true);
 						listOfWeather.add(new weather(currentYear,currentMonth,currentDay,temp,wind,rain,events));	
-					
-					//12*28
 					}
 					if(currentYear >= untilYear-1 && currentMonth == untilMonth && currentDay == untilDay){
 						break yearLoop;
@@ -82,7 +77,7 @@ public class main {
 	}
 
 	boolean print = true;
-	static String nation = "Ordensstaten";
+	static String nation = "Colonan";
 	Random rng;
 
 	static int startDay = 1;
