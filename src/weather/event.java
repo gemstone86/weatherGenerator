@@ -3,9 +3,9 @@ package weather;
 
 public class event {
 
-	String name;
-	int occurs;
-	int days;
+	private String name;
+	private int occurs;
+	private int days;
 	
 	public event(String name, int occurs, int days){
 		this.name = name;
