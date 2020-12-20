@@ -68,29 +68,28 @@ public class GuiApp {
 		listOfNations = filehandler.getListOfNations();
 
 		final JPanel secondPanel = new JPanel();
-		JLabel dayLabel = new JLabel("Day");
-		JLabel monthLabel = new JLabel("Month");
-		JLabel yearLabel = new JLabel("Year");
+		JLabel dayLabel = new JLabel("Dag");
+		JLabel monthLabel = new JLabel("Månad");
+		JLabel yearLabel = new JLabel("År");
 
 		final JPanel firstPanel = new JPanel();
 		JLabel area = new JLabel("Område:");
 		dropDownNations = new JComboBox(listOfNations);
-		
-		firstPanel.add(area);
-		firstPanel.add(dropDownNations);
-
-		/*lägger till själva etiketten*/
-		secondPanel.add(dayLabel);
-		/*lägger till listan med alternativ*/
 
 		//Create the second JPanel. Add a JLabel and JList and
 		//make use the JPanel is not visible.
 		final JPanel secondPagePanel = new JPanel();
+		final JPanel WeatherPanel = new JPanel();
 		secondPagePanel.setVisible(false);
 		JLabel listLbl = new JLabel("Vegetables:");
-//		JList vegs = new JList(vegOptions);
-//		vegs.setLayoutOrientation(JList.HORIZONTAL_WRAP);
 
+
+		firstPanel.add(area);
+		firstPanel.add(dropDownNations);
+
+		
+		secondPanel.add(dayLabel);
+		/*lägger till listan med alternativ*/
 		secondPagePanel.add(listLbl);
 
 		JButton nameOfPanel = new JButton( "Generate Weather");
@@ -250,23 +249,43 @@ public class GuiApp {
 		yearPanel.add(displayYear);
 		yearPanel.add(yearUp);
 
-		secondPanel.add(yearPanel, BorderLayout.NORTH);
-		secondPanel.add(weatherData, BorderLayout.SOUTH);
-//		secondPanel.add(weatherData);
+		secondPanel.add(yearPanel);
+		
+		JLabel temperatureLabel = new JLabel("Temperatur");
+		
+		JPanel windPanel = new JPanel();
+		JLabel windLabel = new JLabel("Vind");
+		TextField windTextBox = new TextField("");
+		windPanel.add(windLabel);
+		windPanel.add(windTextBox);
+		
+		
+		JLabel rainLabel = new JLabel("Regn");
+		JLabel miscLabel = new JLabel("Övrigt");
+		
+		WeatherPanel.add(temperatureLabel);
+		WeatherPanel.add(weatherData);
+		
+
 		
 		JPanel centerPanel = new JPanel();
 
 		JPanel southPanel = new JPanel();
 		JPanel southSubPanel = new JPanel();
 		
+		JPanel tempWindRain = new JPanel();
+		
 		centerPanel.add(secondPanel, BorderLayout.CENTER);
 		centerPanel.add(secondPagePanel, BorderLayout.CENTER);
-
+		
+		centerPanel.add(WeatherPanel, BorderLayout.NORTH);
+		centerPanel.add(windPanel, BorderLayout.CENTER);
+		
 		
 		guiFrame.add(firstPanel, BorderLayout.NORTH);
 		guiFrame.add(centerPanel, BorderLayout.CENTER);
 		
-		southSubPanel.add(weatherData);
+//		southSubPanel.add(weatherData);
 		southSubPanel.add(printToFile);
 
 		southPanel.add(southSubPanel);
@@ -288,12 +307,12 @@ public class GuiApp {
 	public void updateWeather(LinkedList<weather> weather, TextField data){
 		nation = listOfNations[dropDownNations.getSelectedIndex()];
 		
-		int seed = (28*12*(year)+28*(month)+(day))*(1+dropDownNations.getSelectedIndex());
-		newCalc.setSeed(seed);
+//		int seed = (28*12*(year)+28*(month)+(day))*(1+dropDownNations.getSelectedIndex());
+//		newCalc.setSeed(seed);
 		
 		nationData = filehandler.getNation(nation);
 		
-		System.out.println(nationData.getName());
+//		System.out.println(nationData.getName());
 				
 		weather test = newCalc.getWeather(year, month, day, nationData);
 		

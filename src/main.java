@@ -3,8 +3,6 @@ import java.util.Random;
 import gui.*;
 import weather.*;
 
-
-
 public class main {
 
 	LinkedList<String> listOfFiles = new LinkedList<String>();
@@ -37,42 +35,43 @@ public class main {
 		boolean run = true;
 	
 		int fromDate = startYear * 100*100 +(startMonth)*100+startDay-1;
-		
-		yearLoop:
-		for(int currentYear = 0; currentYear<untilYear;currentYear++){
-			calculator.setSeed(startYear);
-			for(int currentMonth = 1; currentMonth<13;currentMonth++){
-				
-				double previous = Nation.getTemperature(currentMonth-1); 
-				double average = Nation.getTemperature(currentMonth);
-				double next = Nation.getTemperature(currentMonth+1);
-				
-				for(int currentDay = 1; currentDay<29;currentDay++){
-					int currentDateSum = calculator.daySeed(currentYear, currentMonth, currentDay);
-					
-					String events = calculator.generateEvents(0,0,0, Nation.getEvents(),currentMonth);
-										
-					wind = calculator.windStrength(wind, windBonus);
-					temp = calculator.nonRandomtemperature(previous, average, next, currentDay, currentDateSum);
-					rain = calculator.rainfall(temp, average, wind, rain);	
-					
-					if(print && currentDateSum > fromDate)	
-						System.out.print(filehandler.printData(currentYear, currentMonth, currentDay, wind, temp, rain, events ));
-					
-					/*write data to file*/
-					if(currentYear>startYear-1){
-						filehandler.addToFile(filehandler.printData(currentYear, currentMonth, currentDay, wind, temp, rain, events), true);
-						listOfWeather.add(new weather(currentYear,currentMonth,currentDay,temp,wind,rain,events));	
-					}
-					if(currentYear >= untilYear-1 && currentMonth == untilMonth && currentDay == untilDay){
-						break yearLoop;
-					}
-				}
-			}
-		}
+//		
+//		yearLoop:
+//		for(int currentYear = 0; currentYear<untilYear;currentYear++){
+//			calculator.setSeed(startYear);
+//			for(int currentMonth = 1; currentMonth<13;currentMonth++){
+//				
+//				double previous = Nation.getTemperature(currentMonth-1); 
+//				double average = Nation.getTemperature(currentMonth);
+//				double next = Nation.getTemperature(currentMonth+1);
+//				
+//				for(int currentDay = 1; currentDay<29;currentDay++){
+//					int currentDateSum = calculator.daySeed(currentYear, currentMonth, currentDay);
+//					
+//					String events = calculator.generateEvents(0,0,0, Nation.getEvents(),currentMonth);
+//										
+//					wind = calculator.windStrength(wind, windBonus);
+//					temp = calculator.nonRandomtemperature(previous, average, next, currentDay, currentDateSum);
+//					rain = calculator.rainfall(temp, average, wind, rain);	
+//					
+//					if(print && currentDateSum > fromDate)	
+//						System.out.print(filehandler.printData(currentYear, currentMonth, currentDay, wind, temp, rain, events ));
+//					
+//					/*write data to file*/
+//					if(currentYear>startYear-1){
+//						filehandler.addToFile(filehandler.printData(currentYear, currentMonth, currentDay, wind, temp, rain, events), true);
+//						listOfWeather.add(new weather(currentYear,currentMonth,currentDay,temp,wind,rain,events));	
+//					}
+//					if(currentYear >= untilYear-1 && currentMonth == untilMonth && currentDay == untilDay){
+//						break yearLoop;
+//					}
+//				}
+//			}
+//		}
 		System.out.println("Step 4: Closing files");
 		filehandler.closeWeatherFile();
 	
+		System.out.println("Step 5: Starting gui app");
 		new GuiApp(filehandler, listOfWeather, startYear,startMonth,startDay,nation);
 	}
 

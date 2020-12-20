@@ -32,7 +32,7 @@ public class weatherCalculator {
 		
 		double temperature = nonRandomtemperature(previous, average, next, day, daySeed(year, month, day));
 		
-		System.out.println(temperature);
+//		System.out.println(temperature);
 		
 		int wind = windStrengthNR(averageWind);
 		String events = generateEvents(0,0,0, nation.getEvents(),month);
@@ -92,6 +92,16 @@ public class weatherCalculator {
 	}
 
 	/**
+	 * returns a random value, uniformly distributed, from start to end.
+	 * @param start
+	 * @param end
+	 * @return
+	 */
+	public double randomBetween(double start, double end) {
+		return ((rng.nextDouble() * (end - start)) + start);
+	}
+	
+	/**
 	 * generate temperature based on the average of the month 
 	 * and a slow change depending on the previous and next 
 	 * month average.
@@ -104,7 +114,7 @@ public class weatherCalculator {
 	 */
 	public double nonRandomtemperature(double previous, double average, double next, int day, long daySeed) {		
 		rng.setSeed(daySeed);
-		double variance = 2*rng.nextDouble() - 2*rng.nextDouble();
+		double variance = randomBetween(1,5) - randomBetween(1,5);
 		
 		if(day < 15) {
 			double previousStep = (average - previous) / 14;
@@ -218,7 +228,7 @@ public class weatherCalculator {
 			event +="Värmevåg";
 			bonusTemp = 5;
 		}
-		if(chance(1,150)){
+		if(chance(1,50)){
 			event +="Molnklart ";
 			bonusRain = -100;
 		}
