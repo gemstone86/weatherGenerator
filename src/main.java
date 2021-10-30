@@ -7,7 +7,19 @@ public class main {
 
 	LinkedList<String> listOfFiles = new LinkedList<String>();
 
-	public void run(String Path, String file, int startMonth){
+	public void run(String[] args, String Path, String file, int startMonth){
+		for(int i = 0; i<args.length; i++)
+		{
+			if(args[i] == "-path") {
+				try {
+					Path = args[i+1];
+				}
+				catch(Exception e) {
+					System.out.println("Path expected");
+				}
+			}
+		}
+		
 		rng = new Random(3118725);
 
 		weatherCalculator calculator = new weatherCalculator(rng);
@@ -94,13 +106,15 @@ public class main {
 
 	public static void main(String[] args){
 
-		if (args.length>0){
+		
+
+			if (args.length>0){
 			nation = args[0];
 		}
 		
 		main program = new main();
 
-		program.run(program.getPath(), program.getNation(), startMonth);
+		program.run(args, program.getPath(), program.getNation(), startMonth);
 	}
 
 	public String getNation(){

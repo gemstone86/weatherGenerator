@@ -307,22 +307,13 @@ public class GuiApp {
 	public void updateWeather(LinkedList<weather> weather, TextField data){
 		nation = listOfNations[dropDownNations.getSelectedIndex()];
 		
-//		int seed = (28*12*(year)+28*(month)+(day))*(1+dropDownNations.getSelectedIndex());
-//		newCalc.setSeed(seed);
-		
 		nationData = filehandler.getNation(nation);
 		
-//		System.out.println(nationData.getName());
-				
 		weather test = newCalc.getWeather(year, month, day, nationData);
-		
-		//System.out.println(nationData.getTemperature(month) + "  " + test.getTemperature());
 		
 		DecimalFormat df = new DecimalFormat("##.#");
 		
 		String text = "Temp: " + df.format(test.getTemperature())+"C" + "   Vind: "+test.getWindStrength() + "   Regn: " +test.getRain() + "   Övrigt: " + test.getOther(); 
-		
-//		System.out.println("gets the weather for year " + year);
 		
 		data.setText(text);
 	}
