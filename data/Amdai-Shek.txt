@@ -1,0 +1,13 @@
+Ordensstaten
+-20	-16	-11	-7	-3	7	14	21	12	5	-7	-15	
+0	
+0	
+2	
+Dragon
+1	1000	
+Starka vindar (+1 vindstyrka, lättmagisk pneutropi)
+1	28	
+Isande Kyla (-5C temperatur)
+1	50	
+Kryotropiskt Lågtryck (-10C temperatur)
+1	100
