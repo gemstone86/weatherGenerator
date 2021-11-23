@@ -43,7 +43,7 @@ public class weatherCalculator {
 
 	
 	public int windStrengthNR(int windBonus){
-		int strength = obd6() + windBonus -2;
+		int strength = obd6() + windBonus; //-2;
 
 		strength +=  + bonusWind();
 		
