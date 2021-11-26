@@ -111,6 +111,7 @@ public class GuiApp {
 		final TextField displayDay = new TextField(String.valueOf(day));
 
 		final TextField weatherData = new TextField("                                                 ");
+		final TextField otherEffects = new TextField("                                                 ");
 		final TextField saveToFilePath = new TextField("");
 		
 		dropDownNations.addActionListener(new ActionListener()
@@ -118,7 +119,7 @@ public class GuiApp {
 			@Override
 			public void actionPerformed(ActionEvent event)
 			{
-				updateWeather(listOfWeather, weatherData);
+				updateWeather(listOfWeather, weatherData,otherEffects);
 			}
 		}
 		);
@@ -130,7 +131,7 @@ public class GuiApp {
 			{
 				updateYear(1);
 				updateDisplays(displayYear, displayMonth, displayDay);
-				updateWeather(listOfWeather, weatherData);
+				updateWeather(listOfWeather, weatherData,otherEffects);
 			}
 		});
 
@@ -141,7 +142,7 @@ public class GuiApp {
 			{
 				updateYear(-1);
 				updateDisplays(displayYear, displayMonth, displayDay);
-				updateWeather(listOfWeather, weatherData);
+				updateWeather(listOfWeather, weatherData,otherEffects);
 			}
 		});
 
@@ -152,7 +153,7 @@ public class GuiApp {
 			{
 				updateDay(1);
 				updateDisplays(displayYear, displayMonth, displayDay);
-				updateWeather(listOfWeather, weatherData);
+				updateWeather(listOfWeather, weatherData,otherEffects);
 			}
 		});
 		dayDown.addActionListener(new ActionListener()
@@ -162,7 +163,7 @@ public class GuiApp {
 			{
 				updateDay(-1);
 				updateDisplays(displayYear, displayMonth, displayDay);
-				updateWeather(listOfWeather, weatherData);
+				updateWeather(listOfWeather, weatherData,otherEffects);
 			}
 		});
 
@@ -173,7 +174,7 @@ public class GuiApp {
 			{
 				updateMonth(1);
 				updateDisplays(displayYear, displayMonth, displayDay);
-				updateWeather(listOfWeather, weatherData);
+				updateWeather(listOfWeather, weatherData,otherEffects);
 			}
 		});
 		monthDown.addActionListener(new ActionListener()
@@ -183,7 +184,7 @@ public class GuiApp {
 			{
 				updateMonth(-1);
 				updateDisplays(displayYear, displayMonth, displayDay);
-				updateWeather(listOfWeather, weatherData);
+				updateWeather(listOfWeather, weatherData,otherEffects);
 			}
 		});
 		/**
@@ -199,7 +200,7 @@ public class GuiApp {
 				
 				updateMonth(-1);
 				updateDisplays(displayYear, displayMonth, displayDay);
-				updateWeather(listOfWeather, weatherData);
+				updateWeather(listOfWeather, weatherData, otherEffects);
 			}
 		});
 		
@@ -304,7 +305,7 @@ public class GuiApp {
 	 * @param weather
 	 * @param data
 	 */
-	public void updateWeather(LinkedList<weather> weather, TextField data){
+	public void updateWeather(LinkedList<weather> weather, TextField data, TextField other){
 		nation = listOfNations[dropDownNations.getSelectedIndex()];
 		
 		nationData = filehandler.getNation(nation);
