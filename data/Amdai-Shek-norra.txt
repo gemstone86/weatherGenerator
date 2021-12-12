@@ -1,4 +1,4 @@
-Södra Amdai-Shek
+Norra Amdai-Shek
 -25	-22	-16	-12	-7	3	9	16	12	6	1	-12	
 0	
 0	
@@ -13,3 +13,9 @@ Kryotropiskt Lågtryck (-10C temperatur)
 1	100
 Djupt Mörker (+3 Alstra Skototropi)
 1   28
+Kryotropisk Magistorm
+1	45
+Raunisk Räd
+1	60
+Verdisk Räd
+1	120

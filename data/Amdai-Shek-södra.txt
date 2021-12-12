@@ -13,3 +13,7 @@ Kryotropiskt Lågtryck (-10C temperatur)
 1	100
 Djupt Mörker (+3 Alstra Skototropi)
 1   28
+Raunisk Räd
+1	120
+Verdisk Räd
+1	60
