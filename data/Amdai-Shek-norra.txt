@@ -1,0 +1,21 @@
+Norra Amdai-Shek
+-25	-22	-16	-12	-7	3	9	16	12	6	1	-12	
+0	
+0	
+2	
+Dragon
+1	1000	
+Starka vindar (+1 vindstyrka, +3 alstra pneumotropi)
+1	28	
+Isande Kyla (-5C temperatur)
+1	50	
+Kryotropiskt Lågtryck (-10C temperatur)
+1	100
+Djupt Mörker (+3 Alstra Skototropi)
+1   28
+Kryotropisk Magistorm
+1	45
+Raunisk Räd
+1	60
+Verdisk Räd
+1	120
