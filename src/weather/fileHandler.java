@@ -29,6 +29,8 @@ public class fileHandler {
 			fr = new FileReader(readFile.getAbsoluteFile());
 			reader = new BufferedFileReaderClass(fr);
 
+//			System.out.println(Path);
+			
 			String nationName = reader.readLine();
 			for(int i = 0; i<12;i++){
 				weather[i] = reader.readNextInt();
@@ -96,7 +98,7 @@ public class fileHandler {
 	 * reads all the nation data files and then returns a list of nation objects
 	 */
 	public void initializeDataFiles(){
-		File folder = new File("data/");
+		File folder = new File(path + "data/");
 		File[] listOfFiles = folder.listFiles();
 
 		for (int i = 0; i<listOfFiles.length;i++) {

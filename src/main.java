@@ -16,12 +16,19 @@ public class main {
 				}
 				catch(Exception e) {
 					System.out.println("Path expected");
+					
 				}
 			}
 		}
 		
+		if(Path == null) {
+			Path = "H:/onedrive/autosync/Dokument/GitHub/weatherGenerator/";
+		}
+		
 		rng = new Random(3118725);
 
+		System.out.println("Step 0: Path is: " + Path);
+		
 		weatherCalculator calculator = new weatherCalculator(rng);
 
 		System.out.println("Step 1: Loading Data Files");
@@ -46,6 +53,8 @@ public class main {
 		
 		boolean run = true;
 	
+		System.out.println("path: " + Path);
+		
 		int fromDate = startYear * 100*100 +(startMonth)*100+startDay-1;
 //		
 //		yearLoop:
@@ -102,8 +111,9 @@ public class main {
 	
 	int windBonus = 0;
 
-	String Path = "GeneratedData\\weather";
-
+	//String Path = "GeneratedData\\weather";
+	String Path;
+	
 	public static void main(String[] args){
 
 		
