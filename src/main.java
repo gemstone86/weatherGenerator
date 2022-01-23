@@ -52,8 +52,6 @@ public class main {
 		filehandler.addToFile(filehandler.printHeader(), true);
 		
 		boolean run = true;
-	
-		System.out.println("path: " + Path);
 		
 		int fromDate = startYear * 100*100 +(startMonth)*100+startDay-1;
 //		
