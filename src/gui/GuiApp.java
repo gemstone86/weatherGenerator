@@ -84,8 +84,8 @@ public class GuiApp {
 		JLabel listLbl = new JLabel("Vegetables:");
 
 
-		firstPanel.add(area);
-		firstPanel.add(dropDownNations);
+//		firstPanel.add(area);
+//		firstPanel.add(dropDownNations);
 
 		
 		secondPanel.add(dayLabel);
@@ -255,10 +255,12 @@ public class GuiApp {
 		JLabel temperatureLabel = new JLabel("Temperatur");
 		
 		JPanel windPanel = new JPanel();
-		JLabel windLabel = new JLabel("Vind");
+//		JLabel windLabel = new JLabel("Vind");
 		TextField windTextBox = new TextField("");
-		windPanel.add(windLabel);
-		windPanel.add(windTextBox);
+//		windPanel.add(windLabel);
+//		windPanel.add(windTextBox);
+		windPanel.add(area);
+		windPanel.add(dropDownNations);
 		
 		
 		JLabel rainLabel = new JLabel("Regn");
@@ -312,7 +314,7 @@ public class GuiApp {
 		
 		weather test = newCalc.getWeather(year, month, day, nationData);
 		
-		DecimalFormat df = new DecimalFormat("##.#");
+		DecimalFormat df = new DecimalFormat("##");
 		
 		String text = "Temp: " + df.format(test.getTemperature())+"C" + "   Vind: "+test.getWindStrength() + "   Regn: " +test.getRain() + "   Övrigt: " + test.getOther(); 
 		

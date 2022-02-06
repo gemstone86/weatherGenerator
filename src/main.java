@@ -31,6 +31,9 @@ public class main {
 		
 		weatherCalculator calculator = new weatherCalculator(rng);
 
+//		Path = "D:\\Dropbox\\data";
+		Path = "asdasdsadasd";
+		
 		System.out.println("Step 1: Loading Data Files");
 		fileHandler filehandler = new fileHandler(Path);
 		
@@ -109,14 +112,10 @@ public class main {
 	
 	int windBonus = 0;
 
-	//String Path = "GeneratedData\\weather";
-	String Path;
-	
+	String Path = "D:\\Dropbox\\data";
+
 	public static void main(String[] args){
-
-		
-
-			if (args.length>0){
+		if (args.length>0){
 			nation = args[0];
 		}
 		

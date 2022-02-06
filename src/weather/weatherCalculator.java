@@ -116,13 +116,16 @@ public class weatherCalculator {
 		rng.setSeed(daySeed);
 		double variance = randomBetween(1,5) - randomBetween(1,5);
 		
-		if(day < 15) {
-			double previousStep = (average - previous) / 14;
+		if(day < 14) {
+			double previousStep = (average - previous) / 13;
 			return (14+day)*previousStep+average + variance;
 		}
-		else {
-			double nextStep = (next - average) / 14;
+		else if(day > 15){
+			double nextStep = (next - average) / 13;
 			return (day-14)*nextStep+average + variance;
+		}
+		else{
+			return (average + variance);
 		}
 	}
 	

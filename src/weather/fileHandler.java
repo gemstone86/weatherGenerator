@@ -21,15 +21,16 @@ public class fileHandler {
 	}
 	
 	public nationData readFile(String Path){
-		File readFile = new File(Path);
+		System.out.println("Here: " + Path);
+		File readFile = new File("D:\\Dropbox\\data\\"+Path);
 		int[] weather = new int[12];
 
+
+		
 		FileReader fr;
 		try {
 			fr = new FileReader(readFile.getAbsoluteFile());
 			reader = new BufferedFileReaderClass(fr);
-
-//			System.out.println(Path);
 			
 			String nationName = reader.readLine();
 			for(int i = 0; i<12;i++){
@@ -98,13 +99,15 @@ public class fileHandler {
 	 * reads all the nation data files and then returns a list of nation objects
 	 */
 	public void initializeDataFiles(){
-		File folder = new File(path + "data/");
+		File folder = new File("D:\\Dropbox\\data");
+
 		File[] listOfFiles = folder.listFiles();
 
 		for (int i = 0; i<listOfFiles.length;i++) {
 			if (listOfFiles[i].isFile()) {
 				System.out.println("    "+listOfFiles[i]);
-				listOfNations.add(readFile("data/"+listOfFiles[i].getName()));
+				listOfNations.add(readFile(listOfFiles[i].getName()));
+				System.out.println(readFile(listOfFiles[i].getName()));
 			}
 		}
 	}
