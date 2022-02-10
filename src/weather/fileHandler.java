@@ -9,24 +9,24 @@ import java.text.DecimalFormat;
 import java.util.LinkedList;
 
 public class fileHandler {
-	String path;
+	String basePath;
 
 	BufferedFileReaderClass reader;
 	BufferedWriter bufferedWriter;
 	LinkedList<nationData> listOfNations = new LinkedList<nationData>();
 	
 	public fileHandler(String Path){
-		this.path = Path;
+		this.basePath = Path;
+		System.out.println("Here: " + basePath);
 		initializeDataFiles();
+		
 	}
 	
 	public nationData readFile(String Path){
-		System.out.println("Here: " + Path);
-		File readFile = new File("D:\\Dropbox\\data\\"+Path);
+//		System.out.println("Here: " + Path);
+		File readFile = new File(basePath+"/src/data/"+Path);
 		int[] weather = new int[12];
 
-
-		
 		FileReader fr;
 		try {
 			fr = new FileReader(readFile.getAbsoluteFile());
@@ -99,7 +99,9 @@ public class fileHandler {
 	 * reads all the nation data files and then returns a list of nation objects
 	 */
 	public void initializeDataFiles(){
-		File folder = new File("D:\\Dropbox\\data");
+//		System.out.println(basePath + "src/data");
+		String Folderpath = basePath + "src/data";
+		File folder = new File(Folderpath);
 
 		File[] listOfFiles = folder.listFiles();
 
@@ -107,7 +109,7 @@ public class fileHandler {
 			if (listOfFiles[i].isFile()) {
 				System.out.println("    "+listOfFiles[i]);
 				listOfNations.add(readFile(listOfFiles[i].getName()));
-				System.out.println(readFile(listOfFiles[i].getName()));
+//				System.out.println(readFile(listOfFiles[i].getName()));
 			}
 		}
 	}
@@ -120,7 +122,7 @@ public class fileHandler {
 	 */
 	public void createWeatherFile(String name, int from, int to){
 		try {
-			File file = new File(path + " " +name + " ("+from+" to "+(to-1)+").txt");
+			File file = new File(basePath + " " +name + " ("+from+" to "+(to-1)+").txt");
 
 			// if file doesnt exists, then create it
 			if (!file.exists()) {
@@ -135,7 +137,7 @@ public class fileHandler {
 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			System.out.println("Couldn't create weather file at "+path);
+			System.out.println("Couldn't create weather file at "+basePath);
 			e.printStackTrace();
 		}
 	}

@@ -7,11 +7,14 @@ public class main {
 
 	LinkedList<String> listOfFiles = new LinkedList<String>();
 
+	String Path = "H:\\onedrive\\autosync\\Dokument\\GitHub\\weatherGenerator\\";
+	
 	public void run(String[] args, String Path, String file, int startMonth){
 		for(int i = 0; i<args.length; i++)
 		{
 			if(args[i] == "-path") {
 				try {
+					System.out.println("Path set to:" + args[i+1]);
 					Path = args[i+1];
 				}
 				catch(Exception e) {
@@ -22,17 +25,17 @@ public class main {
 		}
 		
 		if(Path == null) {
-			Path = "H:/onedrive/autosync/Dokument/GitHub/weatherGenerator/";
+			Path = "C:\\Users\\Gemst\\eclipse-workspace\\weatherGenerator\\";
 		}
 		
 		rng = new Random(3118725);
 
-		System.out.println("Step 0: Path is: " + Path);
+		System.out.println("Step 0: Path is \"" + Path+"\"");
 		
 		weatherCalculator calculator = new weatherCalculator(rng);
 
 //		Path = "D:\\Dropbox\\data";
-		Path = "asdasdsadasd";
+//	Path = "asdasdsadasd";
 		
 		System.out.println("Step 1: Loading Data Files");
 		fileHandler filehandler = new fileHandler(Path);
@@ -112,7 +115,7 @@ public class main {
 	
 	int windBonus = 0;
 
-	String Path = "D:\\Dropbox\\data";
+	
 
 	public static void main(String[] args){
 		if (args.length>0){
