@@ -104,7 +104,7 @@ public class fileHandler {
 	 */
 	public void initializeDataFiles(){
 //		System.out.println(basePath + "src/data");
-		String Folderpath = basePath + "src/data";
+		String Folderpath = basePath + "/src/data";
 		File folder = new File(Folderpath);
 
 		File[] listOfFiles = folder.listFiles();

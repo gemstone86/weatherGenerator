@@ -202,6 +202,13 @@ public class weatherCalculator {
 	int bonusRain = 0;
 	int bonusTemp = 0;
 	
+	/*
+	 * TODO: fixa så det finns ett bra sätt att generera magistormar
+	 */
+	private String magistorm() {
+		return "";
+	}
+	
 	public String generateEvents(int magistorm, int thunder, int dimma, LinkedList<event> events, int month){
 		String event = "";
 		
@@ -241,6 +248,9 @@ public class weatherCalculator {
 		}
 		if(chance(1,150)){
 			event +="Hagel ";
+		}
+		if(chance(1,300)) {
+			event +="Komet ";
 		}
 		
 		for(int i = 0; i<events.size();i++){

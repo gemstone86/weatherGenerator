@@ -1,3 +1,4 @@
+import java.nio.file.Paths;
 import java.util.LinkedList;
 import java.util.Random;
 import gui.*;
@@ -7,7 +8,7 @@ public class main {
 
 	LinkedList<String> listOfFiles = new LinkedList<String>();
 
-	String Path = "C:\\Users\\Gemst\\OneDrive\\autosync\\Dokument\\GitHub\\weatherGenerator\\";
+	String Path = Paths.get("").toAbsolutePath().toString();
 	
 	public void run(String[] args, String Path, String file, int startMonth){
 		for(int i = 0; i<args.length; i++)
@@ -22,10 +23,6 @@ public class main {
 					
 				}
 			}
-		}
-		
-		if(Path == null) {
-			Path = "C:\\Users\\Gemst\\OneDrive\\autosync\\Dokument\\GitHub\\weatherGenerator\\";
 		}
 		
 		rng = new Random(3118725);
