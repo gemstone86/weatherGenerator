@@ -6,7 +6,7 @@ Ordensstaten
 2	
 Dragon
 1	1000	
-Starka vindar (+1 vindstyrka, l�ttmagisk pneutropi)
+Starka vindar (+1 vindstyrka, Högmagisk Pneutropi)
 1	28	
-V�derfenomen
+Väderfenomen
 1	50	

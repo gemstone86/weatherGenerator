@@ -1,4 +1,4 @@
-Norra Asharien
+Asharien (Norra)
 -5	-1	4	8	12	16	20	16	12	8	4	-1	
 0	0	0	0	0	0	0	0	0	0	0	0	
 0	
