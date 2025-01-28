@@ -6,3 +6,5 @@
 \bin
 /bin/gui/*.*
 /bin
+/.settings/
+/.recommendations/
