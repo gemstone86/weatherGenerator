@@ -58,7 +58,7 @@ public class GuiApp {
 
 		//make sure the program exits when the frame closes
 		guiFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		guiFrame.setTitle("Eon Vädergenerator");
+		guiFrame.setTitle("Eon Vï¿½dergenerator");
 		guiFrame.setSize(550,350);
 
 		//This will center the JFrame in the middle of the screen
@@ -69,11 +69,11 @@ public class GuiApp {
 
 		final JPanel secondPanel = new JPanel();
 		JLabel dayLabel = new JLabel("Dag");
-		JLabel monthLabel = new JLabel("Månad");
-		JLabel yearLabel = new JLabel("År");
+		JLabel monthLabel = new JLabel("MÃ¥nad");
+		JLabel yearLabel = new JLabel("Ã…r");
 
 		final JPanel firstPanel = new JPanel();
-		JLabel area = new JLabel("Område:");
+		JLabel area = new JLabel("OmrÃ¥de:");
 		dropDownNations = new JComboBox(listOfNations);
 
 		//Create the second JPanel. Add a JLabel and JList and
@@ -89,7 +89,7 @@ public class GuiApp {
 
 		
 		secondPanel.add(dayLabel);
-		/*lägger till listan med alternativ*/
+		/*lï¿½gger till listan med alternativ*/
 		secondPagePanel.add(listLbl);
 
 		JButton nameOfPanel = new JButton( "Generate Weather");
@@ -264,7 +264,7 @@ public class GuiApp {
 		
 		
 		JLabel rainLabel = new JLabel("Regn");
-		JLabel miscLabel = new JLabel("Övrigt");
+		JLabel miscLabel = new JLabel("Ã–vrigt");
 		
 		WeatherPanel.add(temperatureLabel);
 		WeatherPanel.add(weatherData);
@@ -316,7 +316,7 @@ public class GuiApp {
 		
 		DecimalFormat df = new DecimalFormat("##");
 		
-		String text = "Temp: " + df.format(test.getTemperature())+"C" + "   Vind: "+test.getWindStrength() + "   Regn: " +test.getRain() + "   Övrigt: " + test.getOther(); 
+		String text = "Temp: " + df.format(test.getTemperature())+"C" + "   Vind: "+test.getWindStrength() + "   Regn: " +test.getRain() + "   Ã–vrigt: " + test.getOther(); 
 		
 		data.setText(text);
 	}

@@ -29,6 +29,7 @@ public class weatherCalculator {
 		int average = nation.getTemperature(month);
 		int next = nation.getTemperature(month+1);
 		int averageWind = nation.getWind();
+		int rain = nation.getRain(month);
 		
 		double temperature = nonRandomtemperature(previous, average, next, day, daySeed(year, month, day));
 		
@@ -37,7 +38,7 @@ public class weatherCalculator {
 		int wind = windStrengthNR(averageWind);
 		String events = generateEvents(0,0,0, nation.getEvents(),month);
 		
-		return new weather(year, month, day,temperature,wind,rainfall(temperature, average, wind, 0),events);
+		return new weather(year, month, day,temperature,wind,rainfall(temperature, average, wind, rain),events);
 	}
 	
 
@@ -165,7 +166,7 @@ public class weatherCalculator {
 		int bonus = 0;
 		
 		if(rain > 0){
-			bonus += rain/2+1;
+			bonus += rain;
 		}
 		
 		if(wind > 5){
@@ -173,10 +174,10 @@ public class weatherCalculator {
 		}
 		
 		if(temperature < average){
-			bonus++;
+			bonus = bonus+1;
 		}
 		
-		int die = obd6() + bonus +bonusRain();;
+		int die = obd6() + obd6()+ bonus +bonusRain() - obd6();
 		
 		if(die < limit){
 			return 0;
@@ -209,11 +210,11 @@ public class weatherCalculator {
 		}
 		
 		if(chance(1+thunder,28)){
-			event += "Åska ";
+			event += "Ã…ska ";
 		}
 		
 		if(chance(1+dimma,28*2)){
-			event +="Lätt Dimma ";
+			event +="LÃ¤tt Dimma ";
 			bonusWind = -4;
 			bonusTemp = -2;
 		}
@@ -224,11 +225,11 @@ public class weatherCalculator {
 		}
 		
 		if((month>9 || month<3) && chance(1,200)){
-			event += "Köldknäpp";
+			event += "KÃ¶ldknÃ¤pp";
 			bonusTemp = -5;
 		}
 		if((month>3 || month<9) && chance(1,200)){
-			event +="Värmevåg";
+			event +="VÃ¤rmevÃ¥g";
 			bonusTemp = 5;
 		}
 		if(chance(1,50)){
@@ -236,14 +237,14 @@ public class weatherCalculator {
 			bonusRain = -100;
 		}
 		if(chance(1,300)){
-			event +="Stjärnfall ";
+			event +="StjÃ¤rnfall ";
 		}
 		if(chance(1,150)){
 			event +="Hagel ";
 		}
 		
 		for(int i = 0; i<events.size();i++){
-			/*lägg till så den kollar alla events*/
+			/*lï¿½gg till sï¿½ den kollar alla events*/
 			event temp = events.get(i);
 			if(chance(1+temp.getOccurs(),temp.getDays())){
 				event += temp.getName()+" ";

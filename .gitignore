@@ -2,3 +2,6 @@
 *.txt
 \bin\*.*
 /.metadata/
+*\.class
+\bin
+/bin/gui/*.*

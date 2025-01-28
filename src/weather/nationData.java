@@ -6,6 +6,7 @@ public class nationData {
 
 	private String nationName;
 	private int[] temperature = new int[12];
+	private int[] rainfall = new int[12];
 	private int shift;
 	private int wind;
 	private String specialEvent;
@@ -14,12 +15,13 @@ public class nationData {
 	
 	private LinkedList<event> listOfEvents = new LinkedList<event>();
 	
-	public nationData(String nationName, int[] temperature, int shift, int wind, LinkedList<event> events){
+	public nationData(String nationName, int[] temperature, int[] rainfall, int shift, int wind, LinkedList<event> events){
 		this.nationName = nationName;
 		this.temperature = temperature;
 		this.shift = shift;
 		this.wind = wind;
 		listOfEvents = events;
+		this.rainfall=rainfall;
 	}
 	
 	public String getName(){
@@ -30,7 +32,7 @@ public class nationData {
 			return temperature[11];
 		}
 		if(month == 13) {
-			return temperature[1];
+			return temperature[0];
 		}
 		return temperature[month-1];
 	}
@@ -59,5 +61,17 @@ public class nationData {
 	public LinkedList<event> getEvents(){
 		return listOfEvents;
 	}
-	
+
+	int getRain(int month) {
+		// TODO Auto-generated method stub
+		if(month == 0) {
+			return rainfall[11];
+		};
+		if(month == 12) {
+			return rainfall[0];
+		}
+		else {
+			return rainfall[month];
+		}
+	}
 }

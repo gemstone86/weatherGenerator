@@ -26,6 +26,7 @@ public class fileHandler {
 //		System.out.println("Here: " + Path);
 		File readFile = new File(basePath+"/src/data/"+Path);
 		int[] weather = new int[12];
+		int[] rainfall = new int[12];
 
 		FileReader fr;
 		try {
@@ -35,6 +36,9 @@ public class fileHandler {
 			String nationName = reader.readLine();
 			for(int i = 0; i<12;i++){
 				weather[i] = reader.readNextInt();
+			}
+			for(int i = 0; i<12;i++) {
+				rainfall[i] = reader.readNextInt();
 			}
 			reader.skip(2);
 			
@@ -56,7 +60,7 @@ public class fileHandler {
 				events.add(new event(specialEvent, occurs, days));
 			}
 
-			return new nationData(nationName, weather, shift, wind, events);	
+			return new nationData(nationName, weather, rainfall, shift, wind, events);	
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			System.out.println("Couldn't read Nation file");

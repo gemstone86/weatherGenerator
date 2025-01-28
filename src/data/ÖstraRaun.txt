@@ -1,7 +1,8 @@
-Östra Raunslätterna
--18	-14	-7	-3	2	7	14	22	17	10	-3	-9		
+Ã–stra RaunslÃ¤tterna
+-18	-14	-7	-3	2	7	14	22	17	10	-3	-9	
+0	0	0	0	0	0	0	0	0	2	2	0	
 0	
 0	
 1	
-Svår Åska
+SvÃ¥r Ã¥ska
 1	250	
