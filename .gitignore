@@ -1,11 +1,6 @@
-**\.class
-*.txt
-\bin\*.*
-/.metadata/
-*\.class
-\bin
-/bin/gui/*.*
-/bin
-/.settings/
-/.recommendations/
-/GeneratedData/
+*.class
+bin
+.metadata
+.settings
+.recommendations
+GeneratedData

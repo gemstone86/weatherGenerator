@@ -12,9 +12,17 @@ To use the program, simply start it and move to the date you want to generate th
 
 # Datafiles
 The Datafiles are built in the following manner:
-(temperature) jan feb mar apr may jun jul aug sep okt nov dec
-(precipation) jan feb mar apr may jun jul aug sep okt nov dec
-(shift)
-(wind)
-(# of events)
-(any additional events)
+
+(Area name)
+
+(temperature)jan;feb;mar;apr;may;jun;jul;aug;sep;okt;nov;dec;
+
+(precipation)jan;feb;mar;apr;may;jun;jul;aug;sep;okt;nov;dec;
+
+(shift - unused variable for now)
+
+(wind bonus - value to increase wind)
+
+(event name)
+
+(# times per);(x days)

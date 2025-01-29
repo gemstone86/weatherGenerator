@@ -1,0 +1,13 @@
+Forion (Västra)
+32;29;27;26;24;23;20;21;23;25;26;27;
+0;0;3;3;0;0;0;0;3;3;0;0;
+0;
+0;
+Dragon
+1;1000;
+Värmebölja (+10C)
+1;250;
+Varma Vindar (Högmagisk Termotropi)
+1;100;
+Monsunregn
+1;200;
