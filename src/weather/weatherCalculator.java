@@ -5,11 +5,22 @@ import java.util.Random;
 
 public class weatherCalculator {
 	Random rng;
+	int bonusWind = 0;
+	int bonusRain = 0;
+	int bonusTemp = 0;
 
 	public weatherCalculator(Random rng){
 		this.rng = rng;
 	}
 
+	public void setSeed(int n){
+		rng.setSeed(n);
+	}
+
+	/**
+	 * recursive d6 function that randomizes according to the OB-rules
+	 * @return a random value betweeen 1 and infinity
+	 */
 	public int obd6(){
 		int die = rng.nextInt(6)+1;
 
@@ -20,27 +31,14 @@ public class weatherCalculator {
 		return die;
 	}
 
+	/*
+	 * calculate the seed for the date
+	 */
 	public int daySeed(int year, int month, int day) {
 		return year*100*100+month*100+day;
 	}
 	
-	public weather getWeather(int year, int month, int day, nationData nation){
-		int previous = nation.getTemperature(month-1);
-		int average = nation.getTemperature(month);
-		int next = nation.getTemperature(month+1);
-		int averageWind = nation.getWind();
-		int rain = nation.getRain(month);
-		
-		double temperature = nonRandomtemperature(previous, average, next, day, daySeed(year, month, day));
-		
-//		System.out.println(temperature);
-		
-		int wind = windStrengthNR(averageWind);
-		String events = generateEvents(0,0,0, nation.getEvents(),month);
-		
-		return new weather(year, month, day,temperature,wind,rainfall(temperature, average, wind, rain),events);
-	}
-	
+
 	public int windStrengthNR(int windBonus){
 		int strength = obd6() + windBonus; //-2;
 
@@ -86,10 +84,6 @@ public class weatherCalculator {
 		return tmp;
 	}
 
-	public void setSeed(int n){
-		rng.setSeed(n);
-	}
-
 	/**
 	 * returns a random value, uniformly distributed, from start to end.
 	 * @param start
@@ -111,7 +105,7 @@ public class weatherCalculator {
 	 * @param daySeed
 	 * @return
 	 */
-	public double nonRandomtemperature(double previous_average, double current_average, double next_average, int day, long daySeed) {		
+	public double getProceduralTemperature(double previous_average, double current_average, double next_average, int day, long daySeed) {		
 		//Set the seed for the day
 		rng.setSeed(daySeed);
 		
@@ -127,29 +121,6 @@ public class weatherCalculator {
 			return (day-14)*nextStep+current_average + variance;
 		}
 	}
-	
-//	public int temperature(int previous, int average, int next, int shift){
-//
-//		//add in the seed based on the date of the day, to force the generation
-//		//of the same value every time.
-//		
-//			int die = rng.nextInt(5) - rng.nextInt(5);
-//
-//		if(previous < average){
-//			die += 1;
-//		}
-//		else if(previous > average){
-//			die -= 1;
-//		}
-//
-//		return die + shift + previous + bonusTemp();
-//	}
-	
-//	private int bonusTemp(){
-//		int tmp = bonusTemp;
-//		bonusTemp = 0;
-//		return tmp;
-//	}
 	
 	/**
 	 * generate the rainfall of this day
@@ -191,10 +162,6 @@ public class weatherCalculator {
 		}
 		return false;
 	}
-	
-	int bonusWind = 0;
-	int bonusRain = 0;
-	int bonusTemp = 0;
 	
 	/*
 	 * TODO: fixa så det finns ett bra sätt att generera magistormar
@@ -255,5 +222,30 @@ public class weatherCalculator {
 			}
 		}		
 		return event;
+	}
+
+	/**
+	 * This is the main function of this class. It generates the weather for a specific day and returns it.
+	 * @param year
+	 * @param month
+	 * @param day
+	 * @param nation
+	 * @return
+	 */
+	public weather getWeather(int year, int month, int day, nationData nation){
+		int previous = nation.getTemperature(month-1);
+		int average = nation.getTemperature(month);
+		int next = nation.getTemperature(month+1);
+		int averageWind = nation.getWind();
+		int rain = nation.getRain(month);
+		
+		double temperature = getProceduralTemperature(previous, average, next, day, daySeed(year, month, day));
+		
+//		System.out.println(temperature);
+		
+		int wind = windStrengthNR(averageWind);
+		String events = generateEvents(0,0,0, nation.getEvents(),month);
+		
+		return new weather(year, month, day,temperature,wind,rainfall(temperature, average, wind, rain),events);
 	}
 }
