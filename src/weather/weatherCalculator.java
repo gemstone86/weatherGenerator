@@ -41,8 +41,6 @@ public class weatherCalculator {
 		return new weather(year, month, day,temperature,wind,rainfall(temperature, average, wind, rain),events);
 	}
 	
-
-	
 	public int windStrengthNR(int windBonus){
 		int strength = obd6() + windBonus; //-2;
 
@@ -106,27 +104,27 @@ public class weatherCalculator {
 	 * generate temperature based on the average of the month 
 	 * and a slow change depending on the previous and next 
 	 * month average.
-	 * @param previous
-	 * @param average
-	 * @param next
+	 * @param previous_average
+	 * @param current_average
+	 * @param next_average
 	 * @param day
 	 * @param daySeed
 	 * @return
 	 */
-	public double nonRandomtemperature(double previous, double average, double next, int day, long daySeed) {		
+	public double nonRandomtemperature(double previous_average, double current_average, double next_average, int day, long daySeed) {		
+		//Set the seed for the day
 		rng.setSeed(daySeed);
-		double variance = randomBetween(1,5) - randomBetween(1,5);
 		
-		if(day < 14) {
-			double previousStep = (average - previous) / 13;
-			return (14+day)*previousStep+average + variance;
-		}
-		else if(day > 15){
-			double nextStep = (next - average) / 13;
-			return (day-14)*nextStep+average + variance;
+		//alter by 1d6-1 in both directions
+		double variance = randomBetween(0,5) - randomBetween(0,5);
+		
+		if(day < 15) {
+			double previousStep = (current_average - previous_average) / 28;
+			return (14+day)*previousStep+previous_average + variance;
 		}
 		else{
-			return (average + variance);
+			double nextStep = (next_average - current_average) / 28;
+			return (day-14)*nextStep+current_average + variance;
 		}
 	}
 	
@@ -173,11 +171,7 @@ public class weatherCalculator {
 			bonus += wind/2;
 		}
 		
-		if(temperature < average){
-			bonus = bonus+1;
-		}
-		
-		int die = obd6() + obd6()+ bonus +bonusRain() - obd6();
+		int die = obd6() + bonus +bonusRain();
 		
 		if(die < limit){
 			return 0;
@@ -254,7 +248,7 @@ public class weatherCalculator {
 		}
 		
 		for(int i = 0; i<events.size();i++){
-			/*l�gg till s� den kollar alla events*/
+			/*lägg till så den kollar alla events*/
 			event temp = events.get(i);
 			if(chance(1+temp.getOccurs(),temp.getDays())){
 				event += temp.getName()+" ";

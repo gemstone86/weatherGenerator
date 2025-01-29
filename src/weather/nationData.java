@@ -29,11 +29,14 @@ public class nationData {
 	}
 	public int getTemperature(int month){
 		if(month == 0) {
+			//System.out.println(temperature[11]);
 			return temperature[11];
 		}
 		if(month == 13) {
+			//System.out.println(temperature[0]);
 			return temperature[0];
 		}
+		//System.out.println(temperature[month-1]);
 		return temperature[month-1];
 	}
 	

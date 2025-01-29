@@ -1,12 +1,11 @@
 Asharien (Sunari)
-1	4	7	11	16	21	22	23	20	14	9	4	
-0	0	0	0	0	0	0	0	0	1	1	1	
-0	
-0	
-1	
+1;4;7;11;16;21;22;23;20;14;9;4;
+0;0;0;0;0;0;0;0;0;1;1;1;
+0;
+0;
 Dragon
-1	1000
-Skugglandsr�d
-1	250
-Stor Skugglandsr�d
-1	500
+1;1000;
+Skugglandsräd
+1;250;
+Stor Skugglandsräd
+1;500;

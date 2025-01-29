@@ -1,36 +1,35 @@
 Amdai-Shek (Södra)
--22	-18	-13	-9	-5	5	12	19	10	3	-9	-17	
-0	0	0	0	0	0	0	0	0	1	1	1	
-0	
-0	
-2	
+-22;-18;-13;-9;-5;5;12;19;10;3;-9;-17;
+0;0;0;0;0;0;0;0;0;1;1;1;
+0;
+0;
 Dragon
-1	1000	
+1;1000;
 Starka vindar (+1 vindstyrka, +3 alstra pneumotropi)
-1	28	
+1;28;
 Isande Kyla (-5C temperatur)
-1	50	
+1;50;
 Kryotropiskt Lågtryck (-10C temperatur)
-1	100
+1;100; 
 Djupt Mörker (+3 Alstra Skototropi)
-1   28
+1;28;
 Raunisk Räd
-1	120
+1;120;
 Verdisk Räd
-1	60
+1;60;
 Kryotropisk Magistorm (Styrka 5)
-1	100
+1;100;
 Kryotropisk Magistorm (Styrka 10)
-1	200
+1;200;
 Kryotropisk Magistorm (Styrka 15)
-1	300
+1;300;
 Kryotropisk Magistorm (Styrka 20)
-1	400
+1;400;
 Fototropisk Magistorm (Styrka 5)
-1	100
+1;100;
 Fototropisk Magistorm (Styrka 10)
-1	200
+1;200;
 Fototropisk Magistorm (Styrka 15)
-1	300
+1;300;
 Fototropisk Magistorm (Styrka 20)
-1	400
+1;400;

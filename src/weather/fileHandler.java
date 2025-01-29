@@ -33,31 +33,49 @@ public class fileHandler {
 			fr = new FileReader(readFile.getAbsoluteFile());
 			reader = new BufferedFileReaderClass(fr);
 			
+			
+			//Fetch Nation Name
 			String nationName = reader.readLine();
+			
+			//Fetch average temperature per month
+			System.out.println("väder: ");
 			for(int i = 0; i<12;i++){
 				weather[i] = reader.readNextInt();
+				System.out.print(weather[i]+";");
 			}
+			System.out.println();
+
+			//fetch precipation value
 			for(int i = 0; i<12;i++) {
 				rainfall[i] = reader.readNextInt();
 			}
-			reader.skip(2);
 			
+			//Fetch shift values
 			int shift = reader.readNextInt();
-			int wind = reader.readNextInt();
-			reader.skip(1);
-
-			int numberOfEvents = reader.readNextInt();
-			reader.skip(2);
 			
+			//Fetch wind value
+			int wind = reader.readNextInt();
+			
+			
+			System.out.println("Shift and wind:" +shift + "/" + wind);
+
 			LinkedList<event> events = new LinkedList<event>();
-
-			for(int i = 0; i<numberOfEvents;i++){
+			reader.skip(2);
+			while(true){
 				String specialEvent = reader.readLine();
-				int occurs = reader.readNextInt();
-				int days = reader.readNextInt();
-				reader.skip(2);
+				if(specialEvent == null) {
+					break;
+				}
+				else{
+					//System.out.println("\tEvent Name: " + specialEvent);
+					int occurs = reader.readNextInt();
+					//System.out.println("\tOccurs: " + occurs);
+					int days = reader.readNextInt();
+					//System.out.println("\tDays: " + days);
+					reader.skip(2);
 
-				events.add(new event(specialEvent, occurs, days));
+					events.add(new event(specialEvent, occurs, days));
+				}
 			}
 
 			return new nationData(nationName, weather, rainfall, shift, wind, events);	

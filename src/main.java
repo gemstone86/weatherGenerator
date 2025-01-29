@@ -30,9 +30,6 @@ public class main {
 		System.out.println("Step 0: Path is \"" + Path+"\"");
 		
 		weatherCalculator calculator = new weatherCalculator(rng);
-
-//		Path = "D:\\Dropbox\\data";
-//	Path = "asdasdsadasd";
 		
 		System.out.println("Step 1: Loading Data Files");
 		fileHandler filehandler = new fileHandler(Path);
@@ -54,42 +51,10 @@ public class main {
 		/*write header to file*/
 		filehandler.addToFile(filehandler.printHeader(), true);
 		
-		boolean run = true;
+		//boolean run = true;
 		
-		int fromDate = startYear * 100*100 +(startMonth)*100+startDay-1;
-//		
-//		yearLoop:
-//		for(int currentYear = 0; currentYear<untilYear;currentYear++){
-//			calculator.setSeed(startYear);
-//			for(int currentMonth = 1; currentMonth<13;currentMonth++){
-//				
-//				double previous = Nation.getTemperature(currentMonth-1); 
-//				double average = Nation.getTemperature(currentMonth);
-//				double next = Nation.getTemperature(currentMonth+1);
-//				
-//				for(int currentDay = 1; currentDay<29;currentDay++){
-//					int currentDateSum = calculator.daySeed(currentYear, currentMonth, currentDay);
-//					
-//					String events = calculator.generateEvents(0,0,0, Nation.getEvents(),currentMonth);
-//										
-//					wind = calculator.windStrength(wind, windBonus);
-//					temp = calculator.nonRandomtemperature(previous, average, next, currentDay, currentDateSum);
-//					rain = calculator.rainfall(temp, average, wind, rain);	
-//					
-//					if(print && currentDateSum > fromDate)	
-//						System.out.print(filehandler.printData(currentYear, currentMonth, currentDay, wind, temp, rain, events ));
-//					
-//					/*write data to file*/
-//					if(currentYear>startYear-1){
-//						filehandler.addToFile(filehandler.printData(currentYear, currentMonth, currentDay, wind, temp, rain, events), true);
-//						listOfWeather.add(new weather(currentYear,currentMonth,currentDay,temp,wind,rain,events));	
-//					}
-//					if(currentYear >= untilYear-1 && currentMonth == untilMonth && currentDay == untilDay){
-//						break yearLoop;
-//					}
-//				}
-//			}
-//		}
+		//int fromDate = startYear * 100*100 +(startMonth)*100+startDay-1;
+
 		System.out.println("Step 4: Closing files");
 		filehandler.closeWeatherFile();
 	
@@ -111,8 +76,6 @@ public class main {
 	
 	
 	int windBonus = 0;
-
-	
 
 	public static void main(String[] args){
 		if (args.length>0){

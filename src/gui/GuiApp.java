@@ -58,8 +58,8 @@ public class GuiApp {
 
 		//make sure the program exits when the frame closes
 		guiFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		guiFrame.setTitle("Eon V�dergenerator");
-		guiFrame.setSize(550,350);
+		guiFrame.setTitle("Eon Weather Generator");
+		guiFrame.setSize(750,350);
 
 		//This will center the JFrame in the middle of the screen
 		guiFrame.setLocationRelativeTo(null);
@@ -81,6 +81,7 @@ public class GuiApp {
 		final JPanel secondPagePanel = new JPanel();
 		final JPanel WeatherPanel = new JPanel();
 		secondPagePanel.setVisible(false);
+		final JPanel subWeatherPanel = new JPanel();
 		JLabel listLbl = new JLabel("Vegetables:");
 
 
@@ -110,7 +111,7 @@ public class GuiApp {
 		final TextField displayMonth = new TextField(String.valueOf(month));
 		final TextField displayDay = new TextField(String.valueOf(day));
 
-		final TextField weatherData = new TextField("                                                 ");
+		final TextField weatherData = new TextField("                          ");
 		final TextField otherEffects = new TextField("                                                 ");
 		final TextField saveToFilePath = new TextField("");
 		
@@ -252,7 +253,7 @@ public class GuiApp {
 
 		secondPanel.add(yearPanel);
 		
-		JLabel temperatureLabel = new JLabel("Temperatur");
+		JLabel temperatureLabel = new JLabel("Weather");
 		
 		JPanel windPanel = new JPanel();
 //		JLabel windLabel = new JLabel("Vind");
@@ -260,14 +261,16 @@ public class GuiApp {
 //		windPanel.add(windLabel);
 //		windPanel.add(windTextBox);
 		windPanel.add(area);
-		windPanel.add(dropDownNations);
+		windPanel.add(dropDownNations, BorderLayout.CENTER);
 		
 		
 		JLabel rainLabel = new JLabel("Regn");
 		JLabel miscLabel = new JLabel("Övrigt");
 		
-		WeatherPanel.add(temperatureLabel);
-		WeatherPanel.add(weatherData);
+		WeatherPanel.add(subWeatherPanel);
+		subWeatherPanel.add(temperatureLabel, BorderLayout.WEST);
+		subWeatherPanel.add(weatherData, BorderLayout.EAST);
+		subWeatherPanel.add(otherEffects, BorderLayout.SOUTH);
 		
 
 		
@@ -283,8 +286,7 @@ public class GuiApp {
 		
 		centerPanel.add(WeatherPanel, BorderLayout.NORTH);
 		centerPanel.add(windPanel, BorderLayout.CENTER);
-		
-		
+				
 		guiFrame.add(firstPanel, BorderLayout.NORTH);
 		guiFrame.add(centerPanel, BorderLayout.CENTER);
 		
@@ -316,9 +318,10 @@ public class GuiApp {
 		
 		DecimalFormat df = new DecimalFormat("##");
 		
-		String text = "Temp: " + df.format(test.getTemperature())+"C" + "   Vind: "+test.getWindStrength() + "   Regn: " +test.getRain() + "   Övrigt: " + test.getOther(); 
+		String text = "Temp: " + df.format(test.getTemperature())+"C" + "   Vind: "+test.getWindStrength() + "   Regn: " +test.getRain(); 
 		
 		data.setText(text);
+		other.setText(test.getOther());
 	}
 
 	public void updateDay(int in){
