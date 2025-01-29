@@ -111,7 +111,11 @@ public class GuiApp {
 		final TextField displayMonth = new TextField(String.valueOf(month));
 		final TextField displayDay = new TextField(String.valueOf(day));
 
+		//the value of the text field is initailized to determine the length of the field in the gui
 		final TextField weatherData = new TextField("                          ");
+
+		//the value of the text field is initailized to determine the length of the field in the gui
+		
 		final TextField otherEffects = new TextField("                                                 ");
 		final TextField saveToFilePath = new TextField("");
 		
