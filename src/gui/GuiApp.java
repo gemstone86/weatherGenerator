@@ -72,15 +72,14 @@ public class GuiApp {
 		final JPanel WeatherPanel = new JPanel();
 		secondPagePanel.setVisible(false);
 		final JPanel subWeatherPanel = new JPanel();
+		final JPanel subWeatherPanel2 = new JPanel();
 
 		JLabel listLbl = new JLabel("Vegetables:");
 
 //		firstPanel.add(area);
 //		firstPanel.add(dropDownNations);
 
-		
-		
-		/*l�gger till listan med alternativ*/
+		/*lägger till listan med alternativ*/
 		secondPagePanel.add(listLbl);
 
 		JButton nameOfPanel = new JButton( "Generate Weather");
@@ -93,7 +92,6 @@ public class GuiApp {
 		JButton monthDown = new JButton("-");
 		JButton printToFile = new JButton("Print to file");
 		
-//		year = 2964;
 		year = start_year;
 		month = start_month;
 		day = start_day;
@@ -237,7 +235,7 @@ public class GuiApp {
 		 * MONTH
 		 */
 		JLabel monthLabel = new JLabel("Month");
-		 JPanel monthPanel = new JPanel();
+		JPanel monthPanel = new JPanel();
 		monthPanel.add(monthLabel);
 		monthPanel.add(monthDown);
 		monthPanel.add(displayMonth);
@@ -260,27 +258,21 @@ public class GuiApp {
 
 		JLabel temperatureLabel = new JLabel("Weather");
 	
-		JPanel windPanel = new JPanel();
-//		JLabel windLabel = new JLabel("Vind");	
-//		windPanel.add(windLabel);
-//		windPanel.add(windTextBox);
-
-		
-		TextField windTextBox = new TextField("");
-		JLabel rainLabel = new JLabel("Regn");
-		JLabel miscLabel = new JLabel("Övrigt");
+		JPanel area_panel = new JPanel();
 		
 		/*
 		 * this is where we add the "displays" that displays the weather
 		 */
-		WeatherPanel.add(subWeatherPanel);
-		subWeatherPanel.add(temperatureLabel, BorderLayout.WEST);
-		subWeatherPanel.add(weatherData, BorderLayout.EAST);
-		subWeatherPanel.add(otherEffects, BorderLayout.SOUTH);
+		WeatherPanel.add(subWeatherPanel, BorderLayout.NORTH);
+		WeatherPanel.add(subWeatherPanel2, BorderLayout.SOUTH);
+
+		subWeatherPanel.add(temperatureLabel);
+		subWeatherPanel.add(weatherData);
+		subWeatherPanel2.add(otherEffects);
 
 		
-		windPanel.add(area);
-		windPanel.add(dropDownNations, BorderLayout.CENTER);
+		area_panel.add(area);
+		area_panel.add(dropDownNations, BorderLayout.CENTER);
 
 		
 		JPanel centerPanel = new JPanel();
@@ -288,13 +280,11 @@ public class GuiApp {
 		JPanel southPanel = new JPanel();
 		JPanel southSubPanel = new JPanel();
 		
-		JPanel tempWindRain = new JPanel();
-		
 		centerPanel.add(secondPanel, BorderLayout.CENTER);
 		centerPanel.add(secondPagePanel, BorderLayout.CENTER);
 		
 		centerPanel.add(WeatherPanel, BorderLayout.NORTH);
-		centerPanel.add(windPanel, BorderLayout.CENTER);
+		centerPanel.add(area_panel, BorderLayout.CENTER);
 				
 		guiFrame.add(firstPanel, BorderLayout.NORTH);
 		guiFrame.add(centerPanel, BorderLayout.CENTER);
