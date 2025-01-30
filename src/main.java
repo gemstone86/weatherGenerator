@@ -6,10 +6,25 @@ import weather.*;
 
 public class main {
 
-	LinkedList<String> listOfFiles = new LinkedList<String>();
+	LinkedList<String> list_of_files = new LinkedList<String>();
 
-	String Path = Paths.get("").toAbsolutePath().toString();
+	String path = Paths.get("").toAbsolutePath().toString();
 	
+	boolean print = true;
+	static String nation = "Colonan";
+	Random rng;
+
+	static int start_day = 1;
+	static int start_month = 1;
+	static int start_year = 2960;
+	
+	static int until_day = 28;
+	static int until_month = 12;
+	static int until_year = 2961;
+	
+	
+	int wind_bonus = 0;
+
 	public void run(String[] args, String Path, String file, int startMonth){
 		for(int i = 0; i<args.length; i++)
 		{
@@ -35,18 +50,18 @@ public class main {
 		fileHandler filehandler = new fileHandler(Path);
 		
 		System.out.println("Step 2: Opening Weather File");
-		filehandler.createWeatherFile(nation, startYear, untilYear);
+		filehandler.createWeatherFile(nation, start_year, until_year);
 		
 		nationData Nation = filehandler.getNation(nation);
 		
 		System.out.println("Step 3: setting up data");
-		double temp = Nation.getTemperature(startMonth);
+		double temp = Nation.getTemperature(start_month);
 		int rain = calculator.obd6(), wind = calculator.obd6();
 
 		if(print)System.out.println("Step 3b: Printing Data on screen");
 		if(print)System.out.print(filehandler.printHeader());
 
-		LinkedList<weather> listOfWeather = new LinkedList<weather>();
+		LinkedList<weather> list_of_weather = new LinkedList<weather>();
 		
 		/*write header to file*/
 		filehandler.addToFile(filehandler.printHeader(), true);
@@ -59,23 +74,10 @@ public class main {
 		filehandler.closeWeatherFile();
 	
 		System.out.println("Step 5: Starting gui app");
-		new GuiApp(filehandler, listOfWeather, startYear,startMonth,startDay,nation);
+		new GuiApp(filehandler, list_of_weather, start_year,start_month,start_day,nation);
 	}
 
-	boolean print = true;
-	static String nation = "Colonan";
-	Random rng;
 
-	static int startDay = 1;
-	static int startMonth = 1;
-	static int startYear = 2960;
-	
-	static int untilDay = 28;
-	static int untilMonth = 12;
-	static int untilYear = 2961;
-	
-	
-	int windBonus = 0;
 
 	public static void main(String[] args){
 		if (args.length>0){
@@ -84,7 +86,7 @@ public class main {
 		
 		main program = new main();
 
-		program.run(args, program.getPath(), program.getNation(), startMonth);
+		program.run(args, program.getPath(), program.getNation(), start_month);
 	}
 
 	public String getNation(){
@@ -92,6 +94,6 @@ public class main {
 	}
 
 	public String getPath(){
-		return Path;
+		return path;
 	}
 }
