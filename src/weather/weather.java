@@ -13,8 +13,9 @@ public class weather {
 	private int windStrength;
 	private int rain;
 	private String other;
+	private direction direction;
 	
-	public weather(int Year, int Month, int Day, double temp, int windStrength, int rain, String other){
+	public weather(int Year, int Month, int Day, double temp, int windStrength, int rain, String other, direction direction){
 		this.Year = Year;
 		this.Month = Month;
 		this.Day = Day;
@@ -22,6 +23,7 @@ public class weather {
 		this.windStrength = windStrength;
 		this.other = other;
 		this.rain = rain;
+		this.direction = direction;
 	}
 
 	public int getYear(){
@@ -45,6 +47,9 @@ public class weather {
 	}
 	public int getRain(){
 		return rain;
+	}
+	public direction getDirection(){
+		return direction;
 	}
 	
 	public String getMessage(){

@@ -101,7 +101,7 @@ public class GuiApp {
 		final TextField displayDay = new TextField(String.valueOf(day));
 
 		//the value of the text field is initailized to determine the length of the field in the gui
-		final TextField weatherData = new TextField("                       ");
+		final TextField weatherData = new TextField("                           ");
 
 		//the value of the text field is initailized to determine the length of the field in the gui
 		
@@ -317,7 +317,7 @@ public class GuiApp {
 		
 		DecimalFormat df = new DecimalFormat("##");
 		
-		String text = "Temp: " + df.format(test.getTemperature())+"C" + "   Wind: "+test.getWindStrength() + "   Rain: " +test.getRain(); 
+		String text = "Temp: " + df.format(test.getTemperature())+"C" + "   Wind: "+test.getWindStrength() + " (" +test.getDirection() +")"+ "   Rain: " +test.getRain(); 
 		
 		data.setText(text);
 		other.setText(test.getOther());

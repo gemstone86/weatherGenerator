@@ -224,6 +224,9 @@ public class weatherCalculator {
 		return event;
 	}
 
+	private direction getNonRandomDirection(){
+		return direction.values()[rng.nextInt(8)];
+	}
 	/**
 	 * This is the main function of this class. It generates the weather for a specific day and returns it.
 	 * @param year
@@ -246,6 +249,8 @@ public class weatherCalculator {
 		int wind = windStrengthNR(averageWind);
 		String events = generateEvents(0,0,0, nation.getEvents(),month);
 		
-		return new weather(year, month, day,temperature,wind,rainfall(temperature, average, wind, rain),events);
+
+
+		return new weather(year, month, day,temperature,wind,rainfall(temperature, average, wind, rain),events,getNonRandomDirection());
 	}
 }
