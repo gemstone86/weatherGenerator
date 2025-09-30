@@ -3,6 +3,8 @@ package weather;
 import java.util.LinkedList;
 import java.util.Random;
 
+import weather.weatherCalculator.direction;
+
 public class weatherCalculator {
 	Random rng;
 	int bonusWind = 0;
@@ -225,7 +227,7 @@ public class weatherCalculator {
 	}
 
 	private direction getNonRandomDirection(){
-		return direction.values()[rng.nextInt(8)];
+		return direction.getValue()[rng.nextInt(8)];
 	}
 	/**
 	 * This is the main function of this class. It generates the weather for a specific day and returns it.
@@ -242,14 +244,11 @@ public class weatherCalculator {
 		int averageWind = nation.getWind();
 		int rain = nation.getRain(month);
 		
+		String events = generateEvents(0,0,0, nation.getEvents(),month);
+		int wind = windStrengthNR(averageWind);
 		double temperature = getProceduralTemperature(previous, average, next, day, daySeed(year, month, day));
 		
 //		System.out.println(temperature);
-		
-		int wind = windStrengthNR(averageWind);
-		String events = generateEvents(0,0,0, nation.getEvents(),month);
-		
-
 
 		return new weather(year, month, day,temperature,wind,rainfall(temperature, average, wind, rain),events,getNonRandomDirection());
 	}

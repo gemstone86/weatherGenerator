@@ -326,11 +326,11 @@ public class GuiApp {
 	public void updateDay(int in){
 		day += in;
 		if(day > 28){
-			day -= 28;
+			day = 1;
 			updateMonth(1);
 		}
 		else if(day < 1){
-			day += 28;
+			day = 28;
 			updateMonth(-1);
 		}
 	}
