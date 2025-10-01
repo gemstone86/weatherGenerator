@@ -226,8 +226,8 @@ public class weatherCalculator {
 		return event;
 	}
 
-	private direction getNonRandomDirection(){
-		return direction.getValue()[rng.nextInt(8)];
+	private direction2 getNonRandomDirection(){
+		return direction2.getDirection(rng.nextInt(8));
 	}
 	/**
 	 * This is the main function of this class. It generates the weather for a specific day and returns it.
@@ -247,6 +247,7 @@ public class weatherCalculator {
 		String events = generateEvents(0,0,0, nation.getEvents(),month);
 		int wind = windStrengthNR(averageWind);
 		double temperature = getProceduralTemperature(previous, average, next, day, daySeed(year, month, day));
+		direction2 direction = new direction2()
 		
 //		System.out.println(temperature);
 
