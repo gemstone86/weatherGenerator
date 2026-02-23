@@ -43,7 +43,7 @@ public class weather {
 		return windStrength;
 	}
 	public String getOther(){
-		System.out.println(other);
+		//System.out.println(other);
 		return other;
 	}
 	public int getRain(){
