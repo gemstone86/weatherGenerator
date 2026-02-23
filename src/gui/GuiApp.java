@@ -140,6 +140,8 @@ public class GuiApp {
 			}
 		});
 
+		
+		
 		dayUp.addActionListener(new ActionListener()
 		{
 			@Override
@@ -161,6 +163,9 @@ public class GuiApp {
 			}
 		});
 
+		
+		
+		
 		monthUp.addActionListener(new ActionListener()
 		{
 			@Override

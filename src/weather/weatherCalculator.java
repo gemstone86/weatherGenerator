@@ -3,8 +3,6 @@ package weather;
 import java.util.LinkedList;
 import java.util.Random;
 
-import weather.weatherCalculator.direction;
-
 public class weatherCalculator {
 	Random rng;
 	int bonusWind = 0;
