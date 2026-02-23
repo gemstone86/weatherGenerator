@@ -5,11 +5,22 @@ import java.util.Random;
 
 public class weatherCalculator {
 	Random rng;
+	int bonusWind = 0;
+	int bonusRain = 0;
+	int bonusTemp = 0;
 
 	public weatherCalculator(Random rng){
 		this.rng = rng;
 	}
 
+	public void setSeed(int n){
+		rng.setSeed(n);
+	}
+
+	/**
+	 * recursive d6 function that randomizes according to the OB-rules
+	 * @return a random value betweeen 1 and infinity
+	 */
 	public int obd6(){
 		int die = rng.nextInt(6)+1;
 
@@ -20,28 +31,14 @@ public class weatherCalculator {
 		return die;
 	}
 
+	/*
+	 * calculate the seed for the date
+	 */
 	public int daySeed(int year, int month, int day) {
 		return year*100*100+month*100+day;
 	}
 	
-	public weather getWeather(int year, int month, int day, nationData nation){
-		int previous = nation.getTemperature(month-1);
-		int average = nation.getTemperature(month);
-		int next = nation.getTemperature(month+1);
-		int averageWind = nation.getWind();
-		
-		double temperature = nonRandomtemperature(previous, average, next, day, daySeed(year, month, day));
-		
-//		System.out.println(temperature);
-		
-		int wind = windStrengthNR(averageWind);
-		String events = generateEvents(0,0,0, nation.getEvents(),month);
-		
-		return new weather(year, month, day,temperature,wind,rainfall(temperature, average, wind, 0),events);
-	}
-	
 
-	
 	public int windStrengthNR(int windBonus){
 		int strength = obd6() + windBonus; //-2;
 
@@ -87,10 +84,6 @@ public class weatherCalculator {
 		return tmp;
 	}
 
-	public void setSeed(int n){
-		rng.setSeed(n);
-	}
-
 	/**
 	 * returns a random value, uniformly distributed, from start to end.
 	 * @param start
@@ -105,49 +98,27 @@ public class weatherCalculator {
 	 * generate temperature based on the average of the month 
 	 * and a slow change depending on the previous and next 
 	 * month average.
-	 * @param previous
-	 * @param average
-	 * @param next
+	 * @param previous_average
+	 * @param current_average
+	 * @param next_average
 	 * @param day
 	 * @param daySeed
 	 * @return
 	 */
-	public double nonRandomtemperature(double previous, double average, double next, int day, long daySeed) {		
-		rng.setSeed(daySeed);
-		double variance = randomBetween(1,5) - randomBetween(1,5);
+	public double getProceduralTemperature(double previous_average, double current_average, double next_average, int day) {		
+		
+		//alter by 1d6-1 in both directions
+		double variance = randomBetween(0,5) - randomBetween(0,5);
 		
 		if(day < 15) {
-			double previousStep = (average - previous) / 14;
-			return (14+day)*previousStep+average + variance;
+			double previousStep = (current_average - previous_average) / 28;
+			return (14+day)*previousStep+previous_average + variance;
 		}
-		else {
-			double nextStep = (next - average) / 14;
-			return (day-14)*nextStep+average + variance;
+		else{
+			double nextStep = (next_average - current_average) / 28;
+			return (day-14)*nextStep+current_average + variance;
 		}
 	}
-	
-//	public int temperature(int previous, int average, int next, int shift){
-//
-//		//add in the seed based on the date of the day, to force the generation
-//		//of the same value every time.
-//		
-//			int die = rng.nextInt(5) - rng.nextInt(5);
-//
-//		if(previous < average){
-//			die += 1;
-//		}
-//		else if(previous > average){
-//			die -= 1;
-//		}
-//
-//		return die + shift + previous + bonusTemp();
-//	}
-	
-//	private int bonusTemp(){
-//		int tmp = bonusTemp;
-//		bonusTemp = 0;
-//		return tmp;
-//	}
 	
 	/**
 	 * generate the rainfall of this day
@@ -162,18 +133,14 @@ public class weatherCalculator {
 		int bonus = 0;
 		
 		if(rain > 0){
-			bonus += rain/2+1;
+			bonus += rain;
 		}
 		
 		if(wind > 5){
 			bonus += wind/2;
 		}
 		
-		if(temperature < average){
-			bonus++;
-		}
-		
-		int die = obd6() + bonus +bonusRain();;
+		int die = obd6() + bonus +bonusRain();
 		
 		if(die < limit){
 			return 0;
@@ -194,9 +161,12 @@ public class weatherCalculator {
 		return false;
 	}
 	
-	int bonusWind = 0;
-	int bonusRain = 0;
-	int bonusTemp = 0;
+	/*
+	 * TODO: fixa sÃ¥ det finns ett bra sÃ¤tt att generera magistormar
+	 */
+	private String magistorm() {
+		return "";
+	}
 	
 	public String generateEvents(int magistorm, int thunder, int dimma, LinkedList<event> events, int month){
 		String event = "";
@@ -206,11 +176,11 @@ public class weatherCalculator {
 		}
 		
 		if(chance(1+thunder,28)){
-			event += "Åska ";
+			event += "Ã…ska ";
 		}
 		
 		if(chance(1+dimma,28*2)){
-			event +="Lätt Dimma ";
+			event +="LÃ¤tt Dimma ";
 			bonusWind = -4;
 			bonusTemp = -2;
 		}
@@ -221,11 +191,11 @@ public class weatherCalculator {
 		}
 		
 		if((month>9 || month<3) && chance(1,200)){
-			event += "Köldknäpp";
+			event += "KÃ¶ldknÃ¤pp";
 			bonusTemp = -5;
 		}
 		if((month>3 || month<9) && chance(1,200)){
-			event +="Värmevåg";
+			event +="VÃ¤rmevÃ¥g";
 			bonusTemp = 5;
 		}
 		if(chance(1,50)){
@@ -233,19 +203,62 @@ public class weatherCalculator {
 			bonusRain = -100;
 		}
 		if(chance(1,300)){
-			event +="Stjärnfall ";
+			event +="StjÃ¤rnfall ";
 		}
 		if(chance(1,150)){
 			event +="Hagel ";
 		}
+		if(chance(1,300)) {
+			event +="Komet ";
+		}
 		
 		for(int i = 0; i<events.size();i++){
-			/*lägg till så den kollar alla events*/
+			/*lÃ¤gg till sÃ¥ den kollar alla events*/
 			event temp = events.get(i);
 			if(chance(1+temp.getOccurs(),temp.getDays())){
 				event += temp.getName()+" ";
 			}
 		}		
 		return event;
+	}
+
+	private direction getNonRandomDirection(){
+		switch(rng.nextInt(8)){
+			case 1: return direction.N;
+			case 2: return direction.NE;
+			case 3: return direction.E;
+			case 4: return direction.SE;
+			case 5: return direction.S;
+			case 6: return direction.SW;
+			case 7: return direction.W;
+			case 8: return direction.NW;
+			default: return direction.N;
+		}
+	}
+	/**
+	 * This is the main function of this class. It generates the weather for a specific day and returns it.
+	 * @param year
+	 * @param month
+	 * @param day
+	 * @param nation
+	 * @return
+	 */
+	public weather getWeather(int year, int month, int day, nationData nation){
+		int previous = nation.getTemperature(month-1);
+		int average = nation.getTemperature(month);
+		int next = nation.getTemperature(month+1);
+		int averageWind = nation.getWind();
+		int rain = nation.getRain(month);
+		
+		/*HÃ„R ska du sÃ¤tta randomvÃ¤rdet tror jag*/
+		rng.setSeed(daySeed(year, month, day));
+		
+		String events = generateEvents(0,0,0, nation.getEvents(),month);
+		int wind = windStrengthNR(averageWind);
+		double temperature = getProceduralTemperature(previous, average, next, day);
+		
+//		System.out.println(temperature);
+
+		return new weather(year, month, day,temperature,wind,rainfall(temperature, average, wind, rain),events,getNonRandomDirection());
 	}
 }

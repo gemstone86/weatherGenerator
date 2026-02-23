@@ -9,51 +9,76 @@ import java.text.DecimalFormat;
 import java.util.LinkedList;
 
 public class fileHandler {
-	String path;
+	String basePath;
 
 	BufferedFileReaderClass reader;
 	BufferedWriter bufferedWriter;
 	LinkedList<nationData> listOfNations = new LinkedList<nationData>();
 	
 	public fileHandler(String Path){
-		this.path = Path;
+		this.basePath = Path;
+		System.out.println("Here: " + basePath);
 		initializeDataFiles();
+		
 	}
 	
 	public nationData readFile(String Path){
-		File readFile = new File(Path);
+//		System.out.println("Here: " + Path);
+		File readFile = new File(basePath+"/src/data/"+Path);
 		int[] weather = new int[12];
+		int[] rainfall = new int[12];
 
 		FileReader fr;
 		try {
 			fr = new FileReader(readFile.getAbsoluteFile());
 			reader = new BufferedFileReaderClass(fr);
-
+			
+			
+			//Fetch Nation Name
 			String nationName = reader.readLine();
+			
+			//Fetch average temperature per month
+			System.out.println("väder: ");
 			for(int i = 0; i<12;i++){
 				weather[i] = reader.readNextInt();
+				System.out.print(weather[i]+";");
 			}
-			reader.skip(2);
+			System.out.println();
+
+			//fetch precipation value
+			for(int i = 0; i<12;i++) {
+				rainfall[i] = reader.readNextInt();
+			}
 			
+			//Fetch shift values
 			int shift = reader.readNextInt();
-			int wind = reader.readNextInt();
-			reader.skip(1);
-
-			int numberOfEvents = reader.readNextInt();
-			reader.skip(2);
 			
+			//Fetch wind value
+			int wind = reader.readNextInt();
+			
+			
+			System.out.println("Shift and wind:" +shift + "/" + wind);
+
 			LinkedList<event> events = new LinkedList<event>();
-
-			for(int i = 0; i<numberOfEvents;i++){
+			reader.skip(2);
+			while(true){
 				String specialEvent = reader.readLine();
-				int occurs = reader.readNextInt();
-				int days = reader.readNextInt();
-				reader.skip(2);
+				if(specialEvent == null) {
+					break;
+				}
+				else{
+					//System.out.println("\tEvent Name: " + specialEvent);
+					int occurs = reader.readNextInt();
+					//System.out.println("\tOccurs: " + occurs);
+					int days = reader.readNextInt();
+					//System.out.println("\tDays: " + days);
+					reader.skip(2);
 
-				events.add(new event(specialEvent, occurs, days));
+					events.add(new event(specialEvent, occurs, days));
+				}
 			}
 
-			return new nationData(nationName, weather, shift, wind, events);	
+			return new nationData(nationName, weather, rainfall, shift, wind, events);	
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			System.out.println("Couldn't read Nation file");
@@ -96,13 +121,17 @@ public class fileHandler {
 	 * reads all the nation data files and then returns a list of nation objects
 	 */
 	public void initializeDataFiles(){
-		File folder = new File("data/");
+//		System.out.println(basePath + "src/data");
+		String Folderpath = basePath + "/src/data";
+		File folder = new File(Folderpath);
+
 		File[] listOfFiles = folder.listFiles();
 
 		for (int i = 0; i<listOfFiles.length;i++) {
 			if (listOfFiles[i].isFile()) {
 				System.out.println("    "+listOfFiles[i]);
-				listOfNations.add(readFile("data/"+listOfFiles[i].getName()));
+				listOfNations.add(readFile(listOfFiles[i].getName()));
+//				System.out.println(readFile(listOfFiles[i].getName()));
 			}
 		}
 	}
@@ -115,7 +144,7 @@ public class fileHandler {
 	 */
 	public void createWeatherFile(String name, int from, int to){
 		try {
-			File file = new File(path + " " +name + " ("+from+" to "+(to-1)+").txt");
+			File file = new File(basePath + " " +name + " ("+from+" to "+(to-1)+").txt");
 
 			// if file doesnt exists, then create it
 			if (!file.exists()) {
@@ -130,7 +159,7 @@ public class fileHandler {
 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			System.out.println("Couldn't create weather file at "+path);
+			System.out.println("Couldn't create weather file at "+basePath);
 			e.printStackTrace();
 		}
 	}

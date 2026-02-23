@@ -25,41 +25,33 @@ public class GuiApp {
 
 	static int year = 2964;
 	static int day = 1;
-	static int month =1;
+	static int month = 1;
 
-	int startYear;
-	int startMonth;
-	int startDay;
-	
+	int start_year;
+	int start_month;
+	int start_day;
+
 	String nation;
 	
-	//Note: Typically the main method will be in a
-	//separate class. As this is a simple one class
-	//example it's all in the one class.
-	//    public static void main(String[] args) {
-	//        
-	//        new GuiApp();
-	//    }
-
 	nationData nationData;
 	fileHandler filehandler;
 	JComboBox<String[]> dropDownNations;
 	String[] listOfNations;
 	
-	public GuiApp(fileHandler filehandler, final LinkedList<weather> listOfWeather, int startYear, int startMonth, int startDay, String nation)
+	public GuiApp(fileHandler filehandler, final LinkedList<weather> listOfWeather, int start_year, int start_month, int start_day, String nation)
 	{
 		this.filehandler = filehandler;
 		this.nation = nation;
-		this.startYear = startYear;
-		this.startMonth = startMonth;
-		this.startDay = startDay;
+		this.start_year = start_year;
+		this.start_month = start_month;
+		this.start_day = start_day;
 		
 		JFrame guiFrame = new JFrame();
 
 		//make sure the program exits when the frame closes
 		guiFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		guiFrame.setTitle("Eon Vädergenerator");
-		guiFrame.setSize(550,350);
+		guiFrame.setTitle("Eon Weather Generator");
+		guiFrame.setSize(750,350);
 
 		//This will center the JFrame in the middle of the screen
 		guiFrame.setLocationRelativeTo(null);
@@ -68,12 +60,10 @@ public class GuiApp {
 		listOfNations = filehandler.getListOfNations();
 
 		final JPanel secondPanel = new JPanel();
-		JLabel dayLabel = new JLabel("Dag");
-		JLabel monthLabel = new JLabel("Månad");
-		JLabel yearLabel = new JLabel("År");
+
 
 		final JPanel firstPanel = new JPanel();
-		JLabel area = new JLabel("Område:");
+		JLabel area = new JLabel("Area:");
 		dropDownNations = new JComboBox(listOfNations);
 
 		//Create the second JPanel. Add a JLabel and JList and
@@ -81,18 +71,19 @@ public class GuiApp {
 		final JPanel secondPagePanel = new JPanel();
 		final JPanel WeatherPanel = new JPanel();
 		secondPagePanel.setVisible(false);
+		final JPanel subWeatherPanel = new JPanel();
+		final JPanel subWeatherPanel2 = new JPanel();
+
 		JLabel listLbl = new JLabel("Vegetables:");
 
+//		firstPanel.add(area);
+//		firstPanel.add(dropDownNations);
 
-		firstPanel.add(area);
-		firstPanel.add(dropDownNations);
-
-		
-		secondPanel.add(dayLabel);
-		/*lägger till listan med alternativ*/
+		/*lÃ¤gger till listan med alternativ*/
 		secondPagePanel.add(listLbl);
 
 		JButton nameOfPanel = new JButton( "Generate Weather");
+		
 		JButton yearUp = new JButton("+");
 		JButton yearDown = new JButton("-");
 		JButton dayUp = new JButton("+");
@@ -101,16 +92,19 @@ public class GuiApp {
 		JButton monthDown = new JButton("-");
 		JButton printToFile = new JButton("Print to file");
 		
-//		year = 2964;
-		year = startYear;
-		month = startMonth;
-		day = startDay;
+		year = start_year;
+		month = start_month;
+		day = start_day;
 		
 		final TextField displayYear = new TextField(String.valueOf(year));
 		final TextField displayMonth = new TextField(String.valueOf(month));
 		final TextField displayDay = new TextField(String.valueOf(day));
 
-		final TextField weatherData = new TextField("                                                 ");
+		//the value of the text field is initailized to determine the length of the field in the gui
+		final TextField weatherData = new TextField("                           ");
+
+		//the value of the text field is initailized to determine the length of the field in the gui
+		
 		final TextField otherEffects = new TextField("                                                 ");
 		final TextField saveToFilePath = new TextField("");
 		
@@ -146,6 +140,8 @@ public class GuiApp {
 			}
 		});
 
+		
+		
 		dayUp.addActionListener(new ActionListener()
 		{
 			@Override
@@ -167,6 +163,9 @@ public class GuiApp {
 			}
 		});
 
+		
+		
+		
 		monthUp.addActionListener(new ActionListener()
 		{
 			@Override
@@ -225,18 +224,23 @@ public class GuiApp {
 
 		});
 
+		/*
+		 * DAY
+		 */
+		JLabel dayLabel = new JLabel("Day");
 		JPanel dayPanel = new JPanel();
+		secondPanel.add(dayLabel);
 		dayPanel.add(dayDown);
 		dayPanel.add(displayDay);
 		dayPanel.add(dayUp);
 		
 		secondPanel.add(dayPanel);
 		
+		/*
+		 * MONTH
+		 */
+		JLabel monthLabel = new JLabel("Month");
 		JPanel monthPanel = new JPanel();
-		
-		//
-		//ADD HERE
-		//
 		monthPanel.add(monthLabel);
 		monthPanel.add(monthDown);
 		monthPanel.add(displayMonth);
@@ -244,6 +248,10 @@ public class GuiApp {
 		
 		secondPanel.add(monthPanel);
 		
+		/*
+		 * YEAR
+		 */
+		JLabel yearLabel = new JLabel("Year");
 		JPanel yearPanel = new JPanel();
 		monthPanel.add(yearLabel);
 		yearPanel.add(yearDown);
@@ -252,21 +260,24 @@ public class GuiApp {
 
 		secondPanel.add(yearPanel);
 		
-		JLabel temperatureLabel = new JLabel("Temperatur");
+
+		JLabel temperatureLabel = new JLabel("Weather");
+	
+		JPanel area_panel = new JPanel();
 		
-		JPanel windPanel = new JPanel();
-		JLabel windLabel = new JLabel("Vind");
-		TextField windTextBox = new TextField("");
-		windPanel.add(windLabel);
-		windPanel.add(windTextBox);
+		/*
+		 * this is where we add the "displays" that displays the weather
+		 */
+		WeatherPanel.add(subWeatherPanel, BorderLayout.NORTH);
+		WeatherPanel.add(subWeatherPanel2, BorderLayout.SOUTH);
+
+		subWeatherPanel.add(temperatureLabel);
+		subWeatherPanel.add(weatherData);
+		subWeatherPanel2.add(otherEffects);
+
 		
-		
-		JLabel rainLabel = new JLabel("Regn");
-		JLabel miscLabel = new JLabel("Övrigt");
-		
-		WeatherPanel.add(temperatureLabel);
-		WeatherPanel.add(weatherData);
-		
+		area_panel.add(area);
+		area_panel.add(dropDownNations, BorderLayout.CENTER);
 
 		
 		JPanel centerPanel = new JPanel();
@@ -274,15 +285,12 @@ public class GuiApp {
 		JPanel southPanel = new JPanel();
 		JPanel southSubPanel = new JPanel();
 		
-		JPanel tempWindRain = new JPanel();
-		
 		centerPanel.add(secondPanel, BorderLayout.CENTER);
 		centerPanel.add(secondPagePanel, BorderLayout.CENTER);
 		
 		centerPanel.add(WeatherPanel, BorderLayout.NORTH);
-		centerPanel.add(windPanel, BorderLayout.CENTER);
-		
-		
+		centerPanel.add(area_panel, BorderLayout.CENTER);
+				
 		guiFrame.add(firstPanel, BorderLayout.NORTH);
 		guiFrame.add(centerPanel, BorderLayout.CENTER);
 		
@@ -312,21 +320,22 @@ public class GuiApp {
 		
 		weather test = newCalc.getWeather(year, month, day, nationData);
 		
-		DecimalFormat df = new DecimalFormat("##.#");
+		DecimalFormat df = new DecimalFormat("##");
 		
-		String text = "Temp: " + df.format(test.getTemperature())+"C" + "   Vind: "+test.getWindStrength() + "   Regn: " +test.getRain() + "   Övrigt: " + test.getOther(); 
+		String text = "Temp: " + df.format(test.getTemperature())+"C" + "   Wind: "+test.getWindStrength() + " (" +test.getDirection() +")"+ "   Rain: " +test.getRain(); 
 		
 		data.setText(text);
+		other.setText(test.getOther());
 	}
 
 	public void updateDay(int in){
 		day += in;
 		if(day > 28){
-			day -= 28;
+			day = 1;
 			updateMonth(1);
 		}
 		else if(day < 1){
-			day += 28;
+			day = 28;
 			updateMonth(-1);
 		}
 	}

@@ -13,8 +13,9 @@ public class weather {
 	private int windStrength;
 	private int rain;
 	private String other;
+	private direction direction;
 	
-	public weather(int Year, int Month, int Day, double temp, int windStrength, int rain, String other){
+	public weather(int Year, int Month, int Day, double temp, int windStrength, int rain, String other, direction direction){
 		this.Year = Year;
 		this.Month = Month;
 		this.Day = Day;
@@ -22,6 +23,7 @@ public class weather {
 		this.windStrength = windStrength;
 		this.other = other;
 		this.rain = rain;
+		this.direction = direction;
 	}
 
 	public int getYear(){
@@ -41,15 +43,17 @@ public class weather {
 		return windStrength;
 	}
 	public String getOther(){
+		System.out.println(other);
 		return other;
 	}
 	public int getRain(){
 		return rain;
 	}
+	public direction getDirection(){
+		return direction;
+	}
 	
 	public String getMessage(){
-//		DecimalFormat df = new DecimalFormat("##.#");
-//		return Year +"\t"+Month+"\t"+Day+"\t"+windStrength+"\t"+df.format(temperature)+" C"+"\t\t"+rain+"\t\t"+other+"\n";
 		return Year +"\t"+Month+"\t"+Day+"\t"+windStrength+"\t"+temperature+" C"+"\t\t"+rain+"\t\t"+other+"\n";
 	}
 	

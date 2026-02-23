@@ -14,7 +14,7 @@ public class BufferedFileReaderClass extends BufferedReader {
 	}
 
 	public int readNextInt(){
-		int separator = 9;
+		char separator = ';';
 		int value = 0;
 		int positive = 1;
 		

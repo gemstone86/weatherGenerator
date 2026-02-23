@@ -1,0 +1,19 @@
+Drunok
+-7;-3;2;10;14;18;22;19;11;6;1;-5;
+0;0;0;0;0;5;5;5;0;0;0;0;
+0;
+0;
+Dragon
+1;1000;
+Skugglandsvarelser
+1;400;
+Högmagisk Skototropi
+1;300;
+Högmagisk Kryotropi
+1;300;
+Forandrade
+1;200;
+Rauner
+1;150;
+Troll
+1;200;

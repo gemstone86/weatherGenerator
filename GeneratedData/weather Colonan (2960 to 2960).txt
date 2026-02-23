@@ -1,2 +1,0 @@
-Year	Month	Day	Wind	Temperature	Rainfall	Other
-

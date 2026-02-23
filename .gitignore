@@ -1,0 +1,6 @@
+*.class
+bin
+.metadata
+.settings
+.recommendations
+GeneratedData
