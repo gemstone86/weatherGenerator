@@ -105,9 +105,7 @@ public class weatherCalculator {
 	 * @param daySeed
 	 * @return
 	 */
-	public double getProceduralTemperature(double previous_average, double current_average, double next_average, int day, long daySeed) {		
-		//Set the seed for the day
-		rng.setSeed(daySeed);
+	public double getProceduralTemperature(double previous_average, double current_average, double next_average, int day) {		
 		
 		//alter by 1d6-1 in both directions
 		double variance = randomBetween(0,5) - randomBetween(0,5);
@@ -252,9 +250,12 @@ public class weatherCalculator {
 		int averageWind = nation.getWind();
 		int rain = nation.getRain(month);
 		
+		/*HÄR ska du sätta randomvärdet tror jag*/
+		rng.setSeed(daySeed(year, month, day));
+		
 		String events = generateEvents(0,0,0, nation.getEvents(),month);
 		int wind = windStrengthNR(averageWind);
-		double temperature = getProceduralTemperature(previous, average, next, day, daySeed(year, month, day));
+		double temperature = getProceduralTemperature(previous, average, next, day);
 		
 //		System.out.println(temperature);
 
