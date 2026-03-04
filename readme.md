@@ -48,7 +48,7 @@ The Datafiles are built in the following manner:
 
 (shift - unused variable for now)
 
-(wind bonus - value to increase wind)
+(wind bonus - value to increase wind)jan;feb;mar;apr;may;jun;jul;aug;sep;okt;nov;dec;
 
 (event name)
 

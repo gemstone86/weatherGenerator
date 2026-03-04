@@ -1,0 +1,19 @@
+Igonhavet
+12;14;16;20;24;22;18;16;15;12;10;9;
+0;0;0;0;0;0;0;0;0;0;0;0;
+0;
+1;1;1;0;1;1;1;1;1;2;2;1;
+Dragon
+1;1000;
+Skugglandsvarelser
+1;250;
+Havsfolksattack
+1;150;
+Magistorm (Hydrotropi) styrka 5
+1;100;
+Magistorm (Hydrotropi) styrka 10
+1;150;
+Magistorm (Hydrotropi) Styrka 15
+1;300;
+Magistorm (Hydrotropi) Styrka 20
+1;500;

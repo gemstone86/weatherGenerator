@@ -25,8 +25,9 @@ public class fileHandler {
 	public nationData readFile(String Path){
 //		System.out.println("Here: " + Path);
 		File readFile = new File(basePath+"/src/data/"+Path);
-		int[] weather = new int[12];
+		int[] temperature = new int[12];
 		int[] rainfall = new int[12];
+		int[] windStrength = new int[12];
 
 		FileReader fr;
 		try {
@@ -38,10 +39,10 @@ public class fileHandler {
 			String nationName = reader.readLine();
 			
 			//Fetch average temperature per month
-			System.out.println("väder: ");
+			System.out.println("Temperatur: ");
 			for(int i = 0; i<12;i++){
-				weather[i] = reader.readNextInt();
-				System.out.print(weather[i]+";");
+				temperature[i] = reader.readNextInt();
+				System.out.print(temperature[i]+";");
 			}
 			System.out.println();
 
@@ -54,10 +55,15 @@ public class fileHandler {
 			int shift = reader.readNextInt();
 			
 			//Fetch wind value
-			int wind = reader.readNextInt();
+			System.out.println("Wind: ");
+			for(int i = 0; i<12;i++){
+				windStrength[i] = reader.readNextInt();
+				System.out.print(windStrength[i]+";");
+			}
+			//int wind = reader.readNextInt();
 			
 			
-			System.out.println("Shift and wind:" +shift + "/" + wind);
+			System.out.println("Shift: " +shift);
 
 			LinkedList<event> events = new LinkedList<event>();
 			reader.skip(2);
@@ -78,7 +84,7 @@ public class fileHandler {
 				}
 			}
 
-			return new nationData(nationName, weather, rainfall, shift, wind, events);	
+			return new nationData(nationName, temperature, rainfall, shift, windStrength, events);	
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			System.out.println("Couldn't read Nation file");
@@ -112,6 +118,15 @@ public class fileHandler {
 		for(int i = 0; i<listOfNations.size();i++){
 			if(listOfNations.get(i).getName() == Name){
 				return listOfNations.get(i).getTemperature();
+			}
+		}
+		return null;
+	}
+	
+	public int[] getWindStrength(String Name) {
+		for(int i = 0; i<listOfNations.size();i++) {
+			if(listOfNations.get(i).getName() == Name) {
+				return listOfNations.get(i).getWindStrength();
 			}
 		}
 		return null;

@@ -2,7 +2,7 @@ Amdai-Shek (Norra)
 -29;-22;-16;-12;-7;3;9;16;12;6;1;-12;
 0;0;0;0;0;0;0;0;0;1;1;1;
 0;
-1;
+1;1;1;1;1;1;1;1;1;1;1;1;
 Dragon
 1;1000;
 Starka vindar (+1 vindstyrka, +3 alstra pneumotropi)

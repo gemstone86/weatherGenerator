@@ -247,7 +247,7 @@ public class weatherCalculator {
 		int previous = nation.getTemperature(month-1);
 		int average = nation.getTemperature(month);
 		int next = nation.getTemperature(month+1);
-		int averageWind = nation.getWind();
+		int averageWind = nation.getWind(month);
 		int rain = nation.getRain(month);
 		
 		/*HÄR ska du sätta randomvärdet tror jag*/

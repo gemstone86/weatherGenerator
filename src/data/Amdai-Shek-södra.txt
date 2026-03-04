@@ -2,7 +2,7 @@ Amdai-Shek (Södra)
 -22;-18;-13;-9;-5;5;12;19;10;3;-9;-17;
 0;0;0;0;0;0;0;0;0;1;1;1;
 0;
-0;
+0;0;0;0;0;0;0;0;0;0;0;0;
 Dragon
 1;1000;
 Starka vindar (+1 vindstyrka, +3 alstra pneumotropi)

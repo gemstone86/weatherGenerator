@@ -7,6 +7,7 @@ public class nationData {
 	private String nationName;
 	private int[] temperature = new int[12];
 	private int[] rainfall = new int[12];
+	private int[] windStrength = new int[12];
 	private int shift;
 	private int wind;
 	private String specialEvent;
@@ -15,11 +16,11 @@ public class nationData {
 	
 	private LinkedList<event> listOfEvents = new LinkedList<event>();
 	
-	public nationData(String nationName, int[] temperature, int[] rainfall, int shift, int wind, LinkedList<event> events){
+	public nationData(String nationName, int[] temperature, int[] rainfall, int shift, int windStrength[], LinkedList<event> events){
 		this.nationName = nationName;
 		this.temperature = temperature;
 		this.shift = shift;
-		this.wind = wind;
+		this.windStrength = windStrength;
 		listOfEvents = events;
 		this.rainfall=rainfall;
 	}
@@ -45,6 +46,9 @@ public class nationData {
 	}
 	public int getWind(){
 		return wind;
+	}
+	public int getWind(int month){
+		return windStrength[month-1];
 	}
 	public String getEvent(){
 		return specialEvent;
@@ -76,5 +80,9 @@ public class nationData {
 		else {
 			return rainfall[month];
 		}
+	}
+
+	public int[] getWindStrength() {
+		return windStrength;
 	}
 }
