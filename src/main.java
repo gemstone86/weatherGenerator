@@ -14,9 +14,12 @@ public class main {
 	static String nation = "Colonan";
 	Random rng;
 
+	//static int start_day = 1;
+	//static int start_month = 7;
+	//static int start_year = 2967;
 	static int start_day = 1;
 	static int start_month = 7;
-	static int start_year = 2967;
+	static int start_year = 2977;
 	
 	static int until_day = 28;
 	static int until_month = 12;
