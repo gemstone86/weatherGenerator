@@ -68,10 +68,6 @@ public class main {
 		
 		/*write header to file*/
 		filehandler.addToFile(filehandler.printHeader(), true);
-		
-		//boolean run = true;
-		
-		//int fromDate = startYear * 100*100 +(startMonth)*100+startDay-1;
 
 		System.out.println("Step 4: Closing files");
 		filehandler.closeWeatherFile();
